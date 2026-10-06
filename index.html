@@ -198,6 +198,22 @@ iframe.map{width:100%;height:260px;border:0;border-radius:10px;margin-top:12px}
 .afl{display:block;margin:0 0 10px;font-size:14px;font-weight:600}
 .afl>span{display:block;margin-bottom:4px}
 .afl input,.afl textarea{width:100%;padding:10px 12px;border:1.5px solid #dfe7e2;border-radius:10px;font-size:15px;font-family:inherit;box-sizing:border-box}
+.faqitem{background:#fff;border:1px solid #e6efe9;border-radius:12px;margin-bottom:8px;overflow:hidden}
+.faqitem>button{width:100%;background:none;border:0;padding:14px 16px;font-size:15px;font-weight:700;color:var(--gd);display:flex;justify-content:space-between;align-items:center;gap:10px;cursor:pointer;font-family:inherit;text-align:left}
+.faqitem .chev{transition:transform .25s ease;color:var(--g);font-size:18px;flex:0 0 auto}
+.faqitem.open .chev{transform:rotate(180deg)}
+.faqitem .ans{max-height:0;overflow:hidden;transition:max-height .32s ease}
+.faqitem .ans p{padding:0 16px 14px;font-size:14.5px;color:#445;margin:0}
+.btn{transition:transform .12s ease,box-shadow .18s ease}
+.btn:active{transform:scale(.97)}
+.gal .ph img{transition:transform .35s ease}
+@media(hover:hover){.gal .ph:hover img{transform:scale(1.06)}}
+.hero .btn.wa{animation:btnGlow 2.8s ease-in-out infinite}
+@keyframes btnGlow{0%,100%{box-shadow:0 4px 14px rgba(14,122,61,.35)}50%{box-shadow:0 4px 24px rgba(14,122,61,.65)}}
+.snav{transition:transform .15s ease,background .15s ease}
+.snav:hover{background:#fdf6e3}
+.snav:active{transform:scale(.92)}
+@media (prefers-reduced-motion:reduce){.hero .btn.wa{animation:none}.gal .ph img{transition:none}.faqitem .ans{transition:none}}
 #toTop{position:fixed;right:14px;bottom:88px;z-index:59;width:44px;height:44px;border-radius:50%;background:var(--g);color:#fff;border:0;font-size:20px;line-height:1;box-shadow:0 3px 12px rgba(0,0,0,.28);cursor:pointer;opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .3s,transform .3s}
 #toTop.show{opacity:1;pointer-events:auto;transform:none}
 #toTop:active{transform:scale(.92)}
@@ -322,6 +338,8 @@ footer.site .cp{text-align:center;font-size:13px;color:#9db8ab;margin-top:18px;b
   <p style="margin-top:4px"><a href="https://www.facebook.com/110678831501077/" target="_blank" rel="noopener" style="color:var(--g);font-weight:700;font-size:14px" data-i="fb_more">More updates on Facebook →</a></p>
   <h2 class="sec" data-i="sec_dl">Downloads &amp; Resources</h2>
   <div class="dl" id="dlRow"></div>
+  <h2 class="sec" data-i="sec_faq">Frequently Asked Questions</h2>
+  <div class="faq" id="faqList"></div>
 </section>
 
 <!-- ================= GALLERY ================= -->
@@ -410,7 +428,7 @@ en:{
  sec_steps:"How to Apply",lastdate:"Admissions are open now — contact us for the last date.",
  docs_t:"Documents Required",docs_note:"Contact the admin office to confirm the requirements for your program.",
  deg_t:"BS Programs",dip_t:"Two-Year Diplomas",deg_sub:"Degree Program",dip_sub:"Diploma Program",
- sec_news:"Announcements",sec_dl:"Downloads & Resources",dl_down:"Download PDF",dl_btn:"Request on WhatsApp",
+ sec_news:"Announcements",sec_dl:"Downloads & Resources",sec_faq:"Frequently Asked Questions",dl_down:"Download PDF",dl_btn:"Request on WhatsApp",
  sec_gallery:"Gallery",gal_sub:"Tap any photo to view it full size.",
  sec_contact:"Contact Us",addr_l:"Address:",addr_v:"Battagram Bypass, Peshawar Road, Shabqadar",
  ph_l:"Phone:",em_l:"Email:",hr_l:"Timing:",hr_v:"Mon – Sat: 7:30 AM – 6:00 PM · Sun: Closed",
@@ -452,7 +470,7 @@ ur:{
  sec_steps:"داخلے کا طریقہ",lastdate:"داخلے جاری ہیں — آخری تاریخ کے لیے ہم سے رابطہ کریں۔",
  docs_t:"درکار دستاویزات",docs_note:"اپنے پروگرام کی شرائط کی تصدیق کے لیے انتظامی دفتر سے رابطہ کریں۔",
  deg_t:"بی ایس پروگرامز",dip_t:"دو سالہ ڈپلومے",deg_sub:"ڈگری پروگرام",dip_sub:"ڈپلومہ پروگرام",
- sec_news:"اعلانات",sec_dl:"ڈاؤن لوڈز اور وسائل",dl_down:"پی ڈی ایف ڈاؤن لوڈ کریں",dl_btn:"واٹس ایپ پر منگوائیں",
+ sec_news:"اعلانات",sec_dl:"ڈاؤن لوڈز اور وسائل",sec_faq:"اکثر پوچھے گئے سوالات",dl_down:"پی ڈی ایف ڈاؤن لوڈ کریں",dl_btn:"واٹس ایپ پر منگوائیں",
  sec_gallery:"گیلری",gal_sub:"بڑا دیکھنے کے لیے کسی تصویر پر ٹیپ کریں۔",
  sec_contact:"رابطہ کریں",addr_l:"پتہ:",addr_v:"بٹگرام بائی پاس، پشاور روڈ، شبقدر",
  ph_l:"فون:",em_l:"ای میل:",hr_l:"اوقات:",hr_v:"پیر تا ہفتہ: صبح 7:30 تا شام 6:00 · اتوار: بند",
@@ -511,6 +529,20 @@ var NEWS=[
  ["Oct 2026","اکتوبر 2026","Admissions open for session 2026-27 — BS Programs, LHV, CNA, CMW, Medical Diplomas, Pharmacy B, Ultrasound & FSc. Limited seats!","داخلے جاری ہیں سیشن 2026-27 — بی ایس پروگرامز، ایل ایچ وی، سی این اے، سی ایم ڈبلیو، میڈیکل ڈپلومے، فارمیسی بی، الٹراساؤنڈ اور ایف ایس سی۔ محدود نشستیں!"],
  ["May 2026","مئی 2026","Job opportunity for Health Diploma Holders — announced on our Facebook page.","ہیلتھ ڈپلومہ ہولڈرز کے لیے ملازمت کا موقع — ہمارے فیس بک پیج پر اعلان۔"],
  ["May 2026","مئی 2026","Scholarship test held for Medical, Nursing, FSc, Pharmacy & Ultrasound programs.","میڈیکل، نرسنگ، ایف ایس سی، فارمیسی اور الٹراساؤنڈ پروگرامز کے لیے اسکالرشپ ٹیسٹ منعقد ہوا۔"]];
+var FAQ={en:[
+["Are the diplomas and degrees recognized?","Yes. Nursing programs are recognized by the Pakistan Nursing \u0026 Midwifery Council (PNC), paramedical diplomas by the KP Medical Faculty, Pharmacy by the Pakistan Pharmacy Council, and FSc by BISE Peshawar. Verification proof is linked at the bottom of every program page."],
+["How much is the fee?","Every program page shows the full fee: a one-time admission fee plus tuition per semester. Please confirm the latest figures with the admin office on WhatsApp."],
+["How do I apply?","Discuss your program on WhatsApp or call first, then visit the campus with your fee and documents \u2014 admission is completed physically at the institute."],
+["What documents do I need?","Matric / FSc certificates, CNIC or B-Form copy, and 4 passport-size photographs. Confirm program-specific requirements with the admin office."],
+["Where is the institute located?","Battagram Bypass, Peshawar Road, Shabqadar (District Charsadda). See the map on the Contact page."],
+["Are scholarships available?","Yes \u2014 merit-based scholarships are announced regularly. Watch the announcements section and our Facebook page."]],
+ur:[
+["\u06a9\u06cc\u0627 \u0688\u067e\u0644\u0648\u0645\u06d2 \u0627\u0648\u0631 \u0688\u06af\u0631\u06cc\u0627\u06ba \u062a\u0633\u0644\u06cc\u0645 \u0634\u062f\u06c1 \u06c1\u06cc\u06ba\u061f","\u062c\u06cc \u06c1\u0627\u06ba\u06d4 \u0646\u0631\u0633\u0646\u06af \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u0646\u0631\u0633\u0646\u06af \u0627\u06cc\u0646\u0688 \u0645\u0688\u0648\u0627\u0626\u0641\u0631\u06cc \u06a9\u0648\u0646\u0633\u0644 \u0633\u06d2\u060c \u067e\u06cc\u0631\u0627\u0645\u06cc\u0688\u06cc\u06a9\u0644 \u0688\u067e\u0644\u0648\u0645\u06d2 \u06a9\u06d2 \u067e\u06cc \u0645\u06cc\u0688\u06cc\u06a9\u0644 \u0641\u06cc\u06a9\u0644\u0679\u06cc\u060c \u0641\u0627\u0631\u0645\u06cc\u0633\u06cc \u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u0641\u0627\u0631\u0645\u06cc\u0633\u06cc \u06a9\u0648\u0646\u0633\u0644 \u0627\u0648\u0631 \u0627\u06cc\u0641 \u0627\u06cc\u0633 \u0633\u06cc \u0628\u0648\u0631\u0688 \u067e\u0634\u0627\u0648\u0631 \u0633\u06d2 \u062a\u0633\u0644\u06cc\u0645 \u0634\u062f\u06c1 \u06c1\u06cc\u06ba\u06d4 \u06c1\u0631 \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u06a9\u06d2 \u0635\u0641\u062d\u06d2 \u06a9\u06d2 \u0646\u06cc\u0686\u06d2 \u062a\u0635\u062f\u06cc\u0642 \u06a9\u0627 \u062b\u0628\u0648\u062a \u0645\u0648\u062c\u0648\u062f \u06c1\u06d2\u06d4"],
+["\u0641\u06cc\u0633 \u06a9\u062a\u0646\u06cc \u06c1\u06d2\u061f","\u06c1\u0631 \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u06a9\u06d2 \u0635\u0641\u062d\u06d2 \u067e\u0631 \u0645\u06a9\u0645\u0644 \u0641\u06cc\u0633 \u062f\u0631\u062c \u06c1\u06d2\u06d4 \u062a\u0627\u0632\u06c1 \u062a\u0631\u06cc\u0646 \u0641\u06cc\u0633 \u06a9\u06cc \u0627\u0646\u062a\u0638\u0627\u0645\u06cc\u06c1 \u0633\u06d2 \u0648\u0627\u0679\u0633 \u0627\u06cc\u067e \u067e\u0631 \u062a\u0635\u062f\u06cc\u0642 \u06a9\u0631\u06cc\u06ba\u06d4"],
+["\u062f\u0627\u062e\u0644\u06c1 \u06a9\u06cc\u0633\u06d2 \u0644\u0648\u06ba\u061f","\u067e\u06c1\u0644\u06d2 \u0648\u0627\u0679\u0633 \u0627\u06cc\u067e \u06cc\u0627 \u06a9\u0627\u0644 \u067e\u0631 \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u0688\u0633\u06a9\u0633 \u06a9\u0631\u06cc\u06ba\u060c \u067e\u06be\u0631 \u0641\u06cc\u0633 \u0627\u0648\u0631 \u06a9\u0627\u063a\u0630\u0627\u062a \u06a9\u06d2 \u0633\u0627\u062a\u06be \u06a9\u06cc\u0645\u067e\u0633 \u062a\u0634\u0631\u06cc\u0641 \u0644\u0627\u0626\u06cc\u06ba \u2014 \u062f\u0627\u062e\u0644\u06c1 \u0627\u062f\u0627\u0631\u06d2 \u0645\u06cc\u06ba \u0622 \u06a9\u0631 \u0645\u06a9\u0645\u0644 \u06c1\u0648\u062a\u0627 \u06c1\u06d2\u06d4"],
+["\u06a9\u0648\u0646 \u0633\u06d2 \u06a9\u0627\u063a\u0630\u0627\u062a \u062f\u0631\u06a9\u0627\u0631 \u06c1\u06cc\u06ba\u061f","\u0645\u06cc\u0679\u0631\u06a9 / \u0627\u06cc\u0641 \u0627\u06cc\u0633 \u0633\u06cc \u0627\u0633\u0646\u0627\u062f\u060c \u0634\u0646\u0627\u062e\u062a\u06cc \u06a9\u0627\u0631\u0688 \u06cc\u0627 \u0628 \u0641\u0627\u0631\u0645 \u06a9\u06cc \u06a9\u0627\u067e\u06cc\u060c \u0627\u0648\u0631 4 \u067e\u0627\u0633\u067e\u0648\u0631\u0679 \u0633\u0627\u0626\u0632 \u062a\u0635\u0627\u0648\u06cc\u0631\u06d4 \u0627\u067e\u0646\u06d2 \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u06a9\u06cc \u0645\u062e\u0635\u0648\u0635 \u0634\u0631\u0627\u0626\u0637 \u0627\u0646\u062a\u0638\u0627\u0645\u06cc\u06c1 \u0633\u06d2 \u06a9\u0646\u0641\u0631\u0645 \u06a9\u0631\u06cc\u06ba\u06d4"],
+["\u0627\u062f\u0627\u0631\u06c1 \u06a9\u06c1\u0627\u06ba \u0648\u0627\u0642\u0639 \u06c1\u06d2\u061f","\u0628\u0679\u06af\u0631\u0627\u0645 \u0628\u0627\u0626\u06cc \u067e\u0627\u0633\u060c \u067e\u0634\u0627\u0648\u0631 \u0631\u0648\u0688\u060c \u0634\u0628\u0642\u062f\u0631 (\u0636\u0644\u0639 \u0686\u0627\u0631\u0633\u062f\u06c1)\u06d4 \u0631\u0627\u0628\u0637\u06c1 \u0635\u0641\u062d\u06d2 \u067e\u0631 \u0646\u0642\u0634\u06c1 \u062f\u06cc\u06a9\u06be\u06cc\u06ba\u06d4"],
+["\u06a9\u06cc\u0627 \u0648\u0638\u0627\u0626\u0641 (\u0627\u0633\u06a9\u0627\u0644\u0631\u0634\u067e) \u0645\u0644\u062a\u06d2 \u06c1\u06cc\u06ba\u061f","\u062c\u06cc \u06c1\u0627\u06ba \u2014 \u0645\u06cc\u0631\u0679 \u06a9\u06cc \u0628\u0646\u06cc\u0627\u062f \u067e\u0631 \u0648\u0638\u0627\u0626\u0641 \u06a9\u0627 \u0627\u0639\u0644\u0627\u0646 \u0628\u0627\u0642\u0627\u0639\u062f\u06af\u06cc \u0633\u06d2 \u06c1\u0648\u062a\u0627 \u06c1\u06d2\u06d4 \u0627\u0639\u0644\u0627\u0646\u0627\u062a \u0627\u0648\u0631 \u06c1\u0645\u0627\u0631\u0627 \u0641\u06cc\u0633 \u0628\u06a9 \u067e\u06cc\u062c \u062f\u06cc\u06a9\u06be\u062a\u06d2 \u0631\u06c1\u06cc\u06ba\u06d4"]]};
 var DLS=[["Admission Form","داخلہ فارم","pdf","docs/admission-form.pdf"],["Prospectus","پراسپیکٹس","pdf","docs/prospectus.pdf"],["Course Outlines","نصابی خاکے","wa",""],["Brochure","بروشر","wa",""]];
 var ADMIN_KEY='khalil_admin_v1';
 function admLoad(){try{return JSON.parse(localStorage.getItem(ADMIN_KEY))||{}}catch(e){return{}}}
@@ -577,7 +609,7 @@ function setLang(l){
  var d=T[l];
  document.querySelectorAll('[data-i]').forEach(function(el){var k=el.getAttribute('data-i');if(d[k]!==undefined)el.textContent=d[k];});
  if(ADM.notice&&ADM.notice[LANG]){var nn=document.querySelector('.notice');if(nn)nn.textContent=ADM.notice[LANG];}
- renderCards();renderWhy();renderFac();renderExtra();watchReveals();
+ renderCards();renderWhy();renderFac();renderExtra();renderFaq();watchReveals();
  var h=(location.hash||'').slice(1),m=h.match(/^program\/(.+)$/);
  if(m&&PROGRAMS[m[1]])renderDetail(m[1]);
  try{localStorage.setItem('k_lang',l)}catch(e){}
@@ -612,6 +644,16 @@ function staffStart(){staffStop();if(window.matchMedia&&matchMedia('(prefers-red
 function staffStop(){if(staffTimer){clearInterval(staffTimer);staffTimer=null}}
 function staffGo(d){var v=document.getElementById('staffView');if(!v)return;v.scrollBy({left:d*staffCardW(),behavior:'smooth'});staffStart();}
 function waLink(n){return 'https://wa.me/923455561616?text='+encodeURIComponent((LANG==='ur'?'السلام علیکم، مجھے ':'Assalam-o-Alaikum, I want details for ')+n);}
+function renderFaq(){
+ var el=document.getElementById('faqList');if(!el)return;
+ el.innerHTML=FAQ[LANG].map(function(f,i){
+  return '<div class="faqitem"><button onclick="faqToggle('+i+')" aria-expanded="false"><span>'+f[0]+'</span><span class="chev">\u25be</span></button><div class="ans"><p>'+f[1]+'</p></div></div>'}).join('');
+}
+function faqToggle(i){
+ var items=document.querySelectorAll('#faqList .faqitem'),it=items[i],was=it.classList.contains('open');
+ items.forEach(function(x){x.classList.remove('open');x.querySelector('.ans').style.maxHeight=null;x.querySelector('button').setAttribute('aria-expanded','false')});
+ if(!was){it.classList.add('open');var a=it.querySelector('.ans');a.style.maxHeight=a.scrollHeight+'px';it.querySelector('button').setAttribute('aria-expanded','true')}
+}
 function renderExtra(){
  var L=LANG,u=(L==="ur"),T_=T[L],ix=(u?1:0);
  document.getElementById("accrRow").innerHTML=ACCR.map(function(a){return "<span>"+a[ix]+"</span>"}).join("");
