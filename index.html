@@ -170,6 +170,33 @@ iframe.map{width:100%;height:260px;border:0;border-radius:10px;margin-top:12px}
 .wafloat::after{content:'';position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:wapulse 2.2s ease-out infinite;pointer-events:none}
 @keyframes wapulse{0%{transform:scale(1);opacity:.7}70%{transform:scale(1.3);opacity:0}100%{transform:scale(1.3);opacity:0}}
 @media (prefers-reduced-motion:reduce){.wafloat::after{animation:none}}
+.wicon{width:44px;height:44px;border-radius:12px;background:#eef5f1;color:var(--g);display:flex;align-items:center;justify-content:center;margin-bottom:10px}
+.wicon svg{width:24px;height:24px}
+.subh{color:var(--gd);font-size:19px;margin:18px 0 10px;display:flex;align-items:center;gap:9px}
+.subh::before{content:'';width:5px;height:22px;background:var(--g);border-radius:3px;flex:0 0 5px}
+.lead{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:640px){.lead{grid-template-columns:1fr}}
+.leadcard{background:#fff;border:1px solid #e6efe9;border-radius:16px;overflow:hidden;box-shadow:0 2px 10px rgba(6,60,40,.06)}
+.leadcard .im{height:270px;overflow:hidden;background:#eef3f0}
+.leadcard .im img{width:100%;height:100%;object-fit:cover;object-position:top}
+.leadcard .bd{padding:16px}
+.leadcard .bd b{font-size:17px}
+.leadcard .lrole{display:block;color:var(--g);font-weight:700;font-size:13.5px;margin:2px 0 8px}
+.leadcard .bd p{font-size:14px;color:#445;margin:0}
+.facstrip{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;-webkit-overflow-scrolling:touch}
+.facstrip .fcard{flex:0 0 188px;scroll-snap-align:start}
+.facstrip::-webkit-scrollbar{height:6px}
+.facstrip::-webkit-scrollbar-thumb{background:#cfe0d6;border-radius:3px}
+.abadge{font-size:11px;background:#a00;color:#fff;padding:3px 10px;border-radius:20px;vertical-align:middle}
+.admrow{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#fff;border:1px solid #e6efe9;border-radius:10px;padding:10px 12px;margin-bottom:8px;font-size:14px}
+.admdel{background:#fdecea;color:#a00;border:0;border-radius:8px;min-width:30px;height:30px;font-size:14px;cursor:pointer}
+.admingal{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px;margin-bottom:10px}
+.admph{position:relative;border-radius:10px;overflow:hidden}
+.admph img{width:100%;height:90px;object-fit:cover;display:block}
+.admph .admdel{position:absolute;top:4px;right:4px;min-width:24px;height:24px;font-size:12px}
+.afl{display:block;margin:0 0 10px;font-size:14px;font-weight:600}
+.afl>span{display:block;margin-bottom:4px}
+.afl input,.afl textarea{width:100%;padding:10px 12px;border:1.5px solid #dfe7e2;border-radius:10px;font-size:15px;font-family:inherit;box-sizing:border-box}
 #toTop{position:fixed;right:14px;bottom:88px;z-index:59;width:44px;height:44px;border-radius:50%;background:var(--g);color:#fff;border:0;font-size:20px;line-height:1;box-shadow:0 3px 12px rgba(0,0,0,.28);cursor:pointer;opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .3s,transform .3s}
 #toTop.show{opacity:1;pointer-events:auto;transform:none}
 #toTop:active{transform:scale(.92)}
@@ -255,9 +282,9 @@ footer.site .cp{text-align:center;font-size:13px;color:#9db8ab;margin-top:18px;b
 <section class="page" id="pg-programs">
   <h2 class="sec" data-i="sec_programs">All Programs</h2>
   <p class="sub" data-i="sec_programs_sub2">Tap any program to enquire on WhatsApp.</p>
-  <h3 style="color:var(--gd);font-size:16px;margin:12px 0 8px" data-i="deg_t">Degree Programs</h3>
+  <h3 class="subh" data-i="deg_t">BS Programs</h3>
   <div class="pgrid" id="degRow"></div>
-  <h3 style="color:var(--gd);font-size:16px;margin:14px 0 8px" data-i="dip_t">Diploma Programs</h3>
+  <h3 class="subh" data-i="dip_t">Two-Year Diplomas</h3>
   <div class="pgrid" id="dipRow"></div>
 </section>
 
@@ -273,7 +300,7 @@ footer.site .cp{text-align:center;font-size:13px;color:#9db8ab;margin-top:18px;b
   <div class="lead" id="leadRow"></div>
   <h2 class="sec" data-i="sec_faculty">Our Faculty</h2>
   <p class="sub" data-i="sec_faculty_sub">Qualified doctors &amp; medical educators</p>
-  <div class="fac" id="facGrid"></div>
+  <div class="facstrip" id="facGrid"></div>
   <h2 class="sec" data-i="sec_clinical">Clinical / Practical Training</h2>
   <div class="panel"><p style="font-size:14.5px" data-i="clinical_t"></p><ul class="ticks" id="clinRow" style="margin-top:8px"></ul>
   <p style="font-size:13.5px;color:#556;margin-top:8px" data-i="clinical_n"></p></div>
@@ -326,6 +353,30 @@ footer.site .cp{text-align:center;font-size:13px;color:#9db8ab;margin-top:18px;b
 </div>
 
 <button id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+<section class="page" id="pg-admin"><div class="wrap">
+ <h2 class="sec">Site Admin <span class="abadge">Private</span></h2>
+ <div class="notebox"><span>Changes save in <b>this browser only</b>. To publish them for everyone, tap <b>Export</b> below and send the file to your developer.</span></div>
+ <h3 class="subh">Announcements</h3>
+ <div id="admNews"></div>
+ <div class="panel"><h3>Add announcement</h3>
+  <label class="afl"><span>Date label (e.g. Oct 2026)</span><input id="anDate" maxlength="20"></label>
+  <label class="afl"><span>English text</span><textarea id="anEn" rows="2" maxlength="300"></textarea></label>
+  <label class="afl"><span>Urdu text</span><textarea id="anUr" rows="2" maxlength="300"></textarea></label>
+  <button class="btn wa" onclick="admAddNews()">Add announcement</button></div>
+ <h3 class="subh">Gallery photos</h3>
+ <div id="admGal" class="admingal"></div>
+ <p><label class="btn lt" style="cursor:pointer">Upload photo<input type="file" id="admUp" accept="image/*" hidden></label></p>
+ <h3 class="subh">Notice bar</h3>
+ <div class="panel">
+  <label class="afl"><span>English notice</span><input id="adNoticeEn" maxlength="160"></label>
+  <label class="afl"><span>Urdu notice</span><input id="adNoticeUr" maxlength="160"></label>
+  <button class="btn wa" onclick="admSaveNotice()">Save notice</button></div>
+ <h3 class="subh">Backup</h3>
+ <p><button class="btn gh" onclick="admExport()">Export changes</button>
+ <label class="btn gh" style="cursor:pointer">Import<input type="file" id="admImp" accept=".json,application/json" hidden></label>
+ <button class="btn gh" onclick="admReset()">Reset all</button></p>
+ <p style="font-size:13px;color:#6b7a72">Secret link ends with <b>#admin-khalil-9x7q2</b> — do not share it publicly.</p>
+</div></section>
 <a class="wafloat" href="https://wa.me/923455561616?text=Assalam-o-Alaikum%2C%20I%20have%20a%20question%20about%20Khalil%20Institute." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 448 512"><path fill="#fff" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></a>
 
 <div id="lb" onclick="closeLB()"><button id="lbx" aria-label="Close">×</button><img id="lbimg" alt="Photo"></div>
@@ -356,7 +407,7 @@ en:{
 
  sec_steps:"How to Apply",lastdate:"Admissions are open now — contact us for the last date.",
  docs_t:"Documents Required",docs_note:"Contact the admin office to confirm the requirements for your program.",
- deg_t:"Degree Programs",dip_t:"Diploma Programs",deg_sub:"Degree Program",dip_sub:"Diploma Program",
+ deg_t:"BS Programs",dip_t:"Two-Year Diplomas",deg_sub:"Degree Program",dip_sub:"Diploma Program",
  sec_news:"Announcements",sec_dl:"Downloads & Resources",dl_down:"Download PDF",dl_btn:"Request on WhatsApp",
  sec_gallery:"Gallery",gal_sub:"Tap any photo to view it full size.",
  sec_contact:"Contact Us",addr_l:"Address:",addr_v:"Battagram Bypass, Peshawar Road, Shabqadar",
@@ -398,7 +449,7 @@ ur:{
 
  sec_steps:"داخلے کا طریقہ",lastdate:"داخلے جاری ہیں — آخری تاریخ کے لیے ہم سے رابطہ کریں۔",
  docs_t:"درکار دستاویزات",docs_note:"اپنے پروگرام کی شرائط کی تصدیق کے لیے انتظامی دفتر سے رابطہ کریں۔",
- deg_t:"ڈگری پروگرامز",dip_t:"ڈپلومہ پروگرامز",deg_sub:"ڈگری پروگرام",dip_sub:"ڈپلومہ پروگرام",
+ deg_t:"بی ایس پروگرامز",dip_t:"دو سالہ ڈپلومے",deg_sub:"ڈگری پروگرام",dip_sub:"ڈپلومہ پروگرام",
  sec_news:"اعلانات",sec_dl:"ڈاؤن لوڈز اور وسائل",dl_down:"پی ڈی ایف ڈاؤن لوڈ کریں",dl_btn:"واٹس ایپ پر منگوائیں",
  sec_gallery:"گیلری",gal_sub:"بڑا دیکھنے کے لیے کسی تصویر پر ٹیپ کریں۔",
  sec_contact:"رابطہ کریں",addr_l:"پتہ:",addr_v:"بٹگرام بائی پاس، پشاور روڈ، شبقدر",
@@ -459,6 +510,60 @@ var NEWS=[
  ["May 2026","مئی 2026","Job opportunity for Health Diploma Holders — announced on our Facebook page.","ہیلتھ ڈپلومہ ہولڈرز کے لیے ملازمت کا موقع — ہمارے فیس بک پیج پر اعلان۔"],
  ["May 2026","مئی 2026","Scholarship test held for Medical, Nursing, FSc, Pharmacy & Ultrasound programs.","میڈیکل، نرسنگ، ایف ایس سی، فارمیسی اور الٹراساؤنڈ پروگرامز کے لیے اسکالرشپ ٹیسٹ منعقد ہوا۔"]];
 var DLS=[["Admission Form","داخلہ فارم","pdf","docs/admission-form.pdf"],["Prospectus","پراسپیکٹس","pdf","docs/prospectus.pdf"],["Course Outlines","نصابی خاکے","wa",""],["Brochure","بروشر","wa",""]];
+var ADMIN_KEY='khalil_admin_v1';
+function admLoad(){try{return JSON.parse(localStorage.getItem(ADMIN_KEY))||{}}catch(e){return{}}}
+var ADM=admLoad();
+function admStore(){try{localStorage.setItem(ADMIN_KEY,JSON.stringify(ADM))}catch(e){alert('Storage is full — delete some photos first.')}}
+function admNews(){return ADM.news||NEWS}
+function admGal(){return ADM.gal||GAL}
+function admRender(){
+ var ix=(LANG==='ur')?1:0;
+ document.getElementById('admNews').innerHTML=admNews().map(function(n,i){
+  return '<div class="admrow"><div><b>'+n[0]+'</b><br>'+n[ix+2]+'</div><button class="admdel" onclick="admDelNews('+i+')" aria-label="Delete">\u2715</button></div>'}).join('');
+ document.getElementById('admGal').innerHTML=admGal().map(function(f,i){
+  var s=f.indexOf('data:')===0?f:IMG+f;
+  return '<div class="admph"><img src="'+s+'" alt=""><button class="admdel" onclick="admDelGal('+i+')" aria-label="Delete">\u2715</button></div>'}).join('');
+ var ne=document.getElementById('adNoticeEn'),nu=document.getElementById('adNoticeUr');
+ if(ne&&!ne.value&&ADM.notice)ne.value=ADM.notice.en||'';
+ if(nu&&!nu.value&&ADM.notice)nu.value=ADM.notice.ur||'';
+}
+function admAddNews(){
+ var d=document.getElementById('anDate').value.trim(),e=document.getElementById('anEn').value.trim(),u=document.getElementById('anUr').value.trim();
+ if(!e&&!u){alert('Write the announcement text first.');return}
+ var n=(ADM.news||NEWS.slice()).slice();n.unshift([d||'New',d||'\u0646\u06cc\u0627',e||u,u||e]);
+ ADM.news=n;admStore();admRender();renderExtra();
+ document.getElementById('anDate').value='';document.getElementById('anEn').value='';document.getElementById('anUr').value='';
+}
+function admDelNews(i){if(!confirm('Delete this announcement?'))return;var n=(ADM.news||NEWS.slice()).slice();n.splice(i,1);ADM.news=n;admStore();admRender();renderExtra();}
+function admDelGal(i){if(!confirm('Delete this photo?'))return;var g=(ADM.gal||GAL.slice()).slice();g.splice(i,1);ADM.gal=g;admStore();admRender();initGallery();}
+function admSaveNotice(){
+ ADM.notice={en:document.getElementById('adNoticeEn').value.trim(),ur:document.getElementById('adNoticeUr').value.trim()};
+ admStore();setLang(LANG);alert('Notice saved.');
+}
+function admExport(){
+ var blob=new Blob([JSON.stringify(ADM)],{type:'application/json'});
+ var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='khalil-admin-backup.json';document.body.appendChild(a);a.click();a.remove();
+}
+function admReset(){if(!confirm('Remove ALL your local changes?'))return;ADM={};try{localStorage.removeItem(ADMIN_KEY)}catch(e){}location.reload();}
+function admInit(){
+ document.getElementById('admUp').addEventListener('change',function(e){
+  var f=e.target.files[0];if(!f)return;
+  var img=new Image();
+  img.onload=function(){
+   var mx=1000,sc=Math.min(1,mx/Math.max(img.width,img.height));
+   var c=document.createElement('canvas');c.width=Math.round(img.width*sc);c.height=Math.round(img.height*sc);
+   c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+   var url=c.toDataURL('image/jpeg',0.72);
+   if(url.length>1500000){alert('Photo too large even after compression.');return}
+   var g=(ADM.gal||GAL.slice()).slice();g.push(url);ADM.gal=g;admStore();admRender();initGallery();
+  };
+  var r=new FileReader();r.onload=function(ev){img.src=ev.target.result};r.readAsDataURL(f);e.target.value='';
+ });
+ document.getElementById('admImp').addEventListener('change',function(e){
+  var f=e.target.files[0];if(!f)return;
+  var r=new FileReader();r.onload=function(ev){try{ADM=JSON.parse(ev.target.result);admStore();location.reload()}catch(x){alert('Invalid backup file.')}};r.readAsText(f);e.target.value='';
+ });
+}
 var GAL=["resource/department-2.jpg","resource/department-3.jpg","resource/surgery-1.jpg","resource/orthopedics.jpg","resource/cardialogy.jpg","resource/health-1.jpg","resource/health-2.jpg","resource/department-12.jpg","resource/department-4.jpg","resource/department-14.jpg","resource/teeth-after.jpg","resource/post-thumb-1.jpg"];
 var LANG='en';
 var PAGES=['home','programs','about','admissions','gallery','contact'];
@@ -469,6 +574,7 @@ function setLang(l){
  document.getElementById('btnUR').classList.toggle('on',l==='ur');
  var d=T[l];
  document.querySelectorAll('[data-i]').forEach(function(el){var k=el.getAttribute('data-i');if(d[k]!==undefined)el.textContent=d[k];});
+ if(ADM.notice&&ADM.notice[LANG]){var nn=document.querySelector('.notice');if(nn)nn.textContent=ADM.notice[LANG];}
  renderCards();renderWhy();renderFac();renderExtra();watchReveals();
  var h=(location.hash||'').slice(1),m=h.match(/^program\/(.+)$/);
  if(m&&PROGRAMS[m[1]])renderDetail(m[1]);
@@ -481,8 +587,13 @@ function cardHTML(k){
 function renderCards(){
  document.getElementById('homeCards').innerHTML=cardHTML('lhv')+cardHTML('cna')+cardHTML('radio');
 }
+var WICONS=[
+'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>',
+'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>',
+'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 10v6"/></svg>',
+'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13l1.5 8-5-3-5 3 1.5-8"/></svg>'];
 function renderWhy(){
- document.getElementById('whyGrid').innerHTML=WHY[LANG].map(function(w){return '<div class="card" style="cursor:default"><div class="bd"><h3>'+w[0]+'</h3><p>'+w[1]+'</p></div></div>'}).join('');
+ document.getElementById('whyGrid').innerHTML=WHY[LANG].map(function(w,i){return '<div class="card" style="cursor:default"><div class="bd"><div class="wicon">'+WICONS[i%WICONS.length]+'</div><h3>'+w[0]+'</h3><p>'+w[1]+'</p></div></div>'}).join('');
 }
 function renderFac(){
  document.getElementById('facGrid').innerHTML=FACULTY.map(function(f){
@@ -497,7 +608,7 @@ function renderExtra(){
  document.getElementById("docsRow").innerHTML=DOCS[L].map(function(s){return "<li>"+s+"</li>"}).join("");
  document.getElementById("clinRow").innerHTML=CLIN[L].map(function(s){return "<li>"+s+"</li>"}).join("");
  document.getElementById("leadRow").innerHTML=LEADERS.map(function(x){
-  return '<div class="fcard"><div class="im" style="height:170px"><img loading="lazy" src="'+x.img+'" alt="'+x.name+'"></div><div class="bd" style="padding:14px"><b style="font-size:15px">'+x.name+'</b><br><span style="color:var(--g);font-weight:700;font-size:13px">'+x.role[ix]+'</span><p style="font-size:13.5px;color:#445;margin-top:6px">'+x.bio[ix]+'</p></div></div>'}).join("");
+  return '<div class="leadcard"><div class="im"><img loading="lazy" src="'+x.img+'" alt="'+x.name+'"></div><div class="bd"><b>'+x.name+'</b><span class="lrole">'+x.role[ix]+'</span><p>'+x.bio[ix]+'</p></div></div>'}).join("");
  function cat(arr,sub){return arr.map(function(k){
   var p=PROGRAMS[k],t=p[LANG];
   return '<a class="card pcat" href="#program/'+k+'">'
@@ -505,7 +616,7 @@ function renderExtra(){
   +'<div class="bd"><h3>'+t.name+'</h3><span class="tag">'+t.tag+'</span><span class="enq">'+T[LANG].card_view+(LANG==="ur"?" ←":" →")+'</span></div></a>'}).join("")}
  document.getElementById("degRow").innerHTML=cat(DEGREES,T_.deg_sub);
  document.getElementById("dipRow").innerHTML=cat(DIPLOMAS,T_.dip_sub);
- document.getElementById("newsRow").innerHTML=NEWS.map(function(n){return '<div class="ncard"><span class="dt">'+n[ix]+'</span><p style="font-size:14.5px;font-weight:600">'+n[u?3:2]+"</p></div>"}).join("");
+ document.getElementById("newsRow").innerHTML=admNews().map(function(n){return '<div class="ncard"><span class="dt">'+n[ix]+'</span><p style="font-size:14.5px;font-weight:600">'+n[u?3:2]+"</p></div>"}).join("");
  document.getElementById("dlRow").innerHTML=DLS.map(function(d){
   var btn=d[2]==="pdf"
    ?'<a class="btn gh" style="margin-top:10px;font-size:13px;padding:10px 18px" href="'+d[3]+'" download>'+T_.dl_down+'</a>'
@@ -538,6 +649,7 @@ function showPage(id){
 function route(){
  var h=(location.hash||'#home').slice(1),m=h.match(/^program\/(.+)$/);
  if(m&&PROGRAMS[m[1]]){renderDetail(m[1]);showPage('detail');setTitle(PROGRAMS[m[1]][LANG].name);return;}
+ if(h==='admin-khalil-9x7q2'){showPage('admin');setTitle('Site Admin');admRender();return;}
  var id=PAGES.indexOf(h)>=0?h:'home';
  showPage(id);setTitle(T[LANG]['nav_'+id]||T[LANG].brand);
 }
@@ -548,7 +660,8 @@ var galDone=false;
 function initGallery(){
  if(galDone)return;galDone=true;
  var g=document.getElementById('galGrid');
- g.innerHTML=GAL.map(function(f){return '<button class="ph loading" data-src="'+IMG+f+'" onclick="openLB(\''+IMG+f+'\',\'Khalil Institute photo\')" aria-label="View photo"></button>'}).join('');
+ var GL=admGal();
+ g.innerHTML=GL.map(function(f){var s=f.indexOf('data:')===0?f:IMG+f;return '<button class="ph loading" data-src="'+s+'" onclick="openLB(\''+s+'\',\'Khalil Institute photo\')" aria-label="View photo"></button>'}).join('');
  var io=new IntersectionObserver(function(es){es.forEach(function(e){
   if(e.isIntersecting){var el=e.target;io.unobserve(el);
    var im=new Image();im.src=el.getAttribute('data-src');
@@ -584,7 +697,7 @@ window.addEventListener('scroll',function(){
 document.addEventListener('load',function(e){var t=e.target;if(t&&t.tagName==='IMG'){t.classList.add('ld');}},true);
 /* init */
 try{var sl=localStorage.getItem('k_lang');setLang(sl==='ur'?'ur':'en');}catch(e){setLang('en');}
-initCounters();route();
+initCounters();admInit();route();
 </script>
 </body>
 </html>
