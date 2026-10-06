@@ -183,10 +183,16 @@ iframe.map{width:100%;height:260px;border:0;border-radius:10px;margin-top:12px}
 .leadcard .bd b{font-size:17px}
 .leadcard .lrole{display:block;color:var(--g);font-weight:700;font-size:13.5px;margin:2px 0 8px}
 .leadcard .bd p{font-size:14px;color:#445;margin:0}
-.facstrip{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;-webkit-overflow-scrolling:touch}
-.facstrip .fcard{flex:0 0 188px;scroll-snap-align:start}
-.facstrip::-webkit-scrollbar{height:6px}
-.facstrip::-webkit-scrollbar-thumb{background:#cfe0d6;border-radius:3px}
+.staffview{overflow:hidden}
+.stafftrack{display:flex;gap:14px;width:max-content;padding:2px}
+.scard{flex:0 0 240px}
+.sph{position:relative;height:300px;border-radius:16px;overflow:hidden;background:#eef3f0;box-shadow:0 3px 12px rgba(6,60,40,.12)}
+.sph img{width:100%;height:100%;object-fit:cover;display:block}
+.sname{position:absolute;left:0;right:0;bottom:0;padding:32px 12px 10px;background:linear-gradient(transparent,rgba(8,18,14,.88));color:#fff;font-weight:700;font-size:16px}
+.srole{font-style:italic;color:#0e7c86;font-size:14px;margin-top:6px;text-align:center}
+.staffnav{display:flex;gap:8px;justify-content:flex-end;margin:10px 0 0}
+.snav{width:40px;height:40px;border-radius:50%;border:2px solid #d4a017;color:#333;background:#fff;font-size:20px;line-height:1;cursor:pointer}
+@media(max-width:640px){.scard{flex:0 0 200px}.sph{height:250px}}
 .abadge{font-size:11px;background:#a00;color:#fff;padding:3px 10px;border-radius:20px;vertical-align:middle}
 .admrow{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#fff;border:1px solid #e6efe9;border-radius:10px;padding:10px 12px;margin-bottom:8px;font-size:14px}
 .admdel{background:#fdecea;color:#a00;border:0;border-radius:8px;min-width:30px;height:30px;font-size:14px;cursor:pointer}
@@ -300,7 +306,8 @@ footer.site .cp{text-align:center;font-size:13px;color:#9db8ab;margin-top:18px;b
   <div class="lead" id="leadRow"></div>
   <h2 class="sec" data-i="sec_faculty">Our Faculty</h2>
   <p class="sub" data-i="sec_faculty_sub">Qualified doctors &amp; medical educators</p>
-  <div class="facstrip" id="facGrid"></div>
+  <div class="staffwrap"><div class="staffview" id="staffView"><div class="stafftrack" id="staffTrack"></div></div>
+<div class="staffnav"><button class="snav" onclick="staffGo(-1)" aria-label="Previous">&#8249;</button><button class="snav" onclick="staffGo(1)" aria-label="Next">&#8250;</button></div></div>
   <h2 class="sec" data-i="sec_clinical">Clinical / Practical Training</h2>
   <div class="panel"><p style="font-size:14.5px" data-i="clinical_t"></p><ul class="ticks" id="clinRow" style="margin-top:8px"></ul>
   <p style="font-size:13.5px;color:#556;margin-top:8px" data-i="clinical_n"></p></div>
@@ -595,10 +602,20 @@ var WICONS=[
 function renderWhy(){
  document.getElementById('whyGrid').innerHTML=WHY[LANG].map(function(w,i){return '<div class="card" style="cursor:default"><div class="bd"><div class="wicon">'+WICONS[i%WICONS.length]+'</div><h3>'+w[0]+'</h3><p>'+w[1]+'</p></div></div>'}).join('');
 }
+var staffTimer=null;
+function staffCards(){return FACULTY.map(function(f){
+ return '<div class="scard"><div class="sph"><img loading="lazy" src="'+f[2]+'" alt="'+f[0]+'"><span class="sname">'+f[0]+'</span></div><div class="srole">'+f[1]+'</div></div>'}).join('')}
 function renderFac(){
- document.getElementById('facGrid').innerHTML=FACULTY.map(function(f){
-  return '<div class="fcard"><div class="im"><img loading="lazy" src="'+f[2]+'" alt="'+f[0]+'"></div><div class="bd"><b>'+f[0]+'</b><span>'+f[1]+'</span></div></div>'}).join('');
+ var t=document.getElementById('staffTrack');if(!t)return;
+ t.innerHTML=staffCards()+staffCards();staffStart();
 }
+function staffCardW(){var v=document.getElementById('staffView');var c=v?v.querySelector('.scard'):null;return c?c.offsetWidth+14:254}
+function staffStep(){var v=document.getElementById('staffView');if(!v)return;
+ if(v.scrollLeft>=v.scrollWidth/2-10)v.scrollLeft-=v.scrollWidth/2;
+ v.scrollTo({left:v.scrollLeft+staffCardW(),behavior:'smooth'});}
+function staffStart(){staffStop();if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;staffTimer=setInterval(staffStep,4000)}
+function staffStop(){if(staffTimer){clearInterval(staffTimer);staffTimer=null}}
+function staffGo(d){var v=document.getElementById('staffView');if(!v)return;v.scrollBy({left:d*staffCardW(),behavior:'smooth'});staffStart();}
 function waLink(n){return 'https://wa.me/923455561616?text='+encodeURIComponent((LANG==='ur'?'السلام علیکم، مجھے ':'Assalam-o-Alaikum, I want details for ')+n);}
 function renderExtra(){
  var L=LANG,u=(L==="ur"),T_=T[L],ix=(u?1:0);
