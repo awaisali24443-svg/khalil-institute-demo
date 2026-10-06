@@ -22,6 +22,7 @@
 :root{--g:#0b6e4f;--gd:#084f39;--wa:#0e7a3d;--fb:#1877f2;--bg:#f2f6f4;--tx:#1f2d3d}
 html{scroll-behavior:smooth}
 body{font-family:'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--tx);line-height:1.6;padding-bottom:84px}
+body::before{content:'';position:fixed;top:50%;left:50%;width:82vmin;height:82vmin;transform:translate(-50%,-50%);background:url('images/klogo.png') center/contain no-repeat;opacity:.05;pointer-events:none;z-index:-1}
 body[dir=rtl]{font-family:'Noto Nastaliq Urdu','Segoe UI',Arial,sans-serif;line-height:2}
 a{text-decoration:none;color:inherit}
 :focus-visible{outline:2px solid var(--g);outline-offset:2px}
