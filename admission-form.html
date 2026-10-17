@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admission Form — Khalil Institute of Nursing and Allied Health Sciences, Shabqadar</title>
+<link rel="icon" href="images/klogo.png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;color:#111;background:#e8e8e8;padding:20px 10px}
+.page{max-width:850px;margin:0 auto;background:#fff;padding:28px 32px;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+/* toolbar */
+.toolbar{max-width:850px;margin:0 auto 12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.toolbar .t{font-weight:700;font-size:15px;color:#333}
+.btn{border:0;cursor:pointer;font-weight:700;font-size:15px;padding:12px 26px;border-radius:8px;font-family:inherit}
+.btn-dl{background:#0c6834;color:#fff}
+.btn-dl:hover{background:#095e43}
+.btn-back{background:#fff;color:#333;border:1px solid #ccc}
+.btn-back:hover{background:#f0f0f0}
+/* header */
+.hd{display:flex;align-items:flex-start;gap:14px;border-bottom:3px double #333;padding-bottom:10px;margin-bottom:8px}
+.hd img{height:92px;width:auto}
+.hd .tt{flex:1;text-align:center}
+.hd .tt h1{color:#2b2bd9;font-size:34px;letter-spacing:1px;line-height:1.15}
+.hd .tt h2{color:#d42a2a;font-size:19px;font-weight:700}
+.badge{display:inline-block;background:#e63946;color:#fff;font-weight:700;font-size:16px;padding:5px 22px;border-radius:6px;margin-top:6px}
+.photo{width:128px;height:148px;border:2px solid #333;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;color:#999;font-size:14px;flex:0 0 auto;position:relative;overflow:hidden;cursor:pointer;background:#fafafa}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.photo input{position:absolute;inset:0;opacity:0;cursor:pointer}
+/* checkbox rows */
+.courses{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px;margin:8px 0;align-items:center}
+.courses label{display:flex;align-items:center;gap:5px;cursor:pointer}
+.courses input[type=text]{border:0;border-bottom:1px solid #333;outline:none;font-size:14px;width:150px;font-family:inherit}
+.progbox{border:2px solid #333;border-radius:10px;padding:10px 14px;display:grid;grid-template-columns:repeat(4,1fr);gap:4px 10px;font-size:14px;margin-bottom:10px}
+.progbox label{display:flex;align-items:center;gap:6px;cursor:pointer}
+input[type=checkbox]{width:15px;height:15px;accent-color:#0c6834}
+/* section titles */
+.sec{color:#d42a2a;font-weight:800;font-size:19px;margin:12px 0 6px}
+/* info table */
+table.info{width:100%;border-collapse:collapse;font-size:14px}
+table.info td{border:1px solid #333;padding:0;height:30px;vertical-align:middle}
+table.info .lb{padding-left:6px;white-space:nowrap;color:#222}
+table.info input{border:0;outline:none;width:100%;font-size:14px;padding:5px 6px;font-family:inherit;background:transparent}
+table.info input:focus{background:#f0f7ff}
+.dur{display:flex;justify-content:flex-end;align-items:center;gap:6px;font-size:14px;margin-bottom:2px}
+.dur input{border:0;border-bottom:1px solid #333;outline:none;width:170px;font-size:14px;font-family:inherit}
+/* address */
+table.addr{width:100%;border-collapse:collapse;font-size:14px;margin-top:4px}
+table.addr td{border:1px solid #333;height:30px;padding:0}
+table.addr .lb{padding-left:6px}
+table.addr input{border:0;outline:none;width:100%;font-size:14px;padding:5px 6px;font-family:inherit;background:transparent}
+table.addr input:focus{background:#f0f7ff}
+table.emg{width:100%;border-collapse:collapse;font-size:14px}
+table.emg td,table.emg th{border:1px solid #333;height:28px;padding:0;text-align:center}
+table.emg th{font-weight:600;background:#f5f5f5}
+table.emg input{border:0;outline:none;width:100%;font-size:14px;padding:4px 6px;font-family:inherit;background:transparent;text-align:center}
+/* education */
+table.edu{width:100%;border-collapse:collapse;font-size:14px}
+table.edu td,table.edu th{border:1px solid #333;height:30px;padding:2px 4px}
+table.edu th{font-weight:600;background:#f5f5f5;font-size:13px}
+table.edu input{border:0;outline:none;width:100%;font-size:14px;padding:4px;font-family:inherit;background:transparent;text-align:center}
+/* declaration */
+.decl{font-size:13.5px;margin:10px 0;line-height:1.55}
+.signs{display:flex;justify-content:space-between;margin:26px 0 8px;font-size:14px}
+.signs div{text-align:center}
+.signs .ln{border-top:1px solid #333;padding-top:4px;min-width:220px}
+.fee{font-size:13.5px;margin-top:6px}
+.fee b{text-decoration:underline}
+.fee ol{margin:4px 0 4px 20px}
+.foot{border-top:3px solid #333;margin-top:10px;padding-top:8px;text-align:center;font-size:14.5px;line-height:1.7}
+/* print */
+@media print{
+  body{background:#fff;padding:0}
+  .toolbar{display:none!important}
+  .page{box-shadow:none;max-width:none;padding:0;margin:0}
+  input{background:transparent!important}
+  .photo{cursor:default}
+  @page{size:A4;margin:10mm}
+}
+@media(max-width:640px){
+  .progbox{grid-template-columns:repeat(2,1fr)}
+  .hd .tt h1{font-size:24px}
+  .page{padding:16px}
+}
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <a class="btn btn-back" href="index.html#admissions" style="text-decoration:none;display:inline-block">← Back</a>
+  <span class="t">Fill the form, then download it as PDF</span>
+  <button class="btn btn-dl" onclick="window.print()">⬇ Download Form (PDF)</button>
+</div>
+<div class="page">
+  <div class="hd">
+    <img src="images/klogo.png" alt="Khalil Institute logo">
+    <div class="tt">
+      <h1>KHALIL INSTITUTE</h1>
+      <h2>of Nursing and Allied Health Sciences Shabqadar</h2>
+      <span class="badge">Admission Form</span>
+    </div>
+    <label class="photo" title="Click to add photo">Recent<br>Passport<br>Size Photo<input type="file" accept="image/*" onchange="if(this.files[0]){var r=new FileReader();r.onload=function(e){var i=document.createElement('img');i.src=e.target.result;document.querySelector('.photo').appendChild(i);};r.readAsDataURL(this.files[0]);}"></label>
+  </div>
+
+  <div class="courses">
+    <label><input type="checkbox"> PNMC</label>
+    <label><input type="checkbox"> KMU</label>
+    <label><input type="checkbox"> KP Medical Faculty</label>
+    <label><input type="checkbox"> BISEP</label>
+    <label><input type="checkbox"> PCP</label>
+    <label><input type="checkbox"> BTE</label>
+    <label><input type="checkbox"> Other Course <input type="text"></label>
+  </div>
+
+  <div class="progbox">
+    <label><input type="checkbox"> BSN</label>
+    <label><input type="checkbox"> BS Dental</label>
+    <label><input type="checkbox"> Anesthesia</label>
+    <label><input type="checkbox"> Dialysis</label>
+    <label><input type="checkbox"> Post RN</label>
+    <label><input type="checkbox"> BS Surgical</label>
+    <label><input type="checkbox"> Dental</label>
+    <label><input type="checkbox"> Radiology</label>
+    <label><input type="checkbox"> LHV</label>
+    <label><input type="checkbox"> BS Anesthesia</label>
+    <label><input type="checkbox"> Cardiac</label>
+    <label><input type="checkbox"> Health</label>
+    <label><input type="checkbox"> CNA</label>
+    <label><input type="checkbox"> BS Radiology</label>
+    <label><input type="checkbox"> Physiotherapy</label>
+    <label><input type="checkbox"> Surgical</label>
+    <label><input type="checkbox"> CMW</label>
+    <label><input type="checkbox"> BS Emergency</label>
+    <label><input type="checkbox"> Pathology</label>
+    <label><input type="checkbox"> Ultrasound</label>
+    <label><input type="checkbox"></label>
+    <label><input type="checkbox"> BS Aesthetics</label>
+    <label><input type="checkbox"> Ophthalmology</label>
+    <label><input type="checkbox"> F.Sc</label>
+    <label><input type="checkbox"></label>
+    <label><input type="checkbox"></label>
+    <label><input type="checkbox"></label>
+    <label><input type="checkbox"> Pharmacy B</label>
+  </div>
+
+  <div class="sec">Personal Information</div>
+  <div class="dur">Course Duration <input type="text"></div>
+  <table class="info">
+    <tr><td class="lb" style="width:50%">Name: <input type="text"></td><td class="lb">Gender: &nbsp; Male <input type="checkbox" style="width:15px"> &nbsp; Female <input type="checkbox" style="width:15px"></td></tr>
+    <tr><td class="lb">Father Name: <input type="text"></td><td class="lb">Nationality: <input type="text"></td></tr>
+    <tr><td class="lb">CNIC No: <input type="text" inputmode="numeric"></td><td class="lb">Domicile: <input type="text"></td></tr>
+    <tr><td class="lb">Contact No: <input type="text" inputmode="tel"></td><td class="lb">Date of Birth: <input type="text" placeholder="DD-MM-YYYY"></td></tr>
+    <tr><td class="lb">Email Address: <input type="email"></td><td class="lb">Religion: <input type="text"></td></tr>
+    <tr><td class="lb">Guardian Name (if other than Father): <input type="text"></td><td class="lb">Blood Group: <input type="text"></td></tr>
+    <tr><td class="lb">CNIC No: <input type="text" inputmode="numeric"></td><td class="lb">Relation: <input type="text"></td></tr>
+  </table>
+
+  <div class="sec">Address</div>
+  <table class="addr">
+    <tr><td class="lb">Postal Address: <input type="text"></td></tr>
+    <tr><td><input type="text"></td></tr>
+    <tr><td class="lb">Permanent Address: <input type="text"></td></tr>
+    <tr><td><input type="text"></td></tr>
+  </table>
+  <table class="emg" style="margin-top:6px">
+    <tr><th style="width:34%">Emergency Contact No</th><th style="width:33%">Name</th><th>Relation</th></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+  </table>
+
+  <div class="sec">Educational Qualification</div>
+  <table class="edu">
+    <tr><th style="width:16%">Qualification</th><th style="width:10%">Year</th><th style="width:13%">Roll No.</th><th style="width:16%">Obtained/Total Marks</th><th style="width:9%">%age</th><th style="width:16%">Major Subjects</th><th>Board/Institute</th></tr>
+    <tr><td style="text-align:left;padding-left:6px">SSC</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td style="text-align:left;padding-left:6px">HSSC</td><td><input type="text"></td><td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    <tr><td style="text-align:left;padding-left:6px">Other</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+  </table>
+
+  <div class="decl">
+    Certified that the facts produced are correct to the best of my knowledge and belief and if anything is found incorrect, the institute has the right to cancel my admission or expel me from the institute at any time.<br>
+    Note: Fee once paid is neither refundable nor transferable at any cost.
+  </div>
+  <div class="signs">
+    <div><div class="ln">Signature of the Student</div></div>
+    <div><div class="ln">Signature of the Student Father/Guardian</div></div>
+  </div>
+
+  <div class="fee">
+    <b>FEE SUBMISSION:</b>
+    <ol>
+      <li>Students must submit semester fee in advance at the start of each semester.</li>
+      <li>Dues once paid will neither be refundable nor transferable in any case.</li>
+    </ol>
+    <div style="margin-top:14px">Signature of the Student ( <input type="text" style="border:0;border-bottom:1px solid #333;outline:none;width:220px;font-family:inherit;font-size:14px"> ) Dated <input type="text" style="border:0;border-bottom:1px solid #333;outline:none;width:170px;font-family:inherit;font-size:14px"></div>
+  </div>
+
+  <div class="foot">
+    <b>Address: Batagram Bypass Peshawar Road Shabqadar</b><br>
+    Email: khalilinstitute@gmail.com &nbsp; 🌐 www.khalilinstitute.pk &nbsp; 📞 0345-5561616
+  </div>
+</div>
+</body>
+</html>
