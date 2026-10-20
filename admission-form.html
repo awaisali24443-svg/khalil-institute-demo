@@ -8,7 +8,8 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial,Helvetica,sans-serif;color:#111;background:#e8e8e8;padding:20px 10px}
-.page{max-width:850px;margin:0 auto;background:#fff;padding:28px 32px;box-shadow:0 2px 12px rgba(0,0,0,.15)}
+.page{max-width:850px;margin:0 auto;background:#fff;padding:28px 32px;box-shadow:0 2px 12px rgba(0,0,0,.15);position:relative}
+.page::before{content:'';position:absolute;top:50%;left:50%;width:70%;height:70%;transform:translate(-50%,-50%);background:url('images/klogo-t.png') center/contain no-repeat;opacity:.06;pointer-events:none}
 /* toolbar */
 .toolbar{max-width:850px;margin:0 auto 12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between}
 .toolbar .t{font-weight:700;font-size:15px;color:#333}
@@ -81,6 +82,16 @@ table.edu input{border:0;outline:none;width:100%;font-size:14px;padding:4px;font
   .progbox{grid-template-columns:repeat(2,1fr)}
   .hd .tt h1{font-size:24px}
   .page{padding:16px}
+  /* phone: title block moves under logo+photo row so nothing squeezes */
+  .hd{flex-wrap:wrap}
+  .hd .tt{flex:1 1 100%;order:3;margin-top:10px}
+  .hd .tt h1{font-size:26px}
+  /* phone: signature blocks stack (two x 220px min-width overflowed) */
+  .signs{flex-direction:column;gap:24px;align-items:center}
+  .signs .ln{min-width:0;width:85%}
+  /* phone: 7-col education table stays inside the page */
+  table.edu,table.emg{font-size:12px}
+  table.edu th,table.emg th{font-size:11px}
 }
 </style>
 </head>
