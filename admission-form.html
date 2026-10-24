@@ -163,7 +163,7 @@ table.edu input{border:0;outline:none;width:100%;font-size:14px;padding:4px;font
   <div class="sec">Personal Information</div>
   <div class="dur">Course Duration <input type="text"></div>
   <table class="info">
-    <tr><td class="lb" style="width:50%">Name: <input type="text" placeholder="e.g. Muhammad Ali"></td><td class="lb">Gender: &nbsp; Male <input type="checkbox" style="width:15px"> &nbsp; Female <input type="checkbox" style="width:15px"></td></tr>
+    <tr><td class="lb" style="width:50%">Name: <input type="text" placeholder="e.g. Muhammad Ali"></td><td class="lb">Gender: &nbsp; Male <input type="checkbox" name="gender" style="width:15px"> &nbsp; Female <input type="checkbox" name="gender" style="width:15px"></td></tr>
     <tr><td class="lb">Father Name: <input type="text" placeholder="Father's full name"></td><td class="lb">Nationality: <input type="text"></td></tr>
     <tr><td class="lb">CNIC No: <input class="cnic" type="text" inputmode="numeric" placeholder="35202-1234567-1"></td><td class="lb">Domicile: <input type="text"></td></tr>
     <tr><td class="lb">Contact No: <input class="phone" type="text" inputmode="numeric" maxlength="11" placeholder="03XX-XXXXXXX"></td><td class="lb">Date of Birth: <input class="dob" type="text" inputmode="numeric" placeholder="DD-MM-YYYY"></td></tr>
@@ -250,6 +250,18 @@ document.querySelectorAll('table.edu tr').forEach(function(tr, i){
   var ph = ['2022','Roll no','850 / 1100','%','Subjects','Board name'];
   ins.forEach(function(inp, j){ if(ph[j]) inp.placeholder = ph[j]; });
 });
+// ---------- one choice per group: ticking a second box unticks the first ----------
+function singleSelect(sel){
+  var boxes = document.querySelectorAll(sel);
+  boxes.forEach(function(b){
+    b.addEventListener('change', function(){
+      if(b.checked){ boxes.forEach(function(o){ if(o!==b) o.checked = false; }); saveForm(); }
+    });
+  });
+}
+singleSelect('.courses input[type=checkbox]');
+singleSelect('.progbox input[type=checkbox]');
+singleSelect('input[name="gender"]');
 // ---------- autosave: never lose typing ----------
 var FKEY = 'kin_admform';
 function allFields(){ return Array.prototype.slice.call(document.querySelectorAll('.page input')); }
