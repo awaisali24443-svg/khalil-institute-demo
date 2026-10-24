@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Admission Form — Khalil Institute of Nursing and Allied Health Sciences, Shabqadar</title>
 <link rel="icon" href="images/klogo.png">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="js/html2canvas.min.js"></script>
+<script src="js/jspdf.umd.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial,Helvetica,sans-serif;color:#111;background:#e8e8e8;padding:20px 10px}
@@ -216,8 +216,8 @@ table.edu input{border:0;outline:none;width:100%;font-size:14px;padding:4px;font
 <script>
 async function downloadPDF(){
   var btn = document.getElementById('dlBtn');
-  if(typeof html2canvas === 'undefined' || typeof window.jspdf === 'undefined'){ window.print(); return; }
   var old = btn.textContent; btn.textContent = 'Preparing PDF…'; btn.disabled = true;
+  if(typeof html2canvas === 'undefined' || typeof window.jspdf === 'undefined'){ btn.textContent = old; btn.disabled = false; alert('PDF maker could not load. Please reload the page and try again.'); return; }
   try{
     var el = document.querySelector('.page');
     var canvas = await html2canvas(el, {scale:2, useCORS:true, backgroundColor:'#ffffff'});
