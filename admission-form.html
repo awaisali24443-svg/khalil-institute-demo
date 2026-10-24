@@ -150,13 +150,9 @@ table.edu input{border:0;outline:none;width:100%;font-size:14px;padding:4px;font
     <label><input type="checkbox"> BS Emergency</label>
     <label><input type="checkbox"> Pathology</label>
     <label><input type="checkbox"> Ultrasound</label>
-    <label><input type="checkbox"></label>
     <label><input type="checkbox"> BS Aesthetics</label>
     <label><input type="checkbox"> Ophthalmology</label>
     <label><input type="checkbox"> F.Sc</label>
-    <label><input type="checkbox"></label>
-    <label><input type="checkbox"></label>
-    <label><input type="checkbox"></label>
     <label><input type="checkbox"> Pharmacy B</label>
   </div>
 
@@ -214,7 +210,7 @@ table.edu input{border:0;outline:none;width:100%;font-size:14px;padding:4px;font
 
   <div style="text-align:center;margin:18px 0 6px">
     <button class="btn btn-dl" onclick="downloadPDF()">⬇ Download Form (PDF)</button>
-    <button class="btn" style="background:#fff;border:1px solid #ccc;color:#333" onclick="if(confirm('Clear the whole form?')){localStorage.removeItem('kin_admform');location.reload();}">Clear Form</button>
+    <button class="btn" style="background:#fff;border:1px solid #ccc;color:#333" onclick="if(confirm('Clear the whole form?')){localStorage.removeItem('kin_admform_v2');location.reload();}">Clear Form</button>
     <p style="font-size:13px;color:#666;margin-top:8px">Your typing is saved on this phone automatically — if the page closes, your details will still be here when you return.</p>
   </div>
   <div class="foot">
@@ -263,7 +259,7 @@ singleSelect('.courses input[type=checkbox]');
 singleSelect('.progbox input[type=checkbox]');
 singleSelect('input[name="gender"]');
 // ---------- autosave: never lose typing ----------
-var FKEY = 'kin_admform';
+var FKEY = 'kin_admform_v2';
 function allFields(){ return Array.prototype.slice.call(document.querySelectorAll('.page input')); }
 function saveForm(){
   var data = allFields().map(function(el){ return el.type==='checkbox' ? (el.checked?1:0) : el.value; });
