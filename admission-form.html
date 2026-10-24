@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Admission Form — Khalil Institute of Nursing and Allied Health Sciences, Shabqadar</title>
 <link rel="icon" href="images/klogo.png">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial,Helvetica,sans-serif;color:#111;background:#e8e8e8;padding:20px 10px}
@@ -99,7 +101,7 @@ table.edu input{border:0;outline:none;width:100%;font-size:14px;padding:4px;font
 <div class="toolbar">
   <a class="btn btn-back" href="index.html#admissions" style="text-decoration:none;display:inline-block">← Back</a>
   <span class="t">Fill the form, then download it as PDF</span>
-  <button class="btn btn-dl" onclick="window.print()">⬇ Download Form (PDF)</button>
+  <button class="btn btn-dl" id="dlBtn" onclick="downloadPDF()">⬇ Download Form (PDF)</button>
 </div>
 <div class="page">
   <div class="hd">
@@ -210,5 +212,25 @@ table.edu input{border:0;outline:none;width:100%;font-size:14px;padding:4px;font
     Email: khalilinstitute@gmail.com &nbsp; 🌐 www.khalilinstitute.pk &nbsp; 📞 0345-5561616
   </div>
 </div>
+
+<script>
+async function downloadPDF(){
+  var btn = document.getElementById('dlBtn');
+  if(typeof html2canvas === 'undefined' || typeof window.jspdf === 'undefined'){ window.print(); return; }
+  var old = btn.textContent; btn.textContent = 'Preparing PDF…'; btn.disabled = true;
+  try{
+    var el = document.querySelector('.page');
+    var canvas = await html2canvas(el, {scale:2, useCORS:true, backgroundColor:'#ffffff'});
+    var img = canvas.toDataURL('image/jpeg', 0.95);
+    var pdf = new window.jspdf.jsPDF('p','mm','a4');
+    var pw = pdf.internal.pageSize.getWidth(), ph = pdf.internal.pageSize.getHeight();
+    var iw = pw - 10, ih = canvas.height * iw / canvas.width;
+    if(ih > ph - 10){ ih = ph - 10; iw = canvas.width * ih / canvas.height; }
+    pdf.addImage(img, 'JPEG', (pw - iw)/2, 5, iw, ih);
+    pdf.save('KIN-Admission-Form.pdf');
+  }catch(e){ window.print(); }
+  btn.textContent = old; btn.disabled = false;
+}
+</script>
 </body>
 </html>
