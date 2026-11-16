@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Khalil Institute of Nursing &amp; Allied Health Sciences, Shabqadar | LHV, CNA, Paramedical Diplomas</title>
+<meta name="description" content="Khalil Institute of Nursing & Allied Health Sciences, Shabqadar (Charsadda) offers PNC-verified LHV, CNA, Midwifery and KP Faculty of Paramedical Sciences diplomas. Admissions open — contact on WhatsApp.">
+<meta property="og:title" content="Khalil Institute of Nursing & Allied Health Sciences, Shabqadar">
+<meta property="og:description" content="PNC-verified LHV, CNA, BSN & Paramedical programs. Admissions open 2026 — chat on WhatsApp.">
+<meta property="og:image" content="https://awaisali24443-svg.github.io/khalil-institute-demo/images/klogo.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#095e43">
+<link rel="icon" href="images/klogo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--g:#095e43;--gd:#074331;--wa:#0c6834;--fb:#1877f2;--bg:#f2f6f4;--tx:#1f2d3d}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans','Segoe UI',Arial,sans-serif;touch-action:pan-y;overscroll-behavior-x:none;display:flex;flex-direction:column;min-height:100vh;min-height:100dvh;background:var(--bg);color:var(--tx);line-height:1.6}
+body>.wrap{flex:1 0 auto;width:100%}
+body::before{content:'';position:fixed;top:50%;left:50%;width:82vmin;height:82vmin;transform:translate(-50%,-50%);background:url('images/klogo-t.png') center/contain no-repeat;opacity:.08;pointer-events:none;z-index:-1}
+body[dir=rtl]{font-family:'Noto Nastaliq Urdu','Segoe UI',Arial,sans-serif;line-height:2}
+a{text-decoration:none;color:inherit}
+:focus-visible{outline:2px solid var(--g);outline-offset:2px}
+/* ---------- header ---------- */
+header.top{position:sticky;top:0;z-index:60;background:var(--g);color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.2)}
+.bar{max-width:1020px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:8px 12px;transition:padding .3s ease}
+header.top.scrolled .bar{padding:4px 12px}
+header.top.scrolled .brand img{height:52px}
+header.top.scrolled nav.tabs{padding-bottom:5px}
+header.top.scrolled{box-shadow:0 4px 16px rgba(0,0,0,.28)}
+.brand{display:flex;align-items:center;gap:10px;min-width:0;flex:1}
+.brand img{height:76px;width:auto;flex:0 0 auto;transition:height .3s ease}
+.brand .n{font-weight:800;font-size:14px;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;text-transform:uppercase}
+.brand .n small{display:block;font-weight:400;font-size:12px;opacity:.85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.lang{margin-left:auto;display:flex;background:rgba(255,255,255,.15);border-radius:20px;padding:3px;flex:0 0 auto}
+.lang button{border:0;background:none;color:#fff;font-size:13px;font-weight:700;padding:6px 11px;border-radius:16px;cursor:pointer;font-family:inherit}
+.lang button.on{background:#fff;color:var(--g)}
+nav.tabs{max-width:1020px;margin:0 auto;display:flex;gap:2px;padding:0 12px 8px;overflow-x:auto;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 88%,transparent 100%);mask-image:linear-gradient(90deg,#000 88%,transparent 100%)}
+body[dir=rtl] nav.tabs{-webkit-mask-image:linear-gradient(-90deg,#000 88%,transparent 100%);mask-image:linear-gradient(-90deg,#000 88%,transparent 100%)}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs a{border:0;background:none;color:#fff;font-size:13.5px;padding:6px 10px;border-radius:8px;cursor:pointer;white-space:nowrap;font-family:inherit;position:relative;transition:background .2s;text-decoration:none}
+nav.tabs a.on{background:rgba(255,255,255,.2)}
+nav.tabs a.on::after{content:"";position:absolute;left:12px;right:12px;bottom:3px;height:2px;background:#fff;border-radius:2px}
+/* ---------- layout ---------- */
+.wrap{max-width:1020px;margin:0 auto;padding:0 14px}
+.page{display:none}.page.on{display:block;animation:fade .25s}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1}}
+.notice{background:#fff8e1;border-bottom:2px solid #f0c040;color:#6b4e00;font-size:13.5px;text-align:center;padding:9px 40px 9px 12px;margin:0 -14px 14px;position:relative}
+.nclose{position:absolute;inset-inline-end:6px;top:50%;transform:translateY(-50%);background:none;border:0;font-size:20px;line-height:1;color:#6b4e00;cursor:pointer;padding:6px 10px;opacity:.7}
+.nclose:hover{opacity:1}
+h2.sec{font-size:22px;font-weight:800;letter-spacing:-.01em;color:var(--g);margin:26px 0 4px;position:relative;padding-bottom:10px}
+h2.sec::after{content:"";position:absolute;inset-inline-start:2px;bottom:0;width:46px;height:3px;background:linear-gradient(90deg,#d4a017,#f0c040);border-radius:2px}
+h1{letter-spacing:-.015em}
+p.sub{color:#5a6b62;font-size:14px;margin-bottom:12px}
+/* ---------- hero ---------- */
+.hero{position:relative;border-radius:0 0 22px 22px;overflow:hidden;margin:0 -14px 18px;color:#fff;text-align:center}
+.hero .bg{position:absolute;inset:0;background:url('images/resource/health-1.jpg') center/cover}
+.hero .ov{position:absolute;inset:0;background:linear-gradient(160deg,rgba(8,79,57,.93),rgba(11,110,79,.78))}
+.hero .in{position:relative;padding:54px 20px 42px}
+.hero h1{font-size:36px;font-weight:800;margin-bottom:10px;text-shadow:0 2px 8px rgba(0,0,0,.3)}
+.hero p{font-size:15px;opacity:.95;max-width:600px;margin:0 auto 18px}
+.hero .in>*{opacity:0;animation:heroUp .7s ease forwards}
+.hero .in>*:nth-child(1){animation-delay:.05s}
+.hero .in>*:nth-child(2){animation-delay:.2s}
+.hero .in>*:nth-child(3){animation-delay:.34s}
+@keyframes heroUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+/* ---------- buttons (clean CTAs) ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 26px;border-radius:9px;font-weight:700;font-size:15px;margin:5px;cursor:pointer;border:0;font-family:inherit;text-decoration:none;transition:transform .12s ease,box-shadow .2s ease,filter .2s;color:inherit}
+.btn svg{width:18px;height:18px;flex:0 0 18px}
+.btn:hover{filter:brightness(1.06)}
+.btn:active{transform:scale(.96)}
+.btn.wa{background:var(--wa);color:#fff;box-shadow:0 3px 10px rgba(14,122,61,.35)}
+.btn.fb{background:var(--fb);color:#fff;box-shadow:0 3px 10px rgba(24,119,242,.3)}
+.btn.dk{background:var(--g);color:#fff}
+.btn.lt{background:#fff;color:var(--g);box-shadow:0 3px 10px rgba(0,0,0,.12)}
+.btn.gh{background:#eef5f1;color:var(--g);border:1.5px solid var(--g)}
+@media(max-width:480px){.hero .btn{width:100%;margin:5px 0}}
+/* ---------- cards & strips ---------- */
+.strip{background:#fff;border:2px solid var(--g);border-radius:14px;padding:16px;margin:16px 0;text-align:center}
+.strip h3{color:var(--g);font-size:16px;margin-bottom:8px}
+.badge{display:inline-block;background:var(--g);color:#fff;font-size:13px;font-weight:700;border-radius:14px;padding:4px 12px;margin:3px}
+.kv span.badge{background:var(--g);color:#fff}
+.accr{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:10px 0}
+.accr span{background:#fff;border:1.5px solid var(--g);color:var(--gd);border-radius:20px;padding:6px 14px;font-size:13px;font-weight:700}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:16px 0}
+.stat{background:#fff;border-radius:12px;padding:14px 6px;text-align:center;box-shadow:0 1px 5px rgba(0,0,0,.07)}
+.stat .n{font-size:26px;font-weight:800;color:var(--g)}
+.stat .l{font-size:13px;color:#556}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);transition:transform .18s ease,box-shadow .18s ease;display:block}
+a.card:hover{transform:translateY(-3px);box-shadow:0 6px 16px rgba(11,110,79,.16)}
+.card .im{height:150px;background:#dde5e1;position:relative;overflow:hidden}
+.card .im img{width:100%;height:100%;object-fit:cover;display:block;opacity:0;transition:opacity .55s ease}
+.card .im img.ld{opacity:1}
+.card .im.loading:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.65) 50%,transparent 70%);animation:sh 1.2s infinite}
+@keyframes sh{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
+.card .bd{padding:14px}
+.card .tag{display:inline-block;background:#e7f4ee;color:var(--g);font-size:13px;font-weight:700;border-radius:12px;padding:3px 10px;margin-bottom:6px}
+.card h3{font-size:16.5px;color:var(--gd);margin-bottom:4px}
+.card p{font-size:13.5px;color:#556}
+.card .go{color:var(--g);font-weight:700;font-size:14px;margin-top:8px;display:block}
+/* catalog cards */
+.pgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.pcat .im{height:104px}
+.pcat .bd{padding:10px;display:flex;flex-direction:column;height:calc(100% - 104px)}
+.pcat h3{font-size:13.5px;margin-bottom:6px;line-height:1.4}
+.pcat .tag{margin-bottom:2px;align-self:flex-start}
+.pcat .enq{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:auto;padding:9px;border-radius:8px;background:#eef5f1;color:var(--g);font-weight:700;font-size:13px}
+.pcat .enq svg{width:14px;height:14px;flex:0 0 14px}
+/* ---------- about ---------- */
+.vm{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.panel{background:#fff;border-radius:12px;padding:16px;margin:12px 0;box-shadow:0 1px 5px rgba(0,0,0,.06)}
+.panel h3{color:var(--g);font-size:16px;margin-bottom:8px}
+.notebox{background:#fff8e1;border:1.5px solid #e0b53c;border-radius:12px;padding:14px;margin:12px 0;font-size:14px;color:#5a4a00}
+.frow{margin:10px 0}.frow label{display:block;font-size:13.5px;font-weight:700;margin-bottom:5px;color:#334}
+.frow input,.frow select,.frow textarea{width:100%;padding:11px 12px;border:1.5px solid #cfd8d3;border-radius:9px;font:inherit;font-size:14.5px;background:#fff;box-sizing:border-box}
+.frow input:focus,.frow select:focus,.frow textarea:focus{border-color:#095e43;outline:none}
+.frow .req{color:#c62828}
+#apErr{display:none;background:#fdecea;border:1.5px solid #c62828;color:#7f1d1d;border-radius:9px;padding:10px 14px;font-size:14px;margin:10px 0}
+.appref{font-size:26px;font-weight:800;color:#095e43;letter-spacing:1px;margin:8px 0;text-align:center}
+.paybox{background:#f1f8f4;border:1.5px solid #095e43;border-radius:12px;padding:14px;margin:12px 0;font-size:14.5px;line-height:1.7}
+.paybox b.acc{font-size:17px;letter-spacing:.5px}
+.dlbanner{background:linear-gradient(135deg,#fdecea,#f9d5d3);border:2px solid #c62828;border-radius:12px;padding:13px 16px;margin:12px 0;font-size:15px;color:#7f1d1d;text-align:center;font-weight:600;box-shadow:0 2px 10px rgba(198,40,40,.12)}
+.feebox .frow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid #eef2f0;font-size:14.5px}
+.feebox .frow:last-of-type{border-bottom:0}
+.feebox .frow b{color:var(--gd);white-space:nowrap}
+.feebox .fnote{font-size:13px;color:#6b7a72;margin-top:8px}
+/* ---------- admissions ---------- */
+.feetable{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,.07);font-size:14px}
+.feetable th{background:var(--g);color:#fff;padding:10px 8px;text-align:left;font-size:13px;white-space:nowrap}
+body[dir=rtl] .feetable th{text-align:right}
+.feetable td{padding:10px 8px;border-bottom:1px solid #eef2f0;vertical-align:top}
+.feetable tr:last-child td{border-bottom:0}
+.feetable td small{display:block;color:#6b7a72;font-size:13px;margin-top:2px}
+ol.steps{list-style:none;counter-reset:st}
+ol.steps li{counter-increment:st;padding:8px 0 8px 38px;position:relative;font-size:14.5px}
+body[dir=rtl] ol.steps li{padding:8px 38px 8px 0}
+ol.steps li:before{content:counter(st);position:absolute;left:0;top:8px;width:26px;height:26px;border-radius:50%;background:var(--g);color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center}
+body[dir=rtl] ol.steps li:before{left:auto;right:0}
+.news .ncard{background:#fff;border-radius:12px;padding:14px;margin:10px 0;box-shadow:0 1px 5px rgba(0,0,0,.06);border-left:4px solid var(--g)}
+body[dir=rtl] .news .ncard{border-left:0;border-right:4px solid var(--g)}
+.news .dt{font-size:13px;color:#fff;background:var(--g);border-radius:12px;padding:2px 10px;display:inline-block;margin-bottom:6px}
+.dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.dl .dcard{background:#fff;border-radius:12px;padding:18px 14px;text-align:center;box-shadow:0 1px 5px rgba(0,0,0,.06)}
+.dl .dcard b{font-size:14.5px}
+/* ---------- program detail ---------- */
+.kv{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.kv span{background:#fff;border-radius:8px;padding:7px 13px;font-size:13.5px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+ul.ticks{list-style:none}
+ul.ticks li{padding:6px 0 6px 28px;position:relative;font-size:14.5px}
+body[dir=rtl] ul.ticks li{padding:6px 28px 6px 0}
+ul.ticks li:before{content:"✓";position:absolute;left:4px;color:var(--g);font-weight:800}
+body[dir=rtl] ul.ticks li:before{left:auto;right:4px}
+.proof{background:#eaf7f0;border:2px solid var(--g);border-radius:12px;padding:18px;margin:16px 0}
+.proof h3{color:var(--g);margin-bottom:6px;font-size:17px}
+.proof p{font-size:14px;margin-bottom:12px}
+/* ---------- gallery ---------- */
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.ph{position:relative;border-radius:10px;overflow:hidden;aspect-ratio:4/3;background:#dde5e1;cursor:zoom-in;border:0;padding:0;font:inherit;display:block;width:100%}
+.ph img{width:100%;height:100%;object-fit:cover;display:block;opacity:0;transition:opacity .6s ease}
+.ph:not(.loading) img{opacity:1}
+.ph img.ld{opacity:1}
+.ph.loading:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.65) 50%,transparent 70%);animation:sh 1.2s infinite}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:100;display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .25s}
+#lb.open{opacity:1;pointer-events:auto}
+#lb img{max-width:94vw;max-height:88vh;border-radius:8px}
+#lbx{position:absolute;top:12px;right:20px;color:#fff;font-size:36px;cursor:pointer;line-height:1;background:none;border:0;font-family:inherit}
+.lbnav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;background:rgba(0,0,0,.45);color:#fff;border:1.5px solid rgba(255,255,255,.55);font-size:28px;line-height:1;cursor:pointer;z-index:2;font-family:inherit}
+.lbnav.prev{left:10px}.lbnav.next{right:10px}
+.lbnav:active{background:rgba(255,255,255,.25)}
+#lbcnt{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:#fff;font-size:13px;opacity:.85;pointer-events:none}
+/* ---------- contact ---------- */
+.contact{background:#fff;border-radius:12px;padding:20px;box-shadow:0 1px 5px rgba(0,0,0,.07)}
+.contact p{margin:10px 0;font-size:15px}
+.contact b{color:var(--gd)}
+iframe.map{width:100%;height:260px;border:0;border-radius:10px;margin-top:12px}
+/* ---------- sticky bar / totop / footer ---------- */
+.wafloat{position:fixed;right:16px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:60;width:60px;height:60px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(37,211,102,.45);transition:transform .15s ease;text-decoration:none}
+.wafloat svg{width:32px;height:32px}
+.wafloat:active{transform:scale(.92)}
+.wafloat::after{content:'';position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:wapulse 2.2s ease-out infinite;pointer-events:none}
+@keyframes wapulse{0%{transform:scale(1);opacity:.7}70%{transform:scale(1.3);opacity:0}100%{transform:scale(1.3);opacity:0}}
+@media (prefers-reduced-motion:reduce){.wafloat::after{animation:none}}
+.wicon{width:44px;height:44px;border-radius:12px;background:#eef5f1;color:var(--g);display:flex;align-items:center;justify-content:center;margin-bottom:10px}
+#whyGrid{grid-template-columns:1fr 1fr;gap:12px}
+.whyc{background:#fff;border:1px solid #e3efe9;border-radius:16px;padding:20px 12px 16px;text-align:center;box-shadow:0 2px 10px rgba(11,110,79,.06)}
+.whyc:nth-child(even){background:#f0f8f3}
+.whyc .wicon{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#095e43,#12885d);color:#fff;margin:0 auto 10px;box-shadow:0 0 0 3px #fff,0 0 0 5px #d4a017}
+.whyc .wicon svg{width:26px;height:26px}
+.whyc h3{font-size:15px;font-weight:700;color:var(--g);margin-bottom:6px}
+.whyc p{font-size:12.5px;color:#556;line-height:1.55;margin:0}
+.wicon svg{width:24px;height:24px}
+.subh{color:var(--gd);font-size:19px;margin:18px 0 10px;display:flex;align-items:center;gap:9px}
+.subh::before{content:'';width:5px;height:22px;background:var(--g);border-radius:3px;flex:0 0 5px}
+.lead{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:640px){.lead{grid-template-columns:1fr}}
+.leadcard{background:#fff;border:1px solid #e6efe9;border-radius:16px;overflow:hidden;box-shadow:0 2px 10px rgba(6,60,40,.06)}
+.leadcard .im{height:270px;overflow:hidden;background:#eef3f0}
+.leadcard .im img{width:100%;height:100%;object-fit:cover;object-position:top}
+.leadcard .bd{padding:16px}
+.leadcard .bd b{font-size:17px}
+.leadcard .lrole{display:block;color:var(--g);font-weight:700;font-size:13.5px;margin:2px 0 8px}
+.leadcard .bd p{font-size:14px;color:#445;margin:0}
+.staffview{overflow:hidden;direction:ltr}
+nav.tabs{touch-action:pan-x pan-y}
+.stafftrack{display:flex;gap:14px;width:max-content;padding:2px}
+.scard{flex:0 0 240px}
+.sph{position:relative;height:300px;border-radius:16px;overflow:hidden;background:#eef3f0;box-shadow:0 3px 12px rgba(6,60,40,.12)}
+.sph img{width:100%;height:100%;object-fit:cover;display:block}
+.sname{position:absolute;left:0;right:0;bottom:0;padding:32px 12px 10px;background:linear-gradient(transparent,rgba(8,18,14,.88));color:#fff;font-weight:700;font-size:16px}
+.srole{font-style:italic;color:#0e7c86;font-size:14px;margin-top:6px;text-align:center}
+.staffnav{display:flex;gap:12px;justify-content:center;margin:12px 0 0}
+.snav{width:48px;height:48px;border-radius:50%;border:2px solid #d4a017;color:#095e43;background:#fff;font-size:24px;line-height:1;cursor:pointer;box-shadow:0 2px 8px rgba(9,94,67,.15)}
+@media(max-width:640px){.scard{flex:0 0 200px}.sph{height:250px}}
+.abadge{font-size:11px;background:#a00;color:#fff;padding:3px 10px;border-radius:20px;vertical-align:middle}
+.admrow{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#fff;border:1px solid #e6efe9;border-radius:10px;padding:10px 12px;margin-bottom:8px;font-size:14px}
+.admdel{background:#fdecea;color:#a00;border:0;border-radius:8px;min-width:30px;height:30px;font-size:14px;cursor:pointer}
+.admingal{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px;margin-bottom:10px}
+.admph{position:relative;border-radius:10px;overflow:hidden}
+.admph img{width:100%;height:90px;object-fit:cover;display:block}
+.admph .admdel{position:absolute;top:4px;right:4px;min-width:24px;height:24px;font-size:12px}
+.afl{display:block;margin:0 0 10px;font-size:14px;font-weight:600}
+.afl>span{display:block;margin-bottom:4px}
+.afl input,.afl textarea{width:100%;padding:10px 12px;border:1.5px solid #dfe7e2;border-radius:10px;font-size:15px;font-family:inherit;box-sizing:border-box}
+.faqitem{background:#fff;border:1px solid #e6efe9;border-radius:12px;margin-bottom:8px;overflow:hidden}
+.faqitem>button{width:100%;background:none;border:0;padding:14px 16px;font-size:15px;font-weight:700;color:var(--gd);display:flex;justify-content:space-between;align-items:center;gap:10px;cursor:pointer;font-family:inherit;text-align:left}
+.faqitem .chev{transition:transform .25s ease;color:var(--g);font-size:18px;flex:0 0 auto}
+.faqitem.open .chev{transform:rotate(180deg)}
+.faqitem .ans{max-height:0;overflow:hidden;transition:max-height .32s ease}
+.faqitem .ans p{padding:0 16px 14px;font-size:14.5px;color:#445;margin:0}
+.btn{transition:transform .12s ease,box-shadow .18s ease}
+.btn:active{transform:scale(.97)}
+.gal .ph img{transition:transform .35s ease}
+@media(hover:hover){.gal .ph:hover img{transform:scale(1.06)}}
+.hero .btn.wa{animation:btnGlow 2.8s ease-in-out infinite}
+.btn.ghost{background:rgba(255,255,255,.14);color:#fff;border:1.5px solid rgba(255,255,255,.75)}
+.btn.ghost:hover{background:rgba(255,255,255,.25)}
+@keyframes btnGlow{0%,100%{box-shadow:0 4px 14px rgba(14,122,61,.35)}50%{box-shadow:0 4px 24px rgba(14,122,61,.65)}}
+.snav{transition:transform .15s ease,background .15s ease}
+.snav:hover{background:#fdf6e3}
+.snav:active{transform:scale(.92)}
+@media (prefers-reduced-motion:reduce){.hero .btn.wa{animation:none}.gal .ph img{transition:none}.faqitem .ans{transition:none}}
+#toTop{position:fixed;right:14px;bottom:88px;z-index:59;width:44px;height:44px;border-radius:50%;background:var(--g);color:#fff;border:0;font-size:20px;line-height:1;box-shadow:0 3px 12px rgba(0,0,0,.28);cursor:pointer;opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .3s,transform .3s}
+#toTop.show{opacity:1;pointer-events:auto;transform:none}
+#toTop:active{transform:scale(.92)}
+footer.site{border-top:3px solid #d4a017;background:var(--gd);color:#dcebe4;margin:24px 0 0;padding:15px 16px 10px;border-radius:18px 18px 0 0}
+footer.site h4{color:#fff;font-size:14px;margin-bottom:5px}
+footer.site p,footer.site a{font-size:12.5px;color:#c4d8cd}
+footer.site .flinks{line-height:2.1}
+footer.site .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+footer.site .cp{text-align:center;font-size:12px;color:#9db8ab;margin-top:10px;border-top:1px solid rgba(255,255,255,.15);padding-top:8px}
+/* ---------- motion ---------- */
+.rvx{opacity:0;transform:translateY(26px);transition:opacity .65s ease var(--d,0s),transform .65s ease var(--d,0s)}
+.rvx.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+ *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+ .rvx{opacity:1;transform:none}
+ .hero .in>*{opacity:1}
+ html{scroll-behavior:auto}
+}
+@media(min-width:1021px){
+ .hero{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);border-radius:0}
+ .hero .in{padding:70px 20px 56px}
+ .hero h1{font-size:44px}
+ .notice{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="bar">
+    <div class="brand">
+      <img src="images/klogo.png" alt="Khalil Institute logo">
+      <div class="n"><span data-i="brand">Khalil Institute</span><small data-i="brandsub">Nursing &amp; AHS • Shabqadar</small></div>
+    </div>
+    <div class="lang"><button id="btnEN" class="on" onclick="setLang('en')">EN</button><button id="btnUR" onclick="setLang('ur')">اردو</button></div>
+  </div>
+  <nav class="tabs">
+    <a href="#home" data-p="home" data-i="nav_home">Home</a>
+    <a href="#programs" data-p="programs" data-i="nav_programs">Programs</a>
+    <a href="#about" data-p="about" data-i="nav_about">About</a>
+    <a href="#admissions" data-p="admissions" data-i="nav_admissions">Admissions</a>
+    <a href="#gallery" data-p="gallery" data-i="nav_gallery">Gallery</a>
+    <a href="#contact" data-p="contact" data-i="nav_contact">Contact</a>
+  </nav>
+</header>
+
+<div class="wrap">
+
+<!-- ================= HOME ================= -->
+<section class="page on" id="pg-home">
+  <div class="notice" id="noticeBar"><span data-i="notice">Admissions Open 2026 — LHV, CNA, BSN &amp; Paramedical Diplomas · Limited seats, apply now!</span><button class="nclose" onclick="dismissNotice()" aria-label="Dismiss">×</button></div>
+  <div class="hero"><div class="bg"></div><div class="ov"></div><div class="in">
+    <h1 data-i="hero_title">Khalil Institute of Nursing &amp; Allied Health Sciences</h1>
+    <p data-i="hero_sub">PNC-verified nursing diplomas &amp; KP paramedical programs in Shabqadar, Charsadda.</p>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+      <a class="btn wa" href="#programs"><span data-i="explore">Explore Programs</span></a>
+      <a class="btn ghost" style="cursor:pointer" onclick="window.open(waLink('admission'),'_blank')" rel="noopener"><span data-i="wa_us">WhatsApp Us</span></a>
+    </div>
+  </div></div>
+
+  <div class="strip">
+    <h3 data-i="trust_title">✔ Officially Recognized</h3>
+    <span class="badge">Pakistan Nursing &amp; Midwifery Council (PNC)</span>
+    <span class="badge" data-i="trust_kpmf">KP Faculty of Paramedical &amp; Allied Health Sciences</span>
+    <p style="font-size:13px;color:#556;margin-top:8px" data-i="trust_note">Verification proof is linked at the bottom of every program page.</p>
+  </div>
+
+  <h2 class="sec" data-i="sec_accr">Recognized By</h2>
+  <div class="accr" id="accrRow"></div>
+
+  <div class="stats">
+    <div class="stat"><div class="n" dir="ltr">22+</div><div class="l" data-i="st_prog">Programs Offered</div></div>
+    <div class="stat"><div class="n">7+</div><div class="l" data-i="st_fac">Expert Faculty</div></div>
+    <div class="stat"><div class="n">100%</div><div class="l" data-i="st_verified">Verified Diplomas</div></div>
+  </div>
+
+  <h2 class="sec" data-i="sec_featured">Featured Programs</h2>
+  <p class="sub" data-i="sec_programs_sub">Tap a program for details.</p>
+  <div class="grid" id="homeCards"></div>
+  <p style="text-align:center;margin:16px 0 4px"><a class="btn wa" href="#programs"><span data-i="view_all">View All 22 Programs</span></a></p>
+
+  <h2 class="sec" data-i="sec_why">Why Khalil Institute?</h2>
+  <div class="grid" id="whyGrid"></div>
+</section>
+
+<!-- ================= PROGRAMS ================= -->
+<section class="page" id="pg-programs">
+  <h2 class="sec" data-i="sec_programs">All Programs</h2>
+  <p class="sub" data-i="sec_programs_sub2">Tap any program to enquire on WhatsApp.</p>
+  <h3 class="subh" data-i="deg_t">BS Programs</h3>
+  <div class="pgrid" id="degRow"></div>
+  <h3 class="subh" data-i="dip_t">Two-Year Diplomas</h3>
+  <div class="pgrid" id="dipRow"></div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="page" id="pg-about">
+  <h2 class="sec" data-i="sec_vision">Vision &amp; Mission</h2>
+  <div class="vm">
+    <div class="panel"><h3 data-i="vision_t">Vision</h3><p style="font-size:14.5px;font-style:italic" data-i="vision_q">To educate a generation of compassionate, skilled and ethical nursing professionals — embodying mercy, knowledge and service, upholding the sanctity of life and promoting well-being for all humanity.</p></div>
+    <div class="panel"><h3 data-i="mission_t">Our Mission</h3><ul class="ticks" id="missionRow"></ul></div>
+  </div>
+  <h2 class="sec" data-i="sec_lead">Leadership</h2>
+  <p class="sub" data-i="sec_lead_sub">Guided by decades of experience in medical education.</p>
+  <div class="lead" id="leadRow"></div>
+  <h2 class="sec" data-i="sec_faculty">Our Faculty</h2>
+  <p class="sub" data-i="sec_faculty_sub">Qualified doctors &amp; medical educators</p>
+  <div class="staffwrap"><div class="staffview" id="staffView"><div class="stafftrack" id="staffTrack"></div></div>
+<div class="staffnav"><button class="snav" onclick="staffGo(-1)" aria-label="Previous">&#8249;</button><button class="snav" onclick="staffGo(1)" aria-label="Next">&#8250;</button></div></div>
+  <h2 class="sec" data-i="sec_clinical">Clinical / Practical Training</h2>
+  <div class="panel"><p style="font-size:14.5px" data-i="clinical_t"></p><ul class="ticks" id="clinRow" style="margin-top:8px"></ul>
+  <p style="font-size:14.5px;font-weight:700;color:var(--g);margin:14px 0 4px" data-i="hosp_t"></p><ul class="ticks" id="hospRow"></ul></div>
+</section>
+
+<!-- ================= ADMISSIONS ================= -->
+<section class="page" id="pg-admissions">
+  <div class="notebox"><span data-i="fee_moved"></span></div>
+  <div id="dlBanner" style="display:none"></div>
+  <h2 class="sec" data-i="sec_steps">How to Apply</h2>
+  <div class="panel"><ol class="steps" id="stepsRow"></ol>
+    <p style="font-size:13.5px;color:#556;margin-top:8px" data-i="lastdate">Admissions are open now — contact us for the last date.</p></div>
+  <h2 class="sec" data-i="sec_appl">Online Application</h2>
+  <div class="panel" style="text-align:center;padding:22px">
+    <p style="font-size:15px;margin-bottom:12px" data-i="af_card">Fill the admission form online — type your details, tick your program, and download the filled form as a PDF.</p>
+    <a class="btn" style="background:#0c6834;color:#fff" href="admission-form.html"><span data-i="af_btn">📝 Fill Admission Form</span></a>
+  </div>
+  <h2 class="sec" data-i="docs_t">Documents Required</h2>
+  <div class="panel"><ul class="ticks" id="docsRow"></ul>
+    <p style="font-size:13.5px;color:#556;margin-top:8px" data-i="docs_note">Contact the admin office to confirm the requirements for your program.</p></div>
+  <h2 class="sec" data-i="sec_news">Announcements</h2>
+  <div class="news" id="newsRow"></div>
+  <p style="margin-top:4px"><a href="https://www.facebook.com/110678831501077/" target="_blank" rel="noopener" style="color:var(--g);font-weight:700;font-size:14px" data-i="fb_more">More updates on Facebook →</a></p>
+  <h2 class="sec" data-i="sec_dl">Downloads &amp; Resources</h2>
+  <div class="dl" id="dlRow"></div>
+  <h2 class="sec" data-i="sec_faq">Frequently Asked Questions</h2>
+  <div class="faq" id="faqList"></div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="page" id="pg-gallery">
+  <h2 class="sec" data-i="sec_gallery">Gallery</h2>
+  <p class="sub" data-i="gal_sub">Tap any photo to view it full size.</p>
+  <div class="gal" id="galGrid"></div>
+</section>
+
+<!-- ================= PROGRAM DETAIL ================= -->
+<section class="page" id="pg-detail"><div id="detailBody"></div></section>
+
+<!-- ================= CONTACT ================= -->
+<section class="page" id="pg-contact">
+  <h2 class="sec" data-i="sec_contact">Contact Us</h2>
+  <div class="contact">
+    <p><b><span data-i="addr_l">Address:</span></b> <span data-i="addr_v">Battagram Bypass, Peshawar Road, Shabqadar</span></p>
+    <p><b><span data-i="ph_l">Phone:</span></b> <a href="tel:+923455561616" style="color:var(--g);font-weight:700" dir="ltr">0345-5561616</a> • <a href="tel:+923139747405" style="color:var(--g);font-weight:700" dir="ltr">0313-9747405</a></p>
+    <p><b><span data-i="em_l">Email:</span></b> <a href="mailto:contact@khalilinstitute.pk" style="color:var(--g);font-weight:700">contact@khalilinstitute.pk</a></p>
+    <p><b><span data-i="hr_l">Timing:</span></b> <span data-i="hr_v">Mon – Sat: 7:30 AM – 6:00 PM · Sun: Closed</span></p>
+    <iframe class="map" loading="lazy" title="map" src="https://maps.google.com/maps?q=34.20275226695219,71.57126335917705&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+    <p style="margin-top:8px"><a class="btn gh" style="font-size:13px;padding:9px 18px" href="https://www.google.com/maps?q=34.20275226695219,71.57126335917705" target="_blank" rel="noopener"><span data-i="openmaps">Open in Google Maps</span></a></p>
+  </div>
+</section>
+</div>
+
+<footer class="site"><div class="cols">
+<div><h4 data-i="f_link_t">Quick Links</h4><p class="flinks"><a href="#home" data-i="nav_home">Home</a> · <a href="#programs" data-i="nav_programs">Programs</a> · <a href="#about" data-i="nav_about">About</a> · <a href="#admissions" data-i="nav_admissions">Admissions</a> · <a href="#contact" data-i="nav_contact">Contact</a> · <a href="https://www.facebook.com/110678831501077/" target="_blank" rel="noopener">Facebook</a></p></div>
+<div><h4 data-i="sec_contact">Contact Us</h4><p><span data-i="addr_v">Battagram Bypass, Peshawar Road, Shabqadar</span><br><span dir="ltr">0345-5561616</span><br>contact@khalilinstitute.pk<br><span data-i="hr_v">Mon – Sat: 7:30 AM – 6:00 PM · Sun: Closed</span></p></div>
+</div><div class="cp"><span data-i="foot">Developed by</span> <b style="color:#7be3b4">Awais Codex</b> · <span data-i="f_rights">© 2026 Khalil Institute. All rights reserved.</span></div></footer>
+
+<button id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+<section class="page" id="pg-admin"><div class="wrap">
+ <h2 class="sec">Site Admin <span class="abadge">Private</span></h2>
+ <div class="notebox"><span>Changes save in <b>this browser only</b>. To publish them for everyone, tap <b>Export</b> below and send the file to your developer.</span></div>
+ <h3 class="subh">Announcements</h3>
+ <div id="admNews"></div>
+ <div class="panel"><h3>Add announcement</h3>
+  <label class="afl"><span>Date label (e.g. Oct 2026)</span><input id="anDate" maxlength="20"></label>
+  <label class="afl"><span>English text</span><textarea id="anEn" rows="2" maxlength="300"></textarea></label>
+  <label class="afl"><span>Urdu text</span><textarea id="anUr" rows="2" maxlength="300"></textarea></label>
+  <button class="btn wa" onclick="admAddNews()">Add announcement</button></div>
+ <h3 class="subh">Gallery photos</h3>
+ <div id="admGal" class="admingal"></div>
+ <p><label class="btn lt" style="cursor:pointer">Upload photo<input type="file" id="admUp" accept="image/*" hidden></label></p>
+ <h3 class="subh">Notice bar</h3>
+ <div class="panel">
+  <label class="afl"><span>English notice</span><input id="adNoticeEn" maxlength="160"></label>
+  <label class="afl"><span>Urdu notice</span><input id="adNoticeUr" maxlength="160"></label>
+  <button class="btn wa" onclick="admSaveNotice()">Save notice</button></div>
+ <h3 class="subh">Admission deadline</h3>
+ <div class="panel">
+  <label class="afl"><span>Last date (shows a countdown on the Admissions page)</span><input type="date" id="adDeadline"></label>
+  <p><button class="btn wa" onclick="admSaveDeadline()">Save deadline</button>
+  <button class="btn gh" onclick="admClearDeadline()">Clear</button></p></div>
+ <h3 class="subh">Fee payment accounts</h3>
+ <div class="panel">
+  <label class="afl"><span>JazzCash number (shown after application)</span><input id="adPayJazz" inputmode="numeric"></label>
+  <label class="afl"><span>EasyPaisa number (shown after application)</span><input id="adPayEasy" inputmode="numeric"></label>
+  <p><button class="btn wa" onclick="admSavePay()">Save accounts</button></p></div>
+ <h3 class="subh">Backup</h3>
+ <p><button class="btn gh" onclick="admExport()">Export changes</button>
+ <label class="btn gh" style="cursor:pointer">Import<input type="file" id="admImp" accept=".json,application/json" hidden></label>
+ <button class="btn gh" onclick="admReset()">Reset all</button></p>
+ <p style="font-size:13px;color:#6b7a72">Secret link ends with <b>#admin-khalil-9x7q2</b> — do not share it publicly.</p>
+</div></section>
+<a class="wafloat" href="https://wa.me/923455561616?text=Assalam-o-Alaikum%2C%20I%20have%20a%20question%20about%20Khalil%20Institute." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 448 512"><path fill="#fff" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></a>
+
+<div id="lb" onclick="closeLB()"><button id="lbx" aria-label="Close" onclick="event.stopPropagation();closeLB()">×</button><button class="lbnav prev" aria-label="Previous photo" onclick="event.stopPropagation();lbGo(-1)">‹</button><img id="lbimg" alt="Photo"><button class="lbnav next" aria-label="Next photo" onclick="event.stopPropagation();lbGo(1)">›</button><div id="lbcnt"></div></div>
+
+<script>
+var IMG='images/';
+var T={
+en:{
+ brand:"Khalil Institute",brandsub:"Nursing & AHS • Shabqadar",
+ nav_home:"Home",nav_programs:"Programs",nav_about:"About",nav_admissions:"Admissions",nav_gallery:"Gallery",nav_contact:"Contact",
+ hero_title:"Khalil Institute of Nursing & Allied Health Sciences",
+ hero_sub:"PNC-verified nursing diplomas & KP paramedical programs in Shabqadar, Charsadda.",
+ notice:"Admissions Open 2026 — LHV, CNA, BSN & Paramedical Diplomas · Limited seats — WhatsApp us today!",
+ trust_title:"✔ Officially Recognized",trust_kpmf:"KP Faculty of Paramedical & Allied Health Sciences",
+ trust_note:"Verification proof is linked at the bottom of every program page.",
+ sec_accr:"Recognized By",
+ st_prog:"Programs Offered",st_fac:"Expert Faculty",st_verified:"Verified Diplomas",
+ sec_featured:"Featured Programs",view_all:"View All 22 Programs",dl_close:"Admissions close on",learn_t:"What You Will Learn",sec_appl:"Online Application",ap_full:"Full name",ap_father:"Father name",ap_cnic:"CNIC / B-Form number",ap_phone:"Mobile number",ap_wa:"WhatsApp number (if different)",ap_email:"Email (optional)",ap_prog:"Select program",ap_qual:"Last qualification (e.g. Matric, FSc)",ap_addr:"Home address",ap_submit:"Submit application",ap_req:"Please correct the fields: names min 3 letters, valid birth date (age 14+), CNIC 13 digits, mobile 11 digits starting 03, valid email, address min 10 chars, marks 0-100, valid passing year.",ap_ok:"Application sent! We received your details on WhatsApp.",ap_ref:"Your reference ID",ap_pay:"Pay the admission fee within 24 hours to confirm your seat.",ap_payno:"The institute has not published online payment numbers yet \u2014 message us on WhatsApp for payment details.",ap_doc:"Submit your documents within 7 days: send clear photos on WhatsApp or visit the campus.",ap_new:"New application",ap_wa2:"Open WhatsApp again",sec_personal:"Personal Information",sec_cinfo:"Contact Details",sec_academic:"Academic Record",sec_progsec:"Program Selection",ap_gender:"Gender",ap_male:"Male",ap_female:"Female",ap_dob:"Date of birth",ap_district:"District / Domicile",ap_board:"Board / University",ap_marks:"Marks obtained (%)",ap_year:"Passing year",ap_source:"How did you hear about us? (optional)",ap_src_fb:"Facebook",ap_src_wa:"WhatsApp",ap_src_friend:"Friend / Family",ap_src_news:"Newspaper",ap_src_campus:"Campus visit",ap_src_other:"Other",ap_dup:"An application with this CNIC was already submitted from this device (Ref: {ref}). Submit a new one?",dl_days:"days left",dl_today:"Last day today \u2014 apply now!",sec_programs:"All Programs",sec_programs_sub:"Tap a program for details.",sec_programs_sub2:"Tap a program for details, fee and admission info.",
+ sec_why:"Why Khalil Institute?",
+ cta_wa:"Apply on WhatsApp",cta_wa2:"WhatsApp",cta_call:"Call Now",explore:"Explore Programs",wa_us:"WhatsApp Us",
+ sec_vision:"Vision & Mission",vision_t:"Vision",
+ vision_q:"To educate a generation of compassionate, skilled and ethical nursing professionals — embodying mercy, knowledge and service, upholding the sanctity of life and promoting well-being for all humanity.",
+ mission_t:"Our Mission",
+ sec_lead:"Leadership",sec_lead_sub:"Guided by decades of experience in medical education.",
+ sec_faculty:"Our Faculty",sec_faculty_sub:"Qualified doctors & medical educators",
+
+
+
+ sec_steps:"How to Apply",lastdate:"Admissions are open now — contact us for the last date.",
+ docs_t:"Documents Required",docs_note:"Contact the admin office to confirm the requirements for your program.",
+ deg_t:"BS Programs",dip_t:"Two-Year Diplomas",deg_sub:"Degree Program",dip_sub:"Diploma Program",
+ sec_news:"Announcements",sec_dl:"Downloads & Resources",sec_faq:"Frequently Asked Questions",dl_down:"Download PDF",dl_btn:"Request on WhatsApp",dl_fill:"Fill Online",af_card:"Fill the admission form online — type your details, tick your program, and download the filled form as a PDF.",af_btn:"📝 Fill Admission Form",
+ sec_gallery:"Gallery",gal_sub:"Tap any photo to view it full size.",
+ sec_contact:"Contact Us",addr_l:"Address:",addr_v:"Battagram Bypass, Peshawar Road, Shabqadar",
+ ph_l:"Phone:",em_l:"Email:",hr_l:"Timing:",hr_v:"Mon – Sat: 7:30 AM – 6:00 PM · Sun: Closed",
+ openmaps:"Open in Google Maps",
+ 
+ f_link_t:"Quick Links",f_rights:"© 2026 Khalil Institute. All rights reserved.",foot:"Developed by",
+ view:"View details →",back:"← All programs",about:"About this program",scope:"Career Scope",
+ proof:"✔ Verification Proof",dur:"Duration",elig:"Eligibility",askwa:"Ask on WhatsApp",
+ fee_moved:"The complete fee for each program is shown on its program page (see Programs). Installment plans are available — contact the admin office. Scholarships for meritorious students.",
+ fee_t:"Fee Structure",fee_adm:"Admission Fee (one-time)",fee_tui:"Tuition Fee (per semester)",
+ fee_dis:"As per the institute's published fee schedule — please confirm with the admin office.",
+ card_view:"View Details",
+ sec_clinical:"Clinical / Practical Training",
+ clinical_t:"Along with classroom learning, every student gets hands-on practical training — in the nursing skill lab, diagnostic laboratories, hospital wards and community health settings.",
+ hosp_t:"Affiliated Hospitals for Clinical Training",
+ fb_more:"More updates on Facebook →",
+},
+ur:{
+ brand:"خلیل انسٹیٹیوٹ",brandsub:"نرسنگ و الائیڈ ہیلتھ سائنسز • شبقدر",
+ nav_home:"ہوم",nav_programs:"پروگرامز",nav_about:"تعارف",nav_admissions:"داخلے",nav_gallery:"گیلری",nav_contact:"رابطہ",
+ hero_title:"خلیل انسٹیٹیوٹ آف نرسنگ اینڈ الائیڈ ہیلتھ سائنسز",
+ hero_sub:"شبقدر، چارسدہ میں پی این سی سے تصدیق شدہ نرسنگ ڈپلومے اور کے پی پیرامیڈیکل پروگرامز۔",
+ notice:"داخلے جاری ہیں 2026 — ایل ایچ وی، سی این اے، بی ایس این اور پیرامیڈیکل ڈپلومے · محدود نشستیں، ابھی رابطہ کریں!",
+ trust_title:"✔ باضابطہ تسلیم شدہ",trust_kpmf:"کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز",
+ trust_note:"ہر پروگرام کے صفحے کے آخر میں تصدیق کا ثبوت منسلک ہے۔",
+ sec_accr:"تسلیم کنندہ ادارے",
+ st_prog:"پیش کردہ پروگرامز",st_fac:"ماہر اساتذہ",st_verified:"تصدیق شدہ ڈپلومے",
+ sec_featured:"نمایاں پروگرامز",dl_close:"داخلے کی آخری تاریخ",learn_t:"آپ کیا سیکھیں گے",sec_appl:"آن لائن درخواست",ap_full:"پورا نام",ap_father:"والد کا نام",ap_cnic:"شناختی کارڈ / ب فارم نمبر",ap_phone:"موبائل نمبر",ap_wa:"واٹس ایپ نمبر (اگر مختلف ہو)",ap_email:"ای میل (اختیاری)",ap_prog:"پروگرام منتخب کریں",ap_qual:"آخری تعلیمی قابلیت (مثلاً میٹرک، ایف ایس سی)",ap_addr:"گھر کا پتہ",ap_submit:"درخواست جمع کرائیں",ap_req:"براہ کرم خانے درست کریں: نام کم از کم 3 حروف، درست تاریخ پیدائش (عمر 14+)، شناختی کارڈ 13 ہندسے، موبائل 11 ہندسے 03 سے شروع، درست ای میل، پتہ کم از کم 10 حروف، نمبرات 0-100، درست پاسنگ سال۔",ap_ok:"درخواست بھیج دی گئی! آپ کی تفصیل واٹس ایپ پر موصول ہو گئی۔",ap_ref:"آپ کا ریفرنس نمبر",ap_pay:"نشست کنفرم کرنے کے لیے 24 گھنٹوں میں داخلہ فیس بھیجیں۔",ap_payno:"ادارے نے ابھی آن لائن ادائیگی کے نمبر شائع نہیں کیے \u2014 ادائیگی کی تفصیل کے لیے واٹس ایپ پر پیغام بھیجیں۔",ap_doc:"7 دن کے اندر اپنے دستاویزات جمع کرائیں: واٹس ایپ پر واضح تصاویر بھیجیں یا کیمپس تشریف لائیں۔",ap_new:"نئی درخواست",ap_wa2:"واٹس ایپ دوبارہ کھولیں",sec_personal:"ذاتی معلومات",sec_cinfo:"رابطے کی تفصیل",sec_academic:"تعلیمی ریکارڈ",sec_progsec:"پروگرام کا انتخاب",ap_gender:"صنف",ap_male:"مرد",ap_female:"عورت",ap_dob:"تاریخ پیدائش",ap_district:"ضلع / ڈومیسائل",ap_board:"بورڈ / یونیورسٹی",ap_marks:"حاصل کردہ نمبرات (فیصد)",ap_year:"پاس کرنے کا سال",ap_source:"آپ کو ادارے کا کیسے پتہ چلا؟ (اختیاری)",ap_src_fb:"فیس بک",ap_src_wa:"واٹس ایپ",ap_src_friend:"دوست / رشتہ دار",ap_src_news:"اخبار",ap_src_campus:"کیمپس وزٹ",ap_src_other:"دیگر",ap_dup:"اس شناختی کارڈ سے اس ڈیوائس سے پہلے ہی ایک درخواست جمع ہو چکی ہے (ریفرنس: {ref})۔ کیا نئی درخواست جمع کرائیں؟",dl_days:"دن باقی",dl_today:"آج آخری دن ہے \u2014 ابھی رابطہ کریں!",view_all:"تمام 22 پروگرامز دیکھیں",sec_programs:"تمام پروگرامز",sec_programs_sub:"تفصیل کے لیے کسی پروگرام پر ٹیپ کریں۔",sec_programs_sub2:"تفصیل، فیس اور داخلے کی معلومات کے لیے کسی پروگرام پر ٹیپ کریں۔",
+ sec_why:"خلیل انسٹیٹیوٹ ہی کیوں؟",
+ cta_wa:"واٹس ایپ پر اپلائی کریں",cta_wa2:"واٹس ایپ",cta_call:"کال کریں",explore:"پروگرامز دیکھیں",wa_us:"واٹس ایپ کریں",
+ sec_vision:"وژن اور مشن",vision_t:"وژن",
+ vision_q:"رحم، علم اور خدمت کے جذبے سے سرشار، ہمدرد، ماہر اور بااخلاق نرسنگ پیشہ ور افراد کی نسل تیار کرنا — زندگی کے تقدس کو برقرار رکھنا اور تمام انسانیت کی فلاح کو فروغ دینا۔",
+ mission_t:"ہمارا مشن",
+ sec_lead:"قیادت",sec_lead_sub:"طبی تعلیم میں دہائیوں کے تجربے کی رہنمائی میں۔",
+ sec_faculty:"ہمارے اساتذہ",sec_faculty_sub:"تجربہ کار ڈاکٹرز اور میڈیکل اساتذہ",
+
+
+
+ sec_steps:"داخلے کا طریقہ",lastdate:"داخلے جاری ہیں — آخری تاریخ کے لیے ہم سے رابطہ کریں۔",
+ docs_t:"درکار دستاویزات",docs_note:"اپنے پروگرام کی شرائط کی تصدیق کے لیے انتظامی دفتر سے رابطہ کریں۔",
+ deg_t:"بی ایس پروگرامز",dip_t:"دو سالہ ڈپلومے",deg_sub:"ڈگری پروگرام",dip_sub:"ڈپلومہ پروگرام",
+ sec_news:"اعلانات",sec_dl:"ڈاؤن لوڈز اور وسائل",sec_faq:"اکثر پوچھے گئے سوالات",dl_down:"پی ڈی ایف ڈاؤن لوڈ کریں",dl_btn:"واٹس ایپ پر منگوائیں",dl_fill:"آن لائن پُر کریں",af_card:"داخلہ فارم آن لائن پُر کریں — اپنی تفصیل لکھیں، پروگرام منتخب کریں، اور بھرا ہوا فارم پی ڈی ایف میں ڈاؤن لوڈ کریں۔",af_btn:"📝 داخلہ فارم پُر کریں",
+ sec_gallery:"گیلری",gal_sub:"بڑا دیکھنے کے لیے کسی تصویر پر ٹیپ کریں۔",
+ sec_contact:"رابطہ کریں",addr_l:"پتہ:",addr_v:"بٹگرام بائی پاس، پشاور روڈ، شبقدر",
+ ph_l:"فون:",em_l:"ای میل:",hr_l:"اوقات:",hr_v:"پیر تا ہفتہ: صبح 7:30 تا شام 6:00 · اتوار: بند",
+ openmaps:"گوگل میپس میں کھولیں",
+ 
+ f_link_t:"فوری لنکس",f_rights:"© 2026 خلیل انسٹیٹیوٹ۔ جملہ حقوق محفوظ ہیں۔",foot:"تیار کردہ",
+ view:"تفصیل دیکھیں ←",back:"تمام پروگرامز →",about:"اس پروگرام کے بارے میں",scope:"ملازمت کے مواقع",
+ proof:"✔ تصدیق کا ثبوت",dur:"دورانیہ",elig:"اہلیت",askwa:"واٹس ایپ پر پوچھیں",
+ fee_moved:"ہر پروگرام کی مکمل فیس اس کے اپنے صفحے پر درج ہے (پروگرامز دیکھیں)۔ اقساط کی سہولت دستیاب ہے — انتظامی دفتر سے رابطہ کریں۔ لائق طلبہ کے لیے اسکالرشپس۔",
+ fee_t:"فیس کا شیڈول",fee_adm:"داخلہ فیس (یک مشت)",fee_tui:"ٹیوشن فیس (فی سمسٹر)",
+ fee_dis:"ادارے کے شائع کردہ فیس شیڈول کے مطابق — براہ کرم انتظامیہ سے تصدیق کریں۔",
+ card_view:"تفصیل دیکھیں",
+ sec_clinical:"کلینکل / عملی تربیت",
+ clinical_t:"کلاس روم کی تعلیم کے ساتھ ہر طالب علم کو عملی تربیت بھی دی جاتی ہے — نرسنگ اسکل لیب، ڈائیگناسٹک لیبارٹریز، ہسپتال وارڈز اور کمیونٹی ہیلتھ میں۔",
+ hosp_t:"کلینکل تربیت کے لیے منسلک ہسپتال",
+ fb_more:"فیس بک پر مزید اپڈیٹس →",
+}};
+var PROGRAMS={"lhv": {"img": "images/resource/department-4.jpg", "fee": ["20,000", "5,000"], "en": {"name": "LHV — Lady Health Visitor", "tag": "PNC Verified Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "Training in maternal & child health and community healthcare.", "about": "The Lady Health Visitor diploma trains you in maternal & child health, community healthcare, family planning and basic clinical care — one of the most respected and employable diplomas for women in Pakistan's health sector.", "scope": ["Government & private hospitals", "Basic Health Units (BHU) & Rural Health Centers", "Community health worker roles", "NGO health programs"], "verifier": "Pakistan Nursing & Midwifery Council (PNC)", "vtext": "Khalil Institute is officially listed on the PNC website for LHV, Midwifery and CNA programs.", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "See official PNC listing ↗"}, "ur": {"name": "ایل ایچ وی — لیڈی ہیلتھ وزیٹر", "tag": "پی این سی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "زچہ و بچہ کی صحت اور کمیونٹی ہیلتھ کی تربیت۔", "about": "لیڈی ہیلتھ وزیٹر ڈپلومہ آپ کو زچہ و بچہ کی صحت، کمیونٹی ہیلتھ، فیملی پلاننگ اور بنیادی علاج کی تربیت دیتا ہے — پاکستان میں خواتین کے لیے صحت کے شعبے کی معزز ترین اسناد میں سے ایک۔", "scope": ["سرکاری و نجی ہسپتال", "بنیادی مراکزِ صحت (BHU)", "کمیونٹی ہیلتھ ورکر", "این جی او ہیلتھ پروگرامز"], "verifier": "پاکستان نرسنگ اینڈ مڈوائفری کونسل (PNC)", "vtext": "خلیل انسٹیٹیوٹ پی این سی کی سرکاری ویب سائٹ پر LHV، مڈوائفری اور CNA پروگرامز کے لیے درج ہے۔", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "سرکاری PNC لسٹ دیکھیں ↗"}}, "cna": {"img": "images/resource/department-1.jpg", "fee": ["20,000", "5,000"], "en": {"name": "CNA — Certified Nursing Assistant", "tag": "PNC Verified Diploma", "dur": "2 Years", "elig": "Matric", "short": "Core patient-care skills — the fastest route into a hospital job.", "about": "The Certified Nursing Assistant program gives you the core skills of patient care — assisting nurses and doctors in wards, emergency and clinics. The fastest route into a hospital job.", "scope": ["Hospital wards & emergency departments", "Private clinics & nursing homes", "Home-based patient care", "Pathway to further nursing diplomas"], "verifier": "Pakistan Nursing & Midwifery Council (PNC)", "vtext": "Khalil Institute is officially listed on the PNC website for LHV, Midwifery and CNA programs.", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "See official PNC listing ↗"}, "ur": {"name": "سی این اے — سرٹیفائیڈ نرسنگ اسسٹنٹ", "tag": "پی این سی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک", "short": "مریضوں کی دیکھ بھال کی بنیادی مہارتیں — ہسپتال میں ملازمت کا تیز ترین راستہ۔", "about": "سرٹیفائیڈ نرسنگ اسسٹنٹ پروگرام آپ کو مریضوں کی دیکھ بھال کی بنیادی مہارتیں سکھاتا ہے — وارڈز، ایمرجنسی اور کلینک میں نرسز اور ڈاکٹرز کی معاونت۔ ہسپتال میں ملازمت کا تیز ترین راستہ۔", "scope": ["ہسپتال وارڈز اور ایمرجنسی", "نجی کلینک", "گھر پر مریضوں کی دیکھ بھال", "مزید نرسنگ ڈپلوموں کی بنیاد"], "verifier": "پاکستان نرسنگ اینڈ مڈوائفری کونسل (PNC)", "vtext": "خلیل انسٹیٹیوٹ پی این سی کی سرکاری ویب سائٹ پر LHV، مڈوائفری اور CNA پروگرامز کے لیے درج ہے۔", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "سرکاری PNC لسٹ دیکھیں ↗"}}, "radio": {"img": "images/resource/department-13.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Radiology Technology", "tag": "KP Faculty Verified Diploma", "dur": "2 Years", "elig": "Matric (Science) / FSc", "short": "X-ray & imaging equipment training — high demand everywhere.", "about": "The Radiology Technology diploma trains you to operate X-ray and imaging equipment and assist radiologists — a high-demand skill in every hospital and diagnostic lab.", "scope": ["Hospital radiology departments", "Private diagnostic & imaging labs", "CT / ultrasound centers as assistant technologist", "Further specialization in imaging"], "verifier": "KP Faculty of Paramedical & Allied Health Sciences", "vtext": "Khalil Institute is listed on the official KP Faculty website for Radiology, Anaesthesia, Cardiac, Dental, Health, Pathology and Surgical technologies.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See official Faculty website ↗"}, "ur": {"name": "ریڈیالوجی ٹیکنالوجی", "tag": "کے پی فیکلٹی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس) / ایف ایس سی", "short": "ایکسرے اور امیجنگ مشینوں کی تربیت — ہر جگہ مانگ۔", "about": "ریڈیالوجی ٹیکنالوجی ڈپلومہ آپ کو ایکسرے اور امیجنگ مشینیں چلانے اور ریڈیالوجسٹ کی معاونت کی تربیت دیتا ہے — ہر ہسپتال اور ڈائیگناسٹک لیب میں مانگ والا ہنر۔", "scope": ["ہسپتالوں کے ریڈیالوجی شعبے", "نجی ڈائیگناسٹک لیبز", "سی ٹی / الٹراساؤنڈ سینٹرز", "امیجنگ میں مزید مہارت"], "verifier": "کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز", "vtext": "خلیل انسٹیٹیوٹ کے پی فیکلٹی کی سرکاری ویب سائٹ پر ریڈیالوجی، اینستھیزیا، کارڈک، ڈینٹل، ہیلتھ، پیتھالوجی اور سرجیکل ٹیکنالوجیز کے لیے درج ہے۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "سرکاری فیکلٹی ویب سائٹ دیکھیں ↗"}}, "cmw": {"img": "images/resource/department-3.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Community Midwifery (CMW)", "tag": "PNC Verified Diploma", "dur": "2 Years", "elig": "Matric", "short": "Maternal & newborn care in communities and rural health centers.", "about": "Community Midwifery training prepares you to provide safe maternal and newborn care in villages, Basic Health Units and rural health centers — a vital role in Pakistan's healthcare system.", "scope": ["Basic Health Units (BHU)", "Rural Health Centers", "Community midwife practice"], "verifier": "Pakistan Nursing & Midwifery Council (PNC)", "vtext": "Khalil Institute is officially listed on the PNC website for its nursing programs.", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "See official PNC listing ↗"}, "ur": {"name": "کمیونٹی مڈوائفری (سی ایم ڈبلیو)", "tag": "پی این سی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک", "short": "دیہی مراکزِ صحت میں زچہ و بچہ کی دیکھ بھال۔", "about": "کمیونٹی مڈوائفری کی تربیت آپ کو دیہات، بنیادی مراکزِ صحت اور رورل ہیلتھ سینٹرز میں محفوظ زچگی اور نوزائیدہ بچوں کی دیکھ بھال کے لیے تیار کرتی ہے۔", "scope": ["بنیادی مراکزِ صحت (BHU)", "رورل ہیلتھ سینٹرز", "کمیونٹی مڈوائفری"], "verifier": "پاکستان نرسنگ اینڈ مڈوائفری کونسل (PNC)", "vtext": "خلیل انسٹیٹیوٹ پی این سی کی سرکاری ویب سائٹ پر نرسنگ پروگرامز کے لیے درج ہے۔", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "سرکاری PNC لسٹ دیکھیں ↗"}}, "pharm": {"img": "images/resource/post-thumb-1.jpg", "fee": ["10,000", "4,000"], "en": {"name": "Pharmacy Technician (Category B)", "tag": "Pharmacy Council Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "Licensed training in dispensing and pharmacy management.", "about": "The Pharmacy Technician (Category B) program trains you in medicine dispensing, pharmacy management and drug handling — a licensed qualification for working in pharmacies across Pakistan.", "scope": ["Retail & hospital pharmacies", "Pharmaceutical distribution", "Drug stores as qualified technician"], "verifier": "Pakistan Pharmacy Council", "vtext": "The Category B pharmacy program is recognized by the Pakistan Pharmacy Council, as per the institute's published information.", "vlink": "", "vlabel": ""}, "ur": {"name": "فارمیسی ٹیکنیشن (کیٹیگری بی)", "tag": "فارمیسی کونسل ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "ادویات کی تقسیم اور فارمیسی مینجمنٹ کی لائسنس یافتہ تربیت۔", "about": "فارمیسی ٹیکنیشن (کیٹیگری بی) پروگرام آپ کو ادویات کی تقسیم، فارمیسی مینجمنٹ اور ادویات کی دیکھ بھال کی تربیت دیتا ہے — پاکستان میں فارمیسیوں میں کام کی لائسنس یافتہ اہلیت۔", "scope": ["ریٹیل اور ہسپتال فارمیسیز", "ادویات کی تقسیم", "اہل ٹیکنیشن کے طور پر ڈرگ اسٹورز"], "verifier": "پاکستان فارمیسی کونسل", "vtext": "کیٹیگری بی فارمیسی پروگرام پاکستان فارمیسی کونسل سے تسلیم شدہ ہے، ادارے کی شائع کردہ معلومات کے مطابق۔", "vlink": "", "vlabel": ""}}, "health-dip": {"img": "images/resource/health-2.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Health Technology", "tag": "KP Faculty Verified Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "Primary healthcare, first aid and community health services.", "about": "Health Technology covers primary healthcare, first aid, and community health services — the backbone staff of rural health facilities.", "scope": ["Basic Health Units (BHU)", "Dispensaries & clinics", "Community health programs"], "verifier": "KP Faculty of Paramedical & Allied Health Sciences", "vtext": "Khalil Institute is listed on the official KP Faculty website for paramedical technologies.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See official Faculty website ↗"}, "ur": {"name": "ہیلتھ ٹیکنالوجی", "tag": "کے پی فیکلٹی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "بنیادی طبی سہولت، فرسٹ ایڈ اور کمیونٹی ہیلتھ۔", "about": "ہیلتھ ٹیکنالوجی میں بنیادی طبی سہولت، فرسٹ ایڈ اور کمیونٹی ہیلتھ شامل ہے — دیہی مراکزِ صحت کا بنیادی عملہ۔", "scope": ["بنیادی مراکزِ صحت (BHU)", "ڈسپنسریاں اور کلینک", "کمیونٹی ہیلتھ پروگرامز"], "verifier": "کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز", "vtext": "خلیل انسٹیٹیوٹ کے پی فیکلٹی کی سرکاری ویب سائٹ پر پیرامیڈیکل ٹیکنالوجیز کے لیے درج ہے۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "سرکاری فیکلٹی ویب سائٹ دیکھیں ↗"}}, "physio": {"img": "images/resource/orthopedics.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Physiotherapy Technology", "tag": "KP Faculty Verified Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "Rehabilitation, therapeutic exercise and mobility care.", "about": "Learn rehabilitation techniques, therapeutic exercise and patient mobility care used in hospitals and rehabilitation centers.", "scope": ["Hospital physiotherapy departments", "Rehabilitation centers", "Sports injury clinics"], "verifier": "KP Faculty of Paramedical & Allied Health Sciences", "vtext": "Khalil Institute is listed on the official KP Faculty website for paramedical technologies.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See official Faculty website ↗"}, "ur": {"name": "فزیوتھراپی ٹیکنالوجی", "tag": "کے پی فیکلٹی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "بحالی، علاجی ورزش اور نقل و حرکت کی دیکھ بھال۔", "about": "ہسپتالوں اور بحالی مراکز میں استعمال ہونے والی بحالی کی تکنیکیں، علاجی ورزش اور مریضوں کی نقل و حرکت کی دیکھ بھال سیکھیں۔", "scope": ["ہسپتالوں کے فزیوتھراپی شعبے", "بحالی مراکز", "کھیلوں کی چوٹوں کے کلینک"], "verifier": "کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز", "vtext": "خلیل انسٹیٹیوٹ کے پی فیکلٹی کی سرکاری ویب سائٹ پر پیرامیڈیکل ٹیکنالوجیز کے لیے درج ہے۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "سرکاری فیکلٹی ویب سائٹ دیکھیں ↗"}}, "cardio": {"img": "images/resource/cardialogy.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Cardiology Technology", "tag": "KP Faculty Verified Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "ECG, cardiac monitoring and cardiologist assistance.", "about": "Training in ECG, cardiac monitoring and assisting cardiologists — a specialized skill in high demand at every cardiac center.", "scope": ["Hospital cardiology departments", "Diagnostic centers (ECG/echo)", "Cardiac care units"], "verifier": "KP Faculty of Paramedical & Allied Health Sciences", "vtext": "Khalil Institute is listed on the official KP Faculty website for paramedical technologies.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See official Faculty website ↗"}, "ur": {"name": "کارڈیالوجی ٹیکنالوجی", "tag": "کے پی فیکلٹی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "ای سی جی، دل کی نگرانی اور ماہرِ امراضِ قلب کی معاونت۔", "about": "ای سی جی، دل کی نگرانی اور ماہرِ امراضِ قلب کی معاونت کی تربیت — ہر کارڈک سینٹر میں مانگ والا خصوصی ہنر۔", "scope": ["ہسپتالوں کے کارڈیالوجی شعبے", "ڈائیگناسٹک سینٹرز (ای سی جی/ایکو)", "کارڈک کیئر یونٹس"], "verifier": "کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز", "vtext": "خلیل انسٹیٹیوٹ کے پی فیکلٹی کی سرکاری ویب سائٹ پر پیرامیڈیکل ٹیکنالوجیز کے لیے درج ہے۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "سرکاری فیکلٹی ویب سائٹ دیکھیں ↗"}}, "patho-dip": {"img": "images/resource/department-14.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Pathology Technology", "tag": "KP Faculty Verified Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "Laboratory testing — the foundation of medical diagnosis.", "about": "Learn laboratory testing — blood, urine and sample analysis — the foundation on which every medical diagnosis is built.", "scope": ["Hospital & private laboratories", "Diagnostic centers", "Blood banks"], "verifier": "KP Faculty of Paramedical & Allied Health Sciences", "vtext": "Khalil Institute is listed on the official KP Faculty website for paramedical technologies.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See official Faculty website ↗"}, "ur": {"name": "پیتھالوجی ٹیکنالوجی", "tag": "کے پی فیکلٹی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "لیبارٹری ٹیسٹنگ — طبی تشخیص کی بنیاد۔", "about": "لیبارٹری ٹیسٹنگ سیکھیں — خون، پیشاب اور نمونوں کا تجزیہ — جس پر ہر طبی تشخیص کی بنیاد ہے۔", "scope": ["ہسپتال اور نجی لیبارٹریز", "ڈائیگناسٹک سینٹرز", "بلڈ بینکس"], "verifier": "کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز", "vtext": "خلیل انسٹیٹیوٹ کے پی فیکلٹی کی سرکاری ویب سائٹ پر پیرامیڈیکل ٹیکنالوجیز کے لیے درج ہے۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "سرکاری فیکلٹی ویب سائٹ دیکھیں ↗"}}, "anes-dip": {"img": "images/resource/department-12.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Anesthesia Technology", "tag": "KP Faculty Verified Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "Assisting anesthetists in operation theaters.", "about": "Training to assist anesthetists in operation theaters — a critical and well-respected hospital role.", "scope": ["Operation theaters", "Surgical wards", "Day-care surgical centers"], "verifier": "KP Faculty of Paramedical & Allied Health Sciences", "vtext": "Khalil Institute is listed on the official KP Faculty website for paramedical technologies.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See official Faculty website ↗"}, "ur": {"name": "اینستھیزیا ٹیکنالوجی", "tag": "کے پی فیکلٹی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "آپریشن تھیٹرز میں بے ہوشی کے ماہرین کی معاونت۔", "about": "آپریشن تھیٹرز میں بے ہوشی کے ماہرین کی معاونت کی تربیت — ایک اہم اور باعزت ہسپتال کا کردار۔", "scope": ["آپریشن تھیٹرز", "سرجیکل وارڈز", "ڈے کیئر سرجیکل سینٹرز"], "verifier": "کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز", "vtext": "خلیل انسٹیٹیوٹ کے پی فیکلٹی کی سرکاری ویب سائٹ پر پیرامیڈیکل ٹیکنالوجیز کے لیے درج ہے۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "سرکاری فیکلٹی ویب سائٹ دیکھیں ↗"}}, "surg-dip": {"img": "images/resource/surgery-1.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Surgical Technology", "tag": "KP Faculty Verified Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "Operation-theater assistance and sterilization.", "about": "Learn operation-theater assistance, sterilization techniques and surgical patient care.", "scope": ["Operation theaters", "Surgical wards", "Private surgical hospitals"], "verifier": "KP Faculty of Paramedical & Allied Health Sciences", "vtext": "Khalil Institute is listed on the official KP Faculty website for paramedical technologies.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See official Faculty website ↗"}, "ur": {"name": "سرجیکل ٹیکنالوجی", "tag": "کے پی فیکلٹی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "آپریشن تھیٹر معاونت اور نس بندی۔", "about": "آپریشن تھیٹر معاونت، نس بندی کی تکنیکیں اور سرجیکل مریضوں کی دیکھ بھال سیکھیں۔", "scope": ["آپریشن تھیٹرز", "سرجیکل وارڈز", "نجی سرجیکل ہسپتال"], "verifier": "کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز", "vtext": "خلیل انسٹیٹیوٹ کے پی فیکلٹی کی سرکاری ویب سائٹ پر پیرامیڈیکل ٹیکنالوجیز کے لیے درج ہے۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "سرکاری فیکلٹی ویب سائٹ دیکھیں ↗"}}, "dialysis": {"img": "images/resource/health-1.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Dialysis Technology", "tag": "KP Faculty Verified Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "Dialysis machines and kidney-patient care.", "about": "Specialized training in dialysis machines and kidney-patient care — a growing field with rising demand in every city.", "scope": ["Dialysis centers", "Hospital nephrology departments", "Kidney care clinics"], "verifier": "KP Faculty of Paramedical & Allied Health Sciences", "vtext": "Khalil Institute is listed on the official KP Faculty website for paramedical technologies.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See official Faculty website ↗"}, "ur": {"name": "ڈائیلیسز ٹیکنالوجی", "tag": "کے پی فیکلٹی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "ڈائیلیسز مشینیں اور گردوں کے مریضوں کی دیکھ بھال۔", "about": "ڈائیلیسز مشینوں اور گردوں کے مریضوں کی دیکھ بھال کی خصوصی تربیت — ہر شہر میں بڑھتی مانگ والا شعبہ۔", "scope": ["ڈائیلیسز سینٹرز", "ہسپتالوں کے نیفرالوجی شعبے", "گردوں کی دیکھ بھال کے کلینک"], "verifier": "کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز", "vtext": "خلیل انسٹیٹیوٹ کے پی فیکلٹی کی سرکاری ویب سائٹ پر پیرامیڈیکل ٹیکنالوجیز کے لیے درج ہے۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "سرکاری فیکلٹی ویب سائٹ دیکھیں ↗"}}, "dental-dip": {"img": "images/resource/teeth-after.jpg", "fee": ["20,000", "5,000"], "en": {"name": "Dental Technology", "tag": "KP Faculty Verified Diploma", "dur": "2 Years", "elig": "Matric (Science)", "short": "Dental assistance, hygiene and clinic procedures.", "about": "Training in dental assistance, oral hygiene and clinic procedures alongside qualified dentists.", "scope": ["Dental clinics & hospitals", "Orthodontic centers", "Dental laboratories"], "verifier": "KP Faculty of Paramedical & Allied Health Sciences", "vtext": "Khalil Institute is listed on the official KP Faculty website for paramedical technologies.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See official Faculty website ↗"}, "ur": {"name": "ڈینٹل ٹیکنالوجی", "tag": "کے پی فیکلٹی تصدیق شدہ ڈپلومہ", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "دندان سازی معاونت، صفائی اور کلینک کے طریقے۔", "about": "اہل دندان سازوں کے ساتھ دندان سازی معاونت، منہ کی صفائی اور کلینک کے طریقوں کی تربیت۔", "scope": ["ڈینٹل کلینک اور ہسپتال", "آرتھوڈانٹک سینٹرز", "ڈینٹل لیبارٹریز"], "verifier": "کے پی فیکلٹی آف پیرامیڈیکل اینڈ الائیڈ ہیلتھ سائنسز", "vtext": "خلیل انسٹیٹیوٹ کے پی فیکلٹی کی سرکاری ویب سائٹ پر پیرامیڈیکل ٹیکنالوجیز کے لیے درج ہے۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "سرکاری فیکلٹی ویب سائٹ دیکھیں ↗"}}, "bsn": {"img": "images/resource/department-2.jpg", "fee": ["100,000", "120,000"], "en": {"name": "Generic BSN", "tag": "PNC Degree Program", "dur": "4 Years", "elig": "FSc (Pre-Medical)", "short": "The premier 4-year nursing degree.", "about": "The 4-year Bachelor of Science in Nursing — the premier nursing degree for professional registered nursing careers in Pakistan and abroad.", "scope": ["Registered nurse in hospitals", "Nursing education & teaching", "Opportunities abroad"], "verifier": "Pakistan Nursing & Midwifery Council (PNC)", "vtext": "Khalil Institute is officially listed on the PNC website for its nursing programs.", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "See official PNC listing ↗"}, "ur": {"name": "Generic BSN", "tag": "پی این سی ڈگری پروگرام", "dur": "4 سال", "elig": "ایف ایس سی (پری میڈیکل)", "short": "4 سالہ اعلیٰ نرسنگ ڈگری۔", "about": "4 سالہ بیچلر آف سائنس ان نرسنگ — پاکستان اور بیرون ملک پیشہ ور نرسنگ کیریئر کے لیے اعلیٰ ترین نرسنگ ڈگری۔", "scope": ["ہسپتالوں میں رجسٹرڈ نرس", "نرسنگ تعلیم و تدریس", "بیرون ملک مواقع"], "verifier": "پاکستان نرسنگ اینڈ مڈوائفری کونسل (PNC)", "vtext": "خلیل انسٹیٹیوٹ پی این سی کی سرکاری ویب سائٹ پر نرسنگ پروگرامز کے لیے درج ہے۔", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "سرکاری PNC لسٹ دیکھیں ↗"}}, "postrn": {"img": "images/resource/department-3.jpg", "fee": ["30,000", "50,000"], "en": {"name": "Post RN BSN", "tag": "PNC Degree Program", "dur": "2 Years", "elig": "Registered Nurse (RN)", "short": "Upgrade your nursing diploma to a degree.", "about": "A 2-year degree program for registered nurses to upgrade their nursing diploma to a bachelor's degree.", "scope": ["Senior nursing positions", "Nursing administration", "Specialized clinical roles"], "verifier": "Pakistan Nursing & Midwifery Council (PNC)", "vtext": "Khalil Institute is officially listed on the PNC website for its nursing programs.", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "See official PNC listing ↗"}, "ur": {"name": "Post RN BSN", "tag": "پی این سی ڈگری پروگرام", "dur": "2 سال", "elig": "رجسٹرڈ نرس (RN)", "short": "نرسنگ ڈپلومے کو ڈگری میں اپ گریڈ کریں۔", "about": "رجسٹرڈ نرسز کے لیے 2 سالہ ڈگری پروگرام — اپنے نرسنگ ڈپلومے کو بیچلر ڈگری میں اپ گریڈ کریں۔", "scope": ["سینئر نرسنگ عہدے", "نرسنگ انتظامیہ", "خصوصی کلینکل کردار"], "verifier": "پاکستان نرسنگ اینڈ مڈوائفری کونسل (PNC)", "vtext": "خلیل انسٹیٹیوٹ پی این سی کی سرکاری ویب سائٹ پر نرسنگ پروگرامز کے لیے درج ہے۔", "vlink": "https://online.pnmc.gov.pk/institute/all", "vlabel": "سرکاری PNC لسٹ دیکھیں ↗"}}, "bs-health": {"img": "images/resource/health-2.jpg", "fee": ["25,000", "40,000"], "en": {"name": "BS Health Technology", "tag": "BS Degree Program", "dur": "4 Years", "elig": "FSc (Pre-Medical)", "short": "4-year degree in health sciences & technology.", "about": "A 4-year bachelor's degree combining theory, lab work and clinical rotations — preparing professional health technologists.", "scope": ["Hospitals & health departments", "Diagnostic services", "Public health programs"], "verifier": "KP Medical Faculty", "vtext": "BS programs are offered under affiliation with the KP Medical Faculty, as per the institute's published information.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See Faculty website ↗"}, "ur": {"name": "بی ایس ہیلتھ ٹیکنالوجی", "tag": "بی ایس ڈگری پروگرام", "dur": "4 سال", "elig": "ایف ایس سی (پری میڈیکل)", "short": "ہیلتھ سائنسز میں 4 سالہ ڈگری۔", "about": "4 سالہ بیچلر ڈگری — نظریہ، لیب اور کلینکل تربیت کے ساتھ پیشہ ور ہیلتھ ٹیکنالوجسٹ تیار کرتی ہے۔", "scope": ["ہسپتال اور محکمہ صحت", "ڈائیگناسٹک سروسز", "پبلک ہیلتھ پروگرامز"], "verifier": "کے پی میڈیکل فیکلٹی", "vtext": "بی ایس پروگرامز ادارے کی شائع کردہ معلومات کے مطابق کے پی میڈیکل فیکلٹی سے منسلک ہیں۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "فیکلٹی ویب سائٹ دیکھیں ↗"}}, "bs-dental": {"img": "images/resource/teeth-after.jpg", "fee": ["25,000", "40,000"], "en": {"name": "BS Dental Technology", "tag": "BS Degree Program", "dur": "4 Years", "elig": "FSc (Pre-Medical)", "short": "4-year degree in dental sciences.", "about": "A 4-year bachelor's degree in dental sciences — from dental materials to clinic management.", "scope": ["Dental hospitals & colleges", "Dental technology labs", "Private dental practice"], "verifier": "KP Medical Faculty", "vtext": "BS programs are offered under affiliation with the KP Medical Faculty, as per the institute's published information.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See Faculty website ↗"}, "ur": {"name": "بی ایس ڈینٹل ٹیکنالوجی", "tag": "بی ایس ڈگری پروگرام", "dur": "4 سال", "elig": "ایف ایس سی (پری میڈیکل)", "short": "ڈینٹل سائنسز میں 4 سالہ ڈگری۔", "about": "ڈینٹل سائنسز میں 4 سالہ بیچلر ڈگری — ڈینٹل میٹیریل سے کلینک مینجمنٹ تک۔", "scope": ["ڈینٹل ہسپتال اور کالجز", "ڈینٹل ٹیکنالوجی لیبز", "نجی ڈینٹل پریکٹس"], "verifier": "کے پی میڈیکل فیکلٹی", "vtext": "بی ایس پروگرامز ادارے کی شائع کردہ معلومات کے مطابق کے پی میڈیکل فیکلٹی سے منسلک ہیں۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "فیکلٹی ویب سائٹ دیکھیں ↗"}}, "bs-surg": {"img": "images/resource/surgery-1.jpg", "fee": ["25,000", "40,000"], "en": {"name": "BS Surgical Technology", "tag": "BS Degree Program", "dur": "4 Years", "elig": "FSc (Pre-Medical)", "short": "4-year degree for surgical technologists.", "about": "A 4-year bachelor's degree preparing surgical technologists for operation theaters and trauma care.", "scope": ["Operation theaters", "Surgical departments", "Trauma & emergency centers"], "verifier": "KP Medical Faculty", "vtext": "BS programs are offered under affiliation with the KP Medical Faculty, as per the institute's published information.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See Faculty website ↗"}, "ur": {"name": "بی ایس سرجیکل ٹیکنالوجی", "tag": "بی ایس ڈگری پروگرام", "dur": "4 سال", "elig": "ایف ایس سی (پری میڈیکل)", "short": "سرجیکل ٹیکنالوجسٹ کے لیے 4 سالہ ڈگری۔", "about": "آپریشن تھیٹرز اور ٹراما کیئر کے لیے سرجیکل ٹیکنالوجسٹ تیار کرنے والی 4 سالہ بیچلر ڈگری۔", "scope": ["آپریشن تھیٹرز", "سرجیکل شعبے", "ٹراما اور ایمرجنسی سینٹرز"], "verifier": "کے پی میڈیکل فیکلٹی", "vtext": "بی ایس پروگرامز ادارے کی شائع کردہ معلومات کے مطابق کے پی میڈیکل فیکلٹی سے منسلک ہیں۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "فیکلٹی ویب سائٹ دیکھیں ↗"}}, "bs-anes": {"img": "images/resource/department-12.jpg", "fee": ["25,000", "40,000"], "en": {"name": "BS Anesthesia Technology", "tag": "BS Degree Program", "dur": "4 Years", "elig": "FSc (Pre-Medical)", "short": "4-year degree in anesthesia sciences.", "about": "A 4-year bachelor's degree in anesthesia sciences — a highly specialized and respected clinical field.", "scope": ["Anesthesia departments", "Operation theaters", "Intensive care units"], "verifier": "KP Medical Faculty", "vtext": "BS programs are offered under affiliation with the KP Medical Faculty, as per the institute's published information.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See Faculty website ↗"}, "ur": {"name": "بی ایس اینستھیزیا ٹیکنالوجی", "tag": "بی ایس ڈگری پروگرام", "dur": "4 سال", "elig": "ایف ایس سی (پری میڈیکل)", "short": "اینستھیزیا سائنسز میں 4 سالہ ڈگری۔", "about": "اینستھیزیا سائنسز میں 4 سالہ بیچلر ڈگری — ایک انتہائی خصوصی اور باعزت کلینکل شعبہ۔", "scope": ["اینستھیزیا شعبے", "آپریشن تھیٹرز", "انتہائی نگہداشت یونٹس"], "verifier": "کے پی میڈیکل فیکلٹی", "vtext": "بی ایس پروگرامز ادارے کی شائع کردہ معلومات کے مطابق کے پی میڈیکل فیکلٹی سے منسلک ہیں۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "فیکلٹی ویب سائٹ دیکھیں ↗"}}, "bs-radio": {"img": "images/resource/department-13.jpg", "fee": ["25,000", "40,000"], "en": {"name": "BS Radiology Technology", "tag": "BS Degree Program", "dur": "4 Years", "elig": "FSc (Pre-Medical)", "short": "4-year degree in medical imaging.", "about": "A 4-year bachelor's degree in medical imaging — X-ray, CT, MRI and ultrasound technologies.", "scope": ["Radiology departments", "Imaging centers", "CT / MRI units"], "verifier": "KP Medical Faculty", "vtext": "BS programs are offered under affiliation with the KP Medical Faculty, as per the institute's published information.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See Faculty website ↗"}, "ur": {"name": "بی ایس ریڈیالوجی ٹیکنالوجی", "tag": "بی ایس ڈگری پروگرام", "dur": "4 سال", "elig": "ایف ایس سی (پری میڈیکل)", "short": "میڈیکل امیجنگ میں 4 سالہ ڈگری۔", "about": "میڈیکل امیجنگ میں 4 سالہ بیچلر ڈگری — ایکسرے، سی ٹی، ایم آر آئی اور الٹراساؤنڈ ٹیکنالوجیز۔", "scope": ["ریڈیالوجی شعبے", "امیجنگ سینٹرز", "سی ٹی / ایم آر آئی یونٹس"], "verifier": "کے پی میڈیکل فیکلٹی", "vtext": "بی ایس پروگرامز ادارے کی شائع کردہ معلومات کے مطابق کے پی میڈیکل فیکلٹی سے منسلک ہیں۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "فیکلٹی ویب سائٹ دیکھیں ↗"}}, "bs-patho": {"img": "images/resource/department-14.jpg", "fee": ["25,000", "40,000"], "en": {"name": "BS Pathology Technology", "tag": "BS Degree Program", "dur": "4 Years", "elig": "FSc (Pre-Medical)", "short": "4-year degree in laboratory sciences.", "about": "A 4-year bachelor's degree in laboratory sciences — the science behind every diagnosis.", "scope": ["Medical laboratories", "Research labs", "Blood banks"], "verifier": "KP Medical Faculty", "vtext": "BS programs are offered under affiliation with the KP Medical Faculty, as per the institute's published information.", "vlink": "https://kpmf.edu.pk/", "vlabel": "See Faculty website ↗"}, "ur": {"name": "بی ایس پیتھالوجی ٹیکنالوجی", "tag": "بی ایس ڈگری پروگرام", "dur": "4 سال", "elig": "ایف ایس سی (پری میڈیکل)", "short": "لیبارٹری سائنسز میں 4 سالہ ڈگری۔", "about": "لیبارٹری سائنسز میں 4 سالہ بیچلر ڈگری — ہر تشخیص کے پیچھے کی سائنس۔", "scope": ["میڈیکل لیبارٹریز", "تحقیقی لیبز", "بلڈ بینکس"], "verifier": "کے پی میڈیکل فیکلٹی", "vtext": "بی ایس پروگرامز ادارے کی شائع کردہ معلومات کے مطابق کے پی میڈیکل فیکلٹی سے منسلک ہیں۔", "vlink": "https://kpmf.edu.pk/", "vlabel": "فیکلٹی ویب سائٹ دیکھیں ↗"}}, "fsc": {"img": "images/resource/department-3.jpg", "fee": ["5,000", "3,000"], "en": {"name": "FSc (Pre-Medical)", "tag": "BISEP Affiliated", "dur": "2 Years", "elig": "Matric (Science)", "short": "The foundation for all medical careers.", "about": "FSc Pre-Medical — the essential foundation for MBBS, BSN, BS technologies and medical diplomas, affiliated with BISEP Peshawar.", "scope": ["MBBS / BDS entry", "BSN & BS technologies", "Medical & nursing diplomas"], "verifier": "BISEP Peshawar", "vtext": "The FSc program is affiliated with the Board of Intermediate & Secondary Education, Peshawar.", "vlink": "", "vlabel": ""}, "ur": {"name": "ایف ایس سی (پری میڈیکل)", "tag": "BISEP سے منسلک", "dur": "2 سال", "elig": "میٹرک (سائنس)", "short": "تمام طبی کیریئرز کی بنیاد۔", "about": "ایف ایس سی پری میڈیکل — ایم بی بی ایس، بی ایس این، بی ایس ٹیکنالوجیز اور میڈیکل ڈپلوموں کے لیے لازمی بنیاد، بورڈ آف انٹرمیڈیٹ و سیکنڈری ایجوکیشن پشاور سے منسلک۔", "scope": ["ایم بی بی ایس / بی ڈی ایس میں داخلہ", "بی ایس این اور بی ایس ٹیکنالوجیز", "میڈیکل و نرسنگ ڈپلومے"], "verifier": "بورڈ آف انٹرمیڈیٹ و سیکنڈری ایجوکیشن پشاور", "vtext": "ایف ایس سی پروگرام بورڈ آف انٹرمیڈیٹ و سیکنڈری ایجوکیشن پشاور سے منسلک ہے۔", "vlink": "", "vlabel": ""}}};
+var WHY={en:[
+ ["Verified Diplomas","Every program recognized by its official council — proof linked on each page."],
+ ["Practical Training","Hands-on clinical and lab training for real healthcare jobs."],
+ ["Experienced Faculty","Qualified doctors and medical educators."],
+ ["Scholarships","Merit-based scholarships announced regularly."]],
+ur:[
+ ["تصدیق شدہ ڈپلومے","ہر پروگرام سرکاری کونسل سے تسلیم شدہ — ثبوت ہر صفحے پر۔"],
+ ["عملی تربیت","حقیقی ملازمتوں کے لیے کلینکل اور لیب کی تربیت۔"],
+ ["تجربہ کار اساتذہ","اہل ڈاکٹرز اور میڈیکل اساتذہ۔"],
+ ["اسکالرشپس","میرٹ پر اسکالرشپس کا باقاعدہ اعلان۔"]]};
+var FACULTY=[
+ ["Mr. Sohail Farooq","Lecturer — Biology",IMG+"muhammad_shoaib.jpeg"],
+ ["Mr. Rahat Rehman","Lecturer — Pathology",IMG+"rahat.jpeg"],
+ ["Dr. Ibrar Ahmad","Lecturer — Pharm D",IMG+"ibrar_ahmad.jpeg"],
+ ["Mr. Abdul Wahid","Lecturer — BSN",IMG+"abdul_wahid.jpeg"],
+ ["Mr. Shah Khalid","Lecturer — English",IMG+"shah_khalid.jpeg"],
+ ["Mr. Altaf Falak","Lecturer — Computer Science",IMG+"altaf_falak.jpeg"],
+ ["Mr. Shafi Ullah","Lecturer — Urdu & Pak Study",IMG+"sahifi_ullah.jpeg"]];
+var ACCR=[["Pakistan Nursing & Midwifery Council, Islamabad","پاکستان نرسنگ اینڈ مڈوائفری کونسل، اسلام آباد"],["KP Medical Faculty","کے پی میڈیکل فیکلٹی"],["Pakistan Pharmacy Council, Islamabad","پاکستان فارمیسی کونسل، اسلام آباد"],["BISEP Peshawar","بورڈ آف انٹرمیڈیٹ و سیکنڈری ایجوکیشن پشاور"],["TTB Khyber Pakhtunkhwa","ٹی ٹی بی خیبر پختونخوا"]];
+var MISSION={en:["Serve with compassion — care for patients with kindness and dignity.","Pursue knowledge — advance healthcare through learning and wisdom.","Justice and equity — fair, inclusive care for everyone.","Ethical leadership — honesty, humility and service.","Stronger communities — contribute to society's health and well-being."],
+ur:["ہمدردی کے ساتھ خدمت — شفقت اور عزت کے ساتھ مریضوں کی دیکھ بھال۔","علم کا حصول — سیکھنے اور دانائی سے صحت کی ترقی۔","انصاف اور مساوات — سب کے لیے منصفانہ اور جامع دیکھ بھال۔","اخلاقی قیادت — ایمانداری، عاجزی اور خدمت۔","مضبوط کمیونٹی — معاشرے کی صحت و فلاح میں حصہ۔"]};
+var STEPS={en:["Fill the online application form below — you will get a reference ID on WhatsApp.","Pay the admission fee within 24 hours to confirm your seat (details appear after you apply).","Submit your documents within 7 days — send photos on WhatsApp or visit the campus."],
+ur:["نیچے آن لائن درخواست فارم پُر کریں — آپ کو واٹس ایپ پر ریفرنس نمبر ملے گا۔","نشست کنفرم کرنے کے لیے 24 گھنٹوں میں داخلہ فیس بھیجیں (ادائیگی کی تفصیل درخواست کے بعد نظر آئے گی)۔","7 دن کے اندر اپنے دستاویزات جمع کرائیں — واٹس ایپ پر تصاویر بھیجیں یا کیمپس تشریف لائیں۔"]};
+var DOCS={en:["Matric / FSc certificates","CNIC or B-Form copy","4 passport-size photographs"],
+ur:["میٹرک / ایف ایس سی اسناد","شناختی کارڈ یا ب فارم کی کاپی","4 پاسپورٹ سائز تصاویر"]};
+var CLIN={en:["Nursing skill lab practice","Hospital ward rotations","Diagnostic lab training","Community health visits"],
+ur:["نرسنگ اسکل لیب میں مشق","ہسپتال وارڈز میں راؤنڈز","ڈائیگناسٹک لیب کی تربیت","کمیونٹی ہیلتھ وزٹس"]};
+var HOSP={en:["THQ Hospital, Shabqadar","DHQ Hospital, Charsadda","Alkhidmat Hospital"],
+ur:["ٹی ایچ کیو ہسپتال، شبقدر","ڈی ایچ کیو ہسپتال، چارسدہ","الخدمت ہسپتال"]};
+var LEADERS=[
+ {img:IMG+"ceo.jpeg",name:"Rahat Shah Afridi",role:["Chief Executive Officer","چیف ایگزیکٹو آفیسر"],
+  bio:["Founder of the institute with over 20 years of experience in medical education and healthcare leadership — committed to transforming healthcare education in Pakistan.",
+  "طبی تعلیم اور ہیلتھ کیئر قیادت میں 20 سال سے زائد تجربے کے حامل ادارے کے بانی — پاکستان میں صحت کی تعلیم کو بدلنے کے لیے پرعزم۔"]},
+ {img:IMG+"ceo-image.jpeg",name:"Mr. Rahat Sher",role:["Managing Director","مینجنگ ڈائریکٹر"],
+  bio:["Managing Director overseeing academics, faculty and daily operations — ensuring quality education and training across every program.",
+  "مینجنگ ڈائریکٹر — تعلیمی امور، اساتذہ اور روزمرہ انتظامیہ کی نگرانی؛ ہر پروگرام میں معیاری تعلیم و تربیت کو یقینی بناتے ہیں۔"]}];
+var DEGREES=["bsn","postrn","bs-health","bs-dental","bs-surg","bs-anes","bs-radio","bs-patho"];
+var DIPLOMAS=["lhv","cna","cmw","pharm","health-dip","physio","cardio","patho-dip","anes-dip","radio","surg-dip","dialysis","dental-dip","fsc"];
+var NEWS=[
+ ["Oct 2026","اکتوبر 2026","Admissions open for session 2026-27 — BS Programs, LHV, CNA, CMW, Medical Diplomas, Pharmacy B, Ultrasound & FSc. Limited seats!","داخلے جاری ہیں سیشن 2026-27 — بی ایس پروگرامز، ایل ایچ وی، سی این اے، سی ایم ڈبلیو، میڈیکل ڈپلومے، فارمیسی بی، الٹراساؤنڈ اور ایف ایس سی۔ محدود نشستیں!"],
+ ["May 2026","مئی 2026","Job opportunity for Health Diploma Holders — announced on our Facebook page.","ہیلتھ ڈپلومہ ہولڈرز کے لیے ملازمت کا موقع — ہمارے فیس بک پیج پر اعلان۔"],
+ ["May 2026","مئی 2026","Scholarship test held for Medical, Nursing, FSc, Pharmacy & Ultrasound programs.","میڈیکل، نرسنگ، ایف ایس سی، فارمیسی اور الٹراساؤنڈ پروگرامز کے لیے اسکالرشپ ٹیسٹ منعقد ہوا۔"]];
+var FAQ={en:[
+["Are the diplomas and degrees recognized?","Yes. Nursing programs are recognized by the Pakistan Nursing \u0026 Midwifery Council (PNC), paramedical diplomas by the KP Medical Faculty, Pharmacy by the Pakistan Pharmacy Council, and FSc by BISE Peshawar. Verification proof is linked at the bottom of every program page."],
+["How much is the fee?","Every program page shows the full fee: a one-time admission fee plus tuition per semester. Please confirm the latest figures with the admin office on WhatsApp."],
+["How do I apply?","Discuss your program on WhatsApp or call first, then visit the campus with your fee and documents \u2014 admission is completed physically at the institute."],
+["What documents do I need?","Matric / FSc certificates, CNIC or B-Form copy, and 4 passport-size photographs. Confirm program-specific requirements with the admin office."],
+["Where is the institute located?","Battagram Bypass, Peshawar Road, Shabqadar (District Charsadda). See the map on the Contact page."],
+["Are scholarships available?","Yes \u2014 merit-based scholarships are announced regularly. Watch the announcements section and our Facebook page."]],
+ur:[
+["\u06a9\u06cc\u0627 \u0688\u067e\u0644\u0648\u0645\u06d2 \u0627\u0648\u0631 \u0688\u06af\u0631\u06cc\u0627\u06ba \u062a\u0633\u0644\u06cc\u0645 \u0634\u062f\u06c1 \u06c1\u06cc\u06ba\u061f","\u062c\u06cc \u06c1\u0627\u06ba\u06d4 \u0646\u0631\u0633\u0646\u06af \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u0646\u0631\u0633\u0646\u06af \u0627\u06cc\u0646\u0688 \u0645\u0688\u0648\u0627\u0626\u0641\u0631\u06cc \u06a9\u0648\u0646\u0633\u0644 \u0633\u06d2\u060c \u067e\u06cc\u0631\u0627\u0645\u06cc\u0688\u06cc\u06a9\u0644 \u0688\u067e\u0644\u0648\u0645\u06d2 \u06a9\u06d2 \u067e\u06cc \u0645\u06cc\u0688\u06cc\u06a9\u0644 \u0641\u06cc\u06a9\u0644\u0679\u06cc\u060c \u0641\u0627\u0631\u0645\u06cc\u0633\u06cc \u067e\u0627\u06a9\u0633\u062a\u0627\u0646 \u0641\u0627\u0631\u0645\u06cc\u0633\u06cc \u06a9\u0648\u0646\u0633\u0644 \u0627\u0648\u0631 \u0627\u06cc\u0641 \u0627\u06cc\u0633 \u0633\u06cc \u0628\u0648\u0631\u0688 \u067e\u0634\u0627\u0648\u0631 \u0633\u06d2 \u062a\u0633\u0644\u06cc\u0645 \u0634\u062f\u06c1 \u06c1\u06cc\u06ba\u06d4 \u06c1\u0631 \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u06a9\u06d2 \u0635\u0641\u062d\u06d2 \u06a9\u06d2 \u0646\u06cc\u0686\u06d2 \u062a\u0635\u062f\u06cc\u0642 \u06a9\u0627 \u062b\u0628\u0648\u062a \u0645\u0648\u062c\u0648\u062f \u06c1\u06d2\u06d4"],
+["\u0641\u06cc\u0633 \u06a9\u062a\u0646\u06cc \u06c1\u06d2\u061f","\u06c1\u0631 \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u06a9\u06d2 \u0635\u0641\u062d\u06d2 \u067e\u0631 \u0645\u06a9\u0645\u0644 \u0641\u06cc\u0633 \u062f\u0631\u062c \u06c1\u06d2\u06d4 \u062a\u0627\u0632\u06c1 \u062a\u0631\u06cc\u0646 \u0641\u06cc\u0633 \u06a9\u06cc \u0627\u0646\u062a\u0638\u0627\u0645\u06cc\u06c1 \u0633\u06d2 \u0648\u0627\u0679\u0633 \u0627\u06cc\u067e \u067e\u0631 \u062a\u0635\u062f\u06cc\u0642 \u06a9\u0631\u06cc\u06ba\u06d4"],
+["\u062f\u0627\u062e\u0644\u06c1 \u06a9\u06cc\u0633\u06d2 \u0644\u0648\u06ba\u061f","\u067e\u06c1\u0644\u06d2 \u0648\u0627\u0679\u0633 \u0627\u06cc\u067e \u06cc\u0627 \u06a9\u0627\u0644 \u067e\u0631 \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u0688\u0633\u06a9\u0633 \u06a9\u0631\u06cc\u06ba\u060c \u067e\u06be\u0631 \u0641\u06cc\u0633 \u0627\u0648\u0631 \u06a9\u0627\u063a\u0630\u0627\u062a \u06a9\u06d2 \u0633\u0627\u062a\u06be \u06a9\u06cc\u0645\u067e\u0633 \u062a\u0634\u0631\u06cc\u0641 \u0644\u0627\u0626\u06cc\u06ba \u2014 \u062f\u0627\u062e\u0644\u06c1 \u0627\u062f\u0627\u0631\u06d2 \u0645\u06cc\u06ba \u0622 \u06a9\u0631 \u0645\u06a9\u0645\u0644 \u06c1\u0648\u062a\u0627 \u06c1\u06d2\u06d4"],
+["\u06a9\u0648\u0646 \u0633\u06d2 \u06a9\u0627\u063a\u0630\u0627\u062a \u062f\u0631\u06a9\u0627\u0631 \u06c1\u06cc\u06ba\u061f","\u0645\u06cc\u0679\u0631\u06a9 / \u0627\u06cc\u0641 \u0627\u06cc\u0633 \u0633\u06cc \u0627\u0633\u0646\u0627\u062f\u060c \u0634\u0646\u0627\u062e\u062a\u06cc \u06a9\u0627\u0631\u0688 \u06cc\u0627 \u0628 \u0641\u0627\u0631\u0645 \u06a9\u06cc \u06a9\u0627\u067e\u06cc\u060c \u0627\u0648\u0631 4 \u067e\u0627\u0633\u067e\u0648\u0631\u0679 \u0633\u0627\u0626\u0632 \u062a\u0635\u0627\u0648\u06cc\u0631\u06d4 \u0627\u067e\u0646\u06d2 \u067e\u0631\u0648\u06af\u0631\u0627\u0645 \u06a9\u06cc \u0645\u062e\u0635\u0648\u0635 \u0634\u0631\u0627\u0626\u0637 \u0627\u0646\u062a\u0638\u0627\u0645\u06cc\u06c1 \u0633\u06d2 \u06a9\u0646\u0641\u0631\u0645 \u06a9\u0631\u06cc\u06ba\u06d4"],
+["\u0627\u062f\u0627\u0631\u06c1 \u06a9\u06c1\u0627\u06ba \u0648\u0627\u0642\u0639 \u06c1\u06d2\u061f","\u0628\u0679\u06af\u0631\u0627\u0645 \u0628\u0627\u0626\u06cc \u067e\u0627\u0633\u060c \u067e\u0634\u0627\u0648\u0631 \u0631\u0648\u0688\u060c \u0634\u0628\u0642\u062f\u0631 (\u0636\u0644\u0639 \u0686\u0627\u0631\u0633\u062f\u06c1)\u06d4 \u0631\u0627\u0628\u0637\u06c1 \u0635\u0641\u062d\u06d2 \u067e\u0631 \u0646\u0642\u0634\u06c1 \u062f\u06cc\u06a9\u06be\u06cc\u06ba\u06d4"],
+["\u06a9\u06cc\u0627 \u0648\u0638\u0627\u0626\u0641 (\u0627\u0633\u06a9\u0627\u0644\u0631\u0634\u067e) \u0645\u0644\u062a\u06d2 \u06c1\u06cc\u06ba\u061f","\u062c\u06cc \u06c1\u0627\u06ba \u2014 \u0645\u06cc\u0631\u0679 \u06a9\u06cc \u0628\u0646\u06cc\u0627\u062f \u067e\u0631 \u0648\u0638\u0627\u0626\u0641 \u06a9\u0627 \u0627\u0639\u0644\u0627\u0646 \u0628\u0627\u0642\u0627\u0639\u062f\u06af\u06cc \u0633\u06d2 \u06c1\u0648\u062a\u0627 \u06c1\u06d2\u06d4 \u0627\u0639\u0644\u0627\u0646\u0627\u062a \u0627\u0648\u0631 \u06c1\u0645\u0627\u0631\u0627 \u0641\u06cc\u0633 \u0628\u06a9 \u067e\u06cc\u062c \u062f\u06cc\u06a9\u06be\u062a\u06d2 \u0631\u06c1\u06cc\u06ba\u06d4"]]};
+var DLS=[["Prospectus","پراسپیکٹس","pdf","docs/prospectus.pdf"],["Course Outlines","نصابی خاکے","wa",""],["Brochure","بروشر","wa",""],["Admission Form","داخلہ فارم","form","admission-form.html"]];
+var ADMIN_KEY='khalil_admin_v1';
+function admLoad(){try{return JSON.parse(localStorage.getItem(ADMIN_KEY))||{}}catch(e){return{}}}
+var ADM=admLoad();
+function admStore(){try{localStorage.setItem(ADMIN_KEY,JSON.stringify(ADM))}catch(e){alert('Storage is full — delete some photos first.')}}
+function admNews(){return ADM.news||NEWS}
+function admGal(){return ADM.gal||GAL}
+function admRender(){
+ var ix=(LANG==='ur')?1:0;
+ document.getElementById('admNews').innerHTML=admNews().map(function(n,i){
+  return '<div class="admrow"><div><b>'+n[0]+'</b><br>'+n[ix+2]+'</div><button class="admdel" onclick="admDelNews('+i+')" aria-label="Delete">\u2715</button></div>'}).join('');
+ document.getElementById('admGal').innerHTML=admGal().map(function(f,i){
+  var s=f.indexOf('data:')===0?f:IMG+f;
+  return '<div class="admph"><img src="'+s+'" alt=""><button class="admdel" onclick="admDelGal('+i+')" aria-label="Delete">\u2715</button></div>'}).join('');
+ var ne=document.getElementById('adNoticeEn'),nu=document.getElementById('adNoticeUr');
+ if(ne&&!ne.value&&ADM.notice)ne.value=ADM.notice.en||'';
+ if(nu&&!nu.value&&ADM.notice)nu.value=ADM.notice.ur||'';
+ var dld=document.getElementById('adDeadline');if(dld)dld.value=ADM.deadline||'';
+ var pj=document.getElementById('adPayJazz'),pe=document.getElementById('adPayEasy'),pp=ADM.pay||{};if(pj)pj.value=pp.jazz||'';if(pe)pe.value=pp.easy||'';
+}
+function admAddNews(){
+ var d=document.getElementById('anDate').value.trim(),e=document.getElementById('anEn').value.trim(),u=document.getElementById('anUr').value.trim();
+ if(!e&&!u){alert('Write the announcement text first.');return}
+ var n=(ADM.news||NEWS.slice()).slice();n.unshift([d||'New',d||'\u0646\u06cc\u0627',e||u,u||e]);
+ ADM.news=n;admStore();admRender();renderExtra();
+ document.getElementById('anDate').value='';document.getElementById('anEn').value='';document.getElementById('anUr').value='';
+}
+function admSaveDeadline(){ADM.deadline=document.getElementById('adDeadline').value||'';admStore();admRender();renderExtra();}
+function admClearDeadline(){ADM.deadline='';admStore();admRender();renderExtra();}
+function admSavePay(){ADM.pay={jazz:document.getElementById('adPayJazz').value.trim(),easy:document.getElementById('adPayEasy').value.trim()};admStore();admRender();}
+function admDelNews(i){if(!confirm('Delete this announcement?'))return;var n=(ADM.news||NEWS.slice()).slice();n.splice(i,1);ADM.news=n;admStore();admRender();renderExtra();}
+function admDelGal(i){if(!confirm('Delete this photo?'))return;var g=(ADM.gal||GAL.slice()).slice();g.splice(i,1);ADM.gal=g;admStore();admRender();initGallery();}
+function admSaveNotice(){
+ ADM.notice={en:document.getElementById('adNoticeEn').value.trim(),ur:document.getElementById('adNoticeUr').value.trim()};
+ admStore();setLang(LANG);alert('Notice saved.');
+}
+function admExport(){
+ var blob=new Blob([JSON.stringify(ADM)],{type:'application/json'});
+ var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='khalil-admin-backup.json';document.body.appendChild(a);a.click();a.remove();
+}
+function admReset(){if(!confirm('Remove ALL your local changes?'))return;ADM={};try{localStorage.removeItem(ADMIN_KEY)}catch(e){}location.reload();}
+function admInit(){
+ document.getElementById('admUp').addEventListener('change',function(e){
+  var f=e.target.files[0];if(!f)return;
+  var img=new Image();
+  img.onload=function(){
+   var mx=1000,sc=Math.min(1,mx/Math.max(img.width,img.height));
+   var c=document.createElement('canvas');c.width=Math.round(img.width*sc);c.height=Math.round(img.height*sc);
+   c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+   var url=c.toDataURL('image/jpeg',0.72);
+   if(url.length>1500000){alert('Photo too large even after compression.');return}
+   var g=(ADM.gal||GAL.slice()).slice();g.push(url);ADM.gal=g;admStore();admRender();initGallery();
+  };
+  var r=new FileReader();r.onload=function(ev){img.src=ev.target.result};r.readAsDataURL(f);e.target.value='';
+ });
+ document.getElementById('admImp').addEventListener('change',function(e){
+  var f=e.target.files[0];if(!f)return;
+  var r=new FileReader();r.onload=function(ev){try{ADM=JSON.parse(ev.target.result);admStore();location.reload()}catch(x){alert('Invalid backup file.')}};r.readAsText(f);e.target.value='';
+ });
+}
+var GAL=["events/grad-stage.jpg","events/grad-medal.jpg","events/grad-audience.jpg","events/grad-vips.jpg","events/grad-guests.jpg","resource/department-2.jpg","resource/department-3.jpg","resource/surgery-1.jpg","resource/orthopedics.jpg","resource/cardialogy.jpg","resource/health-1.jpg","resource/health-2.jpg","resource/department-12.jpg","resource/department-4.jpg","resource/department-14.jpg","resource/teeth-after.jpg","resource/post-thumb-1.jpg"];
+var LANG='en';
+var PAGES=['home','programs','about','admissions','gallery','contact'];
+function setTitle(t){document.title=t+' | Khalil Institute';}
+function setLang(l){
+ LANG=l;document.documentElement.lang=l;document.body.dir=(l==='ur')?'rtl':'ltr';
+ document.getElementById('btnEN').classList.toggle('on',l==='en');
+ document.getElementById('btnUR').classList.toggle('on',l==='ur');
+ var d=T[l];
+ document.querySelectorAll('[data-i]').forEach(function(el){var k=el.getAttribute('data-i');if(d[k]!==undefined)el.textContent=d[k];});
+ if(ADM.notice&&ADM.notice[LANG]){var nn=document.querySelector('#noticeBar span');if(nn)nn.textContent=ADM.notice[LANG];}
+ renderCards();renderWhy();renderFac();renderExtra();renderFaq();watchReveals();
+ var h=(location.hash||'').slice(1),m=h.match(/^program\/(.+)$/);
+ if(m&&PROGRAMS[m[1]])renderDetail(m[1]);
+ try{localStorage.setItem('k_lang',l)}catch(e){}
+}
+function cardHTML(k){
+ var p=PROGRAMS[k][LANG];
+ return '<a class="card" href="#program/'+k+'"><div class="im loading"><img loading="lazy" src="'+PROGRAMS[k].img+'" alt="'+p.name+'" onload="this.parentNode.classList.remove(\'loading\')" onerror="this.parentNode.classList.remove(\'loading\');this.style.display=\'none\'"></div><div class="bd"><span class="tag">'+p.tag+'</span><h3>'+p.name+'</h3><p>'+p.short+' • '+p.dur+'</p><span class="go">'+T[LANG].view+'</span></div></a>';
+}
+function renderCards(){
+ document.getElementById('homeCards').innerHTML=cardHTML('bsn')+cardHTML('lhv')+cardHTML('cna');
+}
+var WICONS=[
+'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>',
+'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>',
+'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 10v6"/></svg>',
+'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13l1.5 8-5-3-5 3 1.5-8"/></svg>'];
+function renderWhy(){
+ document.getElementById('whyGrid').innerHTML=WHY[LANG].map(function(w,i){return '<div class="whyc"><div class="wicon">'+WICONS[i%WICONS.length]+'</div><h3>'+w[0]+'</h3><p>'+w[1]+'</p></div>'}).join('');
+}
+var staffTimer=null;
+function staffCards(){return FACULTY.map(function(f){
+ return '<div class="scard"><div class="sph"><img loading="lazy" src="'+f[2]+'" alt="'+f[0]+'"><span class="sname">'+f[0]+'</span></div><div class="srole">'+f[1]+'</div></div>'}).join('')}
+function renderFac(){
+ var t=document.getElementById('staffTrack');if(!t)return;
+ t.innerHTML=staffCards()+staffCards();staffStart();
+}
+function staffCardW(){var v=document.getElementById('staffView');var c=v?v.querySelector('.scard'):null;return c?c.offsetWidth+14:254}
+function staffStep(){var v=document.getElementById('staffView');if(!v)return;
+ if(v.scrollLeft>=v.scrollWidth/2-10)v.scrollLeft-=v.scrollWidth/2;
+ v.scrollTo({left:v.scrollLeft+staffCardW(),behavior:'smooth'});}
+function staffStart(){staffStop();if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;staffTimer=setInterval(function(){if(!document.hidden)staffStep()},4000)}
+function staffStop(){if(staffTimer){clearInterval(staffTimer);staffTimer=null}}
+document.addEventListener('visibilitychange',function(){if(document.hidden)staffStop();else if(document.getElementById('pg-about').classList.contains('on'))staffStart();});
+function staffGo(d){var v=document.getElementById('staffView');if(!v)return;v.scrollBy({left:d*staffCardW(),behavior:'smooth'});staffStart();}
+var _stx=0,_stl=0,_stdrag=false,_sresume=null;
+function staffBind(){
+ var v=document.getElementById('staffView');if(!v||v._sbound)return;v._sbound=true;
+ v.addEventListener('touchstart',function(e){_stdrag=true;_stx=e.touches[0].clientX;_stl=v.scrollLeft;if(_sresume){clearTimeout(_sresume);_sresume=null;}staffStop();},{passive:true});
+ v.addEventListener('touchmove',function(e){
+  if(!_stdrag)return;
+  v.scrollLeft=_stl+(_stx-e.touches[0].clientX);
+  if(v.scrollLeft>=v.scrollWidth/2){v.scrollLeft-=v.scrollWidth/2;_stl=v.scrollLeft;_stx=e.touches[0].clientX;}
+ },{passive:true});
+ v.addEventListener('touchend',function(){
+  if(!_stdrag)return;_stdrag=false;
+  var w=staffCardW(),pos=Math.round(v.scrollLeft/w)*w;
+  if(pos>=v.scrollWidth/2)pos-=v.scrollWidth/2;
+  v.scrollTo({left:pos,behavior:'smooth'});
+  _sresume=setTimeout(function(){staffStart()},4000);
+ });
+}
+var _swx=null,_swy=0;
+document.addEventListener('touchstart',function(e){
+ if(e.touches.length!==1)return;
+ _swx=e.touches[0].clientX;_swy=e.touches[0].clientY;
+},{passive:true});
+document.addEventListener('touchend',function(e){
+ if(e.changedTouches.length!==1||_swx===null)return;
+ var dx=e.changedTouches[0].clientX-_swx,dy=e.changedTouches[0].clientY-_swy;
+ _swx=null;
+ if(Math.abs(dx)<70||Math.abs(dx)<Math.abs(dy)*1.4)return;
+ var t=e.target;
+ if(t&&t.closest&&(t.closest('#staffView')||t.closest('#lb.open')||t.closest('#pg-admin')||t.closest('nav.tabs')||t.closest('input')||t.closest('textarea')))return;
+ var h=(location.hash||'#home').slice(1),m=h.match(/^program\/(.+)$/);
+ if(m){if(dx>0)location.hash='#programs';return;}
+ if(h.indexOf('admin-khalil')===0)return;
+ var i=PAGES.indexOf(h);if(i<0)i=0;
+ var n=dx<0?i+1:i-1;
+ if(n>=0&&n<PAGES.length&&n!==i)location.hash='#'+PAGES[n];
+},{passive:true});
+function dismissNotice(){try{localStorage.setItem('k_notice','1')}catch(e){}var nb=document.getElementById('noticeBar');if(nb)nb.style.display='none'}
+function waLink(n){return 'https://wa.me/923455561616?text='+encodeURIComponent((LANG==='ur'?'السلام علیکم، مجھے ':'Assalam-o-Alaikum, I want details for ')+n);}
+function renderFaq(){
+ var el=document.getElementById('faqList');if(!el)return;
+ el.innerHTML=FAQ[LANG].map(function(f,i){
+  return '<div class="faqitem"><button onclick="faqToggle('+i+')" aria-expanded="false"><span>'+f[0]+'</span><span class="chev">\u25be</span></button><div class="ans"><p>'+f[1]+'</p></div></div>'}).join('');
+}
+function faqToggle(i){
+ var items=document.querySelectorAll('#faqList .faqitem'),it=items[i],was=it.classList.contains('open');
+ items.forEach(function(x){x.classList.remove('open');x.querySelector('.ans').style.maxHeight=null;x.querySelector('button').setAttribute('aria-expanded','false')});
+ if(!was){it.classList.add('open');var a=it.querySelector('.ans');a.style.maxHeight=a.scrollHeight+'px';it.querySelector('button').setAttribute('aria-expanded','true')}
+}
+var MON={en:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],ur:["\u062c\u0646\u0648\u0631\u06cc","\u0641\u0631\u0648\u0631\u06cc","\u0645\u0627\u0631\u0686","\u0627\u067e\u0631\u06cc\u0644","\u0645\u0626\u06cc","\u062c\u0648\u0646","\u062c\u0648\u0644\u0627\u0626\u06cc","\u0627\u06af\u0633\u062a","\u0633\u062a\u0645\u0628\u0631","\u0627\u06a9\u062a\u0648\u0628\u0631","\u0646\u0648\u0645\u0628\u0631","\u062f\u0633\u0645\u0628\u0631"]};
+function fmtDL(iso){var p=iso.split("-");return p[2].replace(/^0/,"")+" "+MON[LANG][+p[1]-1]+" "+p[0];}
+var APWA='https://wa.me/923455561616?text=';
+var APREF="";
+function reopenWa(){var L=LANG==="ur";window.open(APWA+encodeURIComponent((L?"Ref":"Ref")+": "+APREF),"_blank");}
+/* APPLICATIONS DATA MODEL (contract for the future backend)
+   Table: applications | PRIMARY KEY: cnic (13-digit CNIC/B-Form: one active application per person)
+   ref: KIN-YYYY-XXXX (unique human reference). Rules enforced below mirror server-side rules:
+   name/father >=3 chars; gender M|F; dob valid date, age 14-60; cnic exactly 13 digits;
+   phone 11 digits starting 03; email simple-RFC if given; district >=2 chars; addr >=10 chars;
+   qual+board required; marks 0-100; year 1990..current; program required.
+   Client duplicate check uses localStorage "kin_apps" (soft only — the server MUST enforce the PK). */
+function appFormHTML(){var t=T[LANG],L=LANG==="ur",req='<span class="req">*</span>';
+ var opts='<option value="">'+t.ap_prog+'</option>'+DEGREES.concat(DIPLOMAS).map(function(k){return '<option value="'+k+'">'+PROGRAMS[k][LANG].name+'</option>'}).join("");
+ var gopts='<option value="">'+t.ap_gender+'</option><option value="M">'+t.ap_male+'</option><option value="F">'+t.ap_female+'</option>';
+ var sopts='<option value="">'+t.ap_source+'</option>'+["fb","wa","friend","news","campus","other"].map(function(k){return '<option value="'+k+'">'+t["ap_src_"+k]+'</option>'}).join("");
+ function f(id,lb,ph,rq,type){return '<div class="frow"><label for="'+id+'">'+lb+(rq==="1"?" "+req:"")+'</label><input id="'+id+'" '+(type||"")+' placeholder="'+(ph||"")+'"></div>'}
+ function sec(s){return '<h3 style="margin:18px 0 4px;font-size:15px;color:#095e43">'+s+'</h3>'}
+ return '<form onsubmit="return submitApp(event)">'
+ +sec(t.sec_personal)
+ +f("apName",t.ap_full,"","1")+f("apFather",t.ap_father,"","1")
+ +'<div class="frow"><label>'+t.ap_gender+" "+req+'</label><select id="apGender">'+gopts+'</select></div>'
+ +f("apDob",t.ap_dob,"","1",'type="date"')
+ +f("apCnic",t.ap_cnic,"35202-1234567-1","1",'inputmode="numeric"')
+ +sec(t.sec_cinfo)
+ +f("apPhone",t.ap_phone,"0300-1234567","1",'inputmode="tel"')
+ +f("apWa",t.ap_wa,"","0",'inputmode="tel"')
+ +f("apEmail",t.ap_email,"","0",'type="email"')
+ +f("apDistrict",t.ap_district,"","1")
+ +'<div class="frow"><label for="apAddr">'+t.ap_addr+" "+req+'</label><textarea id="apAddr" rows="2"></textarea></div>'
+ +sec(t.sec_academic)
+ +f("apQual",t.ap_qual,"","1")+f("apBoard",t.ap_board,"","1")
+ +f("apMarks",t.ap_marks,"85","1",'inputmode="decimal"')
+ +f("apYear",t.ap_year,"2024","1",'inputmode="numeric"')
+ +sec(t.sec_progsec)
+ +'<div class="frow"><label>'+t.ap_prog+" "+req+'</label><select id="apProg">'+opts+'</select></div>'
+ +'<div class="frow"><label>'+t.ap_source+'</label><select id="apSource">'+sopts+'</select></div>'
+ +'<div id="apErr"></div>'
+ +'<p style="text-align:center"><button class="btn wa" type="submit">'+t.ap_submit+'</button></p></form>';}
+function submitApp(e){e.preventDefault();var t=T[LANG],L=LANG==="ur",Y=new Date().getFullYear();
+ var v=function(id){return document.getElementById(id).value.trim()};
+ var d={name:v("apName"),father:v("apFather"),gender:v("apGender"),dob:v("apDob"),cnic:v("apCnic").replace(/\D/g,""),phone:v("apPhone").replace(/\D/g,""),wa:v("apWa").replace(/\D/g,""),email:v("apEmail"),district:v("apDistrict"),addr:v("apAddr"),qual:v("apQual"),board:v("apBoard"),marks:v("apMarks"),year:v("apYear"),prog:v("apProg"),src:v("apSource")};
+ var em=document.getElementById("apErr"),bad=false;
+ function need(c){if(!c)bad=true}
+ need(d.name.length>=3&&d.father.length>=3);
+ need(d.gender==="M"||d.gender==="F");
+ var ageOk=false;
+ if(/^\d{4}-\d{2}-\d{2}$/.test(d.dob)){var age=Math.floor((Date.now()-new Date(d.dob+"T00:00:00").getTime())/31557600000);ageOk=age>=14&&age<=60;}
+ need(ageOk);
+ need(d.cnic.length===13);
+ need(d.phone.length===11&&d.phone.indexOf("03")===0);
+ need(!d.email||/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(d.email));
+ need(d.district.length>=2);
+ need(d.addr.length>=10);
+ need(!!(d.qual&&d.board));
+ var mk=parseFloat(d.marks);need(!isNaN(mk)&&mk>=0&&mk<=100);
+ need(/^\d{4}$/.test(d.year)&&+d.year>=1990&&+d.year<=Y);
+ need(!!d.prog);
+ if(bad){em.textContent=t.ap_req;em.style.display="";em.scrollIntoView({behavior:"smooth",block:"center"});return false}
+ em.style.display="none";
+ var apps=[];try{apps=JSON.parse(localStorage.getItem("kin_apps")||"[]")}catch(x){apps=[]}
+ var dup=null;for(var i=0;i<apps.length;i++)if(apps[i].cnic===d.cnic)dup=apps[i];
+ if(dup&&!confirm(t.ap_dup.replace("{ref}",dup.ref)))return false;
+ var ref="KIN-"+Y+"-"+Math.floor(1000+Math.random()*9000);
+ function lb(s){var m={"Ref":L?"ریفرنس":"Ref","Name":L?"نام":"Name","Father":L?"والد":"Father","Gender":L?"صنف":"Gender","DOB":L?"تاریخ پیدائش":"DOB","CNIC":L?"شناختی کارڈ":"CNIC","Mobile":L?"موبائل":"Mobile","WhatsApp":L?"واٹس ایپ":"WhatsApp","Email":L?"ای میل":"Email","District":L?"ضلع":"District","Address":L?"پتہ":"Address","Qualification":L?"قابلیت":"Qualification","Board":L?"بورڈ":"Board","Marks":L?"نمبرات %":"Marks %","Year":L?"سال":"Year","Program":L?"پروگرام":"Program","Source":L?"ذریعہ":"Source"};return m[s]||s}
+ var srcL=d.src?t["ap_src_"+d.src]:"-";
+ var msg=(L?"نئی داخلہ درخواست":"New admission application")+"\n"+lb("Ref")+": "+ref+"\n"+lb("Name")+": "+d.name+"\n"+lb("Father")+": "+d.father+"\n"+lb("Gender")+": "+(d.gender==="M"?t.ap_male:t.ap_female)+"\n"+lb("DOB")+": "+d.dob+"\n"+lb("CNIC")+": "+d.cnic+"\n"+lb("Mobile")+": "+d.phone+"\n"+(d.wa?lb("WhatsApp")+": "+d.wa+"\n":"")+(d.email?lb("Email")+": "+d.email+"\n":"")+lb("District")+": "+d.district+"\n"+lb("Address")+": "+d.addr+"\n"+lb("Qualification")+": "+d.qual+"\n"+lb("Board")+": "+d.board+"\n"+lb("Marks")+": "+d.marks+"\n"+lb("Year")+": "+d.year+"\n"+lb("Program")+": "+PROGRAMS[d.prog][LANG].name+"\n"+lb("Source")+": "+srcL;
+ window.open(APWA+encodeURIComponent(msg),"_blank");
+ try{apps.push({cnic:d.cnic,ref:ref,ts:Date.now()});localStorage.setItem("kin_apps",JSON.stringify(apps))}catch(x){}
+ APREF=ref;
+ var pay=(ADM.pay||{}),pj=pay.jazz||"",pe=pay.easy||"";
+ var payH=(pj||pe)?"<b>"+t.ap_pay+"</b><br>"+(pj?("JazzCash: <b class=acc>"+pj+"</b><br>"):"")+(pe?("EasyPaisa: <b class=acc>"+pe+"</b><br>"):"")+(L?"ادائیگی کے ساتھ اپنا ریفرنس نمبر ضرور لکھیں۔":"Mention your reference ID with the payment."):"<b>"+t.ap_payno+"</b>";
+ document.getElementById("appForm").innerHTML='<div style="text-align:center"><p style="font-size:16px;font-weight:700;color:#095e43">✓ '+t.ap_ok+'</p><p style="font-size:13.5px;color:#556">'+t.ap_ref+'</p><div class="appref">'+ref+'</div></div><div class="paybox">'+payH+'</div><div class="paybox">📄 '+t.ap_doc+'</div><p style="text-align:center"><button class="btn gh" onclick="reopenWa()">'+t.ap_wa2+'</button> <button class="btn gh" onclick="renderExtra()">'+t.ap_new+'</button></p>';
+ document.getElementById("appForm").scrollIntoView({behavior:"smooth",block:"start"});
+ return false}
+
+function renderExtra(){
+ var L=LANG,u=(L==="ur"),T_=T[L],ix=(u?1:0);
+ document.getElementById("accrRow").innerHTML=ACCR.map(function(a){return "<span>"+a[ix]+"</span>"}).join("");
+ document.getElementById("missionRow").innerHTML=MISSION[L].map(function(m){return "<li>"+m+"</li>"}).join("");
+ document.getElementById("stepsRow").innerHTML=STEPS[L].map(function(s){return "<li>"+s+"</li>"}).join("");
+ document.getElementById("docsRow").innerHTML=DOCS[L].map(function(s){return "<li>"+s+"</li>"}).join("");
+ document.getElementById("clinRow").innerHTML=CLIN[L].map(function(s){return "<li>"+s+"</li>"}).join("");
+ document.getElementById("hospRow").innerHTML=HOSP[L].map(function(s){return "<li>"+s+"</li>"}).join("");
+ document.getElementById("leadRow").innerHTML=LEADERS.map(function(x){
+  return '<div class="leadcard"><div class="im"><img loading="lazy" src="'+x.img+'" alt="'+x.name+'"></div><div class="bd"><b>'+x.name+'</b><span class="lrole">'+x.role[ix]+'</span><p>'+x.bio[ix]+'</p></div></div>'}).join("");
+ function cat(arr,sub){return arr.map(function(k){
+  var p=PROGRAMS[k],t=p[LANG];
+  return '<a class="card pcat" href="#program/'+k+'">'
+  +'<div class="im loading"><img loading="lazy" src="'+p.img+'" alt="'+t.name+'" onload="this.parentNode.classList.remove(\'loading\')" onerror="this.parentNode.classList.remove(\'loading\');this.style.display=\'none\'"></div>'
+  +'<div class="bd"><h3>'+t.name+'</h3><span class="tag">'+t.tag+'</span><span class="enq">'+T[LANG].card_view+(LANG==="ur"?" ←":" →")+'</span></div></a>'}).join("")}
+ document.getElementById("degRow").innerHTML=cat(DEGREES,T_.deg_sub);
+ document.getElementById("dipRow").innerHTML=cat(DIPLOMAS,T_.dip_sub);
+ var dlB=document.getElementById("dlBanner"),dd=(typeof ADM!=="undefined"&&ADM.deadline)||"",dn=-1;
+ if(dd){var t0=new Date();t0.setHours(0,0,0,0);dn=Math.round((new Date(dd+"T00:00:00")-t0)/864e5);}
+ if(dd&&dn>=0){var when=dn===0?T_.dl_today:T_.dl_close+" <b>"+fmtDL(dd)+"</b> \u2014 <b>"+dn+" "+T_.dl_days+"</b>";dlB.innerHTML='<div class="dlbanner">\u23f0 '+when+'</div>';dlB.style.display="";}
+ else{dlB.innerHTML="";dlB.style.display="none";}
+ document.getElementById("newsRow").innerHTML=admNews().map(function(n){return '<div class="ncard"><span class="dt">'+n[ix]+'</span><p style="font-size:14.5px;font-weight:600">'+n[u?3:2]+"</p></div>"}).join("");
+ document.getElementById("dlRow").innerHTML=DLS.map(function(d){
+  var btn=d[2]==="pdf"
+   ?'<a class="btn gh" style="margin-top:10px;font-size:13px;padding:10px 18px" href="'+d[3]+'" download>'+T_.dl_down+'</a>'
+   :d[2]==="form"
+   ?'<a class="btn gh" style="margin-top:10px;font-size:13px;padding:10px 18px" href="'+d[3]+'">'+T_.dl_fill+'</a>'
+   :'<button class="btn gh" style="margin-top:10px;font-size:13px;padding:10px 18px" onclick="window.open(\''+waLink(d[0]+' request')+'\',\'_blank\')">'+T_.dl_btn+'</button>';
+  return '<div class="dcard"><b>'+d[ix]+'</b><br>'+btn+"</div>"}).join("");
+}
+var LEARN={"lhv": {"en": ["Human anatomy & physiology", "Maternal health & safe motherhood", "Child health, nutrition & immunization", "Public health & primary health care", "Family planning methods", "Community visits & health records"], "ur": ["انسانی تشریح و فعلیات", "زچہ کی صحت اور محفوظ زچگی", "بچوں کی صحت، غذائیت و حفاظتی ٹیکے", "پبلک ہیلتھ اور بنیادی طبی دیکھ بھال", "خاندانی منصوبہ بندی کے طریقے", "کمیونٹی وزٹ اور صحت کا ریکارڈ"]}, "cna": {"en": ["Patient care & ward assistance", "Vital signs: pulse, BP, temperature", "First aid & emergency basics", "Infection control & hygiene", "Bedside nursing skills", "Medical ethics & patient rights"], "ur": ["مریضوں کی دیکھ بھال اور وارڈ معاونت", "حیاتی علامات: نبض، بلڈ پریشر، بخار", "فرسٹ ایڈ اور ہنگامی طبی امداد", "انفیکشن کنٹرول اور صفائی", "بیڈ سائیڈ نرسنگ مہارتیں", "طبی اخلاقیات اور مریضوں کے حقوق"]}, "cmw": {"en": ["Midwifery & safe delivery practice", "Antenatal (pregnancy) care", "Postnatal mother & newborn care", "Family planning & counselling", "Nutrition for mothers & children", "Rural community health work"], "ur": ["دایہ گری اور محفوظ زچگی کی مشق", "حمل کے دوران دیکھ بھال", "زچگی کے بعد ماں و نوزائیدہ کی دیکھ بھال", "خاندانی منصوبہ بندی اور مشاورت", "ماؤں و بچوں کی غذائیت", "دیہی کمیونٹی ہیلتھ ورک"]}, "pharm": {"en": ["Dispensing & pharmaceutics", "Basic pharmacology (drug actions)", "Reading & preparing prescriptions", "Drug storage & handling", "Pharmacy management", "Drug laws & ethics"], "ur": ["ادویات کی تقسیم اور فارماسیوٹکس", "بنیادی فارماکولوجی (ادویات کے اثرات)", "نسخے پڑھنا اور تیار کرنا", "ادویات کا ذخیرہ اور دیکھ بھال", "فارمیسی مینجمنٹ", "ادویات کے قوانین و اخلاقیات"]}, "health-dip": {"en": ["Primary health care principles", "First aid & emergency response", "Community health, hygiene & sanitation", "Maternal & child health", "Immunization programs (EPI)", "Health records & reporting"], "ur": ["بنیادی طبی دیکھ بھال کے اصول", "فرسٹ ایڈ اور ہنگامی امداد", "کمیونٹی ہیلتھ، صفائی و ستھرائی", "زچہ و بچہ کی صحت", "حفاظتی ٹیکوں کے پروگرام (EPI)", "صحت کا ریکارڈ اور رپورٹنگ"]}, "physio": {"en": ["Human anatomy & body movement", "Therapeutic exercises", "Electrotherapy basics", "Rehabilitation techniques", "Patient mobility & transfer skills", "Sports injury first response"], "ur": ["انسانی تشریح اور جسمانی حرکت", "علاجی ورزشیں", "الیکٹروتھراپی کی بنیاد", "بحالی کی تکنیکیں", "مریض کی نقل و حرکت کی مہارتیں", "کھیلوں کی چوٹوں کی ابتدائی امداد"]}, "cardio": {"en": ["Heart anatomy & physiology", "ECG recording & basics of reading", "Cardiac patient monitoring", "Emergency cardiac first response", "Assisting in cardiac procedures", "Diagnostic lab coordination"], "ur": ["دل کی تشریح و فعلیات", "ای سی جی ریکارڈنگ اور پڑھنے کی بنیاد", "دل کے مریضوں کی نگرانی", "ہنگامی دل کی ابتدائی امداد", "کارڈک طریقہ کار میں معاونت", "ڈائیگناسٹک لیب سے رابطہ"]}, "patho-dip": {"en": ["Blood, urine & sample testing", "Safe sample collection", "Microscope & lab equipment use", "Hematology basics (CBC etc.)", "Biochemistry basics", "Lab safety & sterilization"], "ur": ["خون، پیشاب و نمونوں کی جانچ", "محفوظ نمونہ لینا", "خردبین و لیب آلات کا استعمال", "ہیماٹولوجی کی بنیاد (CBC وغیرہ)", "بائیوکیمسٹری کی بنیاد", "لیب کی حفاظت اور نس بندی"]}, "anes-dip": {"en": ["Respiratory, heart & nervous system anatomy", "Anesthesia drugs (pharmacology)", "Assisting the anesthetist in OT", "Patient monitoring (pulse, BP, oxygen)", "Airway management basics", "Emergency response in theater"], "ur": ["سانس، دل و اعصابی نظام کی تشریح", "بے ہوشی کی ادویات (فارماکولوجی)", "آپریشن تھیٹر میں بے ہوشی کے ماہر کی معاونت", "مریض کی نگرانی (نبض، بلڈ پریشر، آکسیجن)", "سانس کی نالی کی دیکھ بھال کی بنیاد", "تھیٹر میں ہنگامی امداد"]}, "radio": {"en": ["X-ray imaging techniques", "Radiation safety & protection", "Patient positioning for scans", "Body anatomy for imaging", "Film processing & digital imaging", "Equipment care & handling"], "ur": ["ایکسرے امیجنگ کی تکنیکیں", "شعاعوں سے حفاظت", "اسکین کے لیے مریض کی درست پوزیشن", "امیجنگ کے لیے جسمانی تشریح", "فلم پروسیسنگ اور ڈیجیٹل امیجنگ", "آلات کی دیکھ بھال"]}, "surg-dip": {"en": ["Operation theater protocols", "Surgical instruments & their uses", "Sterilization techniques", "Preparing patients for surgery", "Wound care & dressings", "Assisting surgeons in OT"], "ur": ["آپریشن تھیٹر کے اصول", "جراحی آلات اور ان کے استعمال", "نس بندی کی تکنیکیں", "آپریشن کے لیے مریض کی تیاری", "زخموں کی دیکھ بھال اور پٹیاں", "آپریشن میں سرجن کی معاونت"]}, "dialysis": {"en": ["Kidney anatomy & function", "Dialysis machine operation", "Monitoring patients during dialysis", "Fluids & electrolytes basics", "Infection control in dialysis unit", "Handling dialysis emergencies"], "ur": ["گردوں کی تشریح و فعل", "ڈائیلیسز مشین چلانا", "ڈائیلیسز کے دوران مریض کی نگرانی", "سیال و نمکیات کی بنیاد", "ڈائیلیسز یونٹ میں انفیکشن کنٹرول", "ہنگامی صورتحال سے نمٹنا"]}, "dental-dip": {"en": ["Oral & dental anatomy", "Dental hygiene procedures", "Assisting the dentist chairside", "Sterilization of dental tools", "Dental materials basics", "Clinic management"], "ur": ["منہ و دانتوں کی تشریح", "دانتوں کی صفائی کے طریقے", "دندان ساز کی کرسی کے پاس معاونت", "دندان سازی آلات کی نس بندی", "ڈینٹل میٹیریل کی بنیاد", "کلینک مینجمنٹ"]}, "fsc": {"en": ["Physics", "Chemistry", "Biology (Botany + Zoology)", "English", "Urdu", "Islamiat & Pakistan Studies"], "ur": ["طبیعیات (فزکس)", "کیمیا (کیمسٹری)", "حیاتیات (بیالوجی)", "انگریزی", "اردو", "اسلامیات و مطالعہ پاکستان"]}, "bsn": {"en": ["Anatomy, physiology & biochemistry", "Medical-surgical nursing", "Maternal, child & pediatric nursing", "Community health nursing", "Nursing research & leadership", "Supervised clinical rotations in hospitals"], "ur": ["تشریح، فعلیات و بائیوکیمسٹری", "میڈیکل سرجیکل نرسنگ", "زچہ، بچہ و اطفال نرسنگ", "کمیونٹی ہیلتھ نرسنگ", "نرسنگ تحقیق و قیادت", "ہسپتالوں میں زیر نگرانی کلینکل تربیت"]}, "postrn": {"en": ["Advanced nursing practice", "Nursing leadership & ward management", "Research & evidence-based care", "Teaching methods for nurses", "Community & public health", "Specialized clinical placements"], "ur": ["جدید نرسنگ پریکٹس", "نرسنگ قیادت و وارڈ مینجمنٹ", "تحقیق اور شواہد پر مبنی دیکھ بھال", "نرسز کے لیے تدریسی طریقے", "کمیونٹی و پبلک ہیلتھ", "خصوصی کلینکل تربیت"]}, "bs-health": {"en": ["Advanced primary health care", "Epidemiology & disease control", "Health program management", "Community health fieldwork", "Emergency & first aid care", "Health education methods"], "ur": ["جدید بنیادی طبی دیکھ بھال", "وبائیات اور بیماریوں کا کنٹرول", "ہیلتھ پروگرام مینجمنٹ", "کمیونٹی ہیلتھ فیلڈ ورک", "ہنگامی و فرسٹ ایڈ دیکھ بھال", "صحت کی تعلیم کے طریقے"]}, "bs-dental": {"en": ["Oral anatomy, pathology & surgery basics", "Dental materials science", "Dental radiology (X-rays)", "Clinical dental procedures", "Prosthetics (dentures) basics", "Dental practice management"], "ur": ["منہ کی تشریح، امراض و جراحی کی بنیاد", "ڈینٹل میٹیریل سائنس", "ڈینٹل ریڈیالوجی (ایکسرے)", "کلینکل ڈینٹل طریقہ کار", "مصنوعی دانتوں کی بنیاد", "ڈینٹل پریکٹس مینجمنٹ"]}, "bs-surg": {"en": ["Advanced OT & surgical techniques", "Surgical anatomy", "Anesthesia basics", "Trauma & emergency care", "Sterilization science", "Extended clinical rotations"], "ur": ["جدید آپریشن تھیٹر و جراحی تکنیکیں", "جراحی تشریح", "بے ہوشی کی بنیاد", "ٹراما و ہنگامی دیکھ بھال", "نس بندی کی سائنس", "طویل کلینکل تربیت"]}, "bs-anes": {"en": ["Advanced anesthesia pharmacology", "Airway & ventilation management", "Critical & intensive care basics", "Pain management", "Monitoring technology", "Supervised clinical practice"], "ur": ["جدید بے ہوشی فارماکولوجی", "سانس کی نالی و وینٹیلیشن", "انتہائی نگہداشت کی بنیاد", "درد کا انتظام", "نگرانی کی ٹیکنالوجی", "زیر نگرانی کلینکل پریکٹس"]}, "bs-radio": {"en": ["X-ray, CT, MRI & ultrasound imaging", "Radiation physics & safety", "Contrast & special procedures", "Basics of image interpretation", "Patient care in radiology", "Clinical rotations in imaging centers"], "ur": ["ایکسرے، سی ٹی، ایم آر آئی و الٹراساؤنڈ", "شعاعی طبیعیات و حفاظت", "کنٹراسٹ و خصوصی طریقہ کار", "تصویر پڑھنے کی بنیاد", "ریڈیالوجی میں مریض کی دیکھ بھال", "امیجنگ سینٹرز میں کلینکل تربیت"]}, "bs-patho": {"en": ["Hematology (blood sciences)", "Clinical biochemistry", "Microbiology & immunology", "Histopathology basics", "Laboratory management", "Quality control in labs"], "ur": ["ہیماٹولوجی (خون کی سائنس)", "کلینکل بائیوکیمسٹری", "مائیکروبائیولوجی و امیونولوجی", "ہسٹوپیتھالوجی کی بنیاد", "لیبارٹری مینجمنٹ", "لیبز میں کوالٹی کنٹرول"]}};
+function renderDetail(k){
+ var P0=PROGRAMS[k],p=P0[LANG],d=T[LANG];
+ var h='<h2 class="sec">'+p.name+'</h2>'
+  +'<div class="card" style="cursor:default"><div class="im" style="height:190px"><img src="'+PROGRAMS[k].img+'" alt="'+p.name+'"></div><div class="bd">'
+  +'<div class="kv"><span>'+d.dur+': <b>'+p.dur+'</b></span><span>'+d.elig+': <b>'+p.elig+'</b></span><span class="badge">'+p.tag+'</span></div></div></div>'
+  +'<div class="panel"><h3>'+d.about+'</h3><p style="font-size:14.5px">'+p.about+'</p></div>'
+  +'<div class="panel"><h3>'+d.learn_t+'</h3><ul class="ticks">'+LEARN[k][LANG].map(function(s){return '<li>'+s+'</li>'}).join('')+'</ul></div>'
+  +'<div class="panel feebox"><h3>'+d.fee_t+'</h3>'
+  +'<div class="frow"><span>'+d.fee_adm+'</span><b dir="ltr">'+P0.fee[0]+' PKR</b></div>'
+  +'<div class="frow"><span>'+d.fee_tui+'</span><b dir="ltr">'+P0.fee[1]+' PKR</b></div>'
+  +'<p class="fnote">'+d.fee_dis+'</p></div>'
+  +'<div class="panel"><h3>'+d.scope+'</h3><ul class="ticks">'+p.scope.map(function(s){return '<li>'+s+'</li>'}).join('')+'</ul></div>'
+  +'<div class="proof"><h3>'+d.proof+'</h3><p><b>'+p.verifier+'</b><br>'+p.vtext+'</p>'+(p.vlink?'<a class="btn dk" href="'+p.vlink+'" target="_blank" rel="noopener">'+p.vlabel+'</a>':'')+'</div>'
+  +'<p><a class="btn wa" href="'+waLink(p.name)+'">'+d.askwa+'</a> '
+  +'<a class="btn gh" href="#programs">'+d.back+'</a></p>';
+ document.getElementById('detailBody').innerHTML=h;
+}
+/* hash routing: shareable URLs, working back button */
+function showPage(id){
+ document.querySelectorAll('.page').forEach(function(s){s.classList.toggle('on',s.id==='pg-'+id)});
+ document.querySelectorAll('nav.tabs a').forEach(function(a){a.classList.toggle('on',a.getAttribute('data-p')===id||(id==='detail'&&a.getAttribute('data-p')==='programs'))});
+ window.scrollTo(0,0);watchReveals();
+ if(id==='gallery')initGallery();
+}
+function route(){
+ var h=(location.hash||'#home').slice(1),m=h.match(/^program\/(.+)$/);
+ if(m&&PROGRAMS[m[1]]){renderDetail(m[1]);showPage('detail');setTitle(PROGRAMS[m[1]][LANG].name);return;}
+ if(h==='admin-khalil-9x7q2'){showPage('admin');setTitle('Site Admin');admRender();return;}
+ var id=PAGES.indexOf(h)>=0?h:'home';
+ showPage(id);setTitle(T[LANG]['nav_'+id]||T[LANG].brand);
+}
+function go(id){var t='#'+id;if(location.hash===t)route();else location.hash=t;}
+window.addEventListener('hashchange',route);
+/* gallery: photos only, tap for fullscreen */
+var galDone=false;
+function initGallery(){
+ if(galDone)return;galDone=true;
+ var g=document.getElementById('galGrid');
+ var GL=galList();
+ g.innerHTML=GL.map(function(s,i){return '<button class="ph loading" data-src="'+s+'" onclick="openLB('+i+')" aria-label="View photo"></button>'}).join('');
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){
+  if(e.isIntersecting){var el=e.target;io.unobserve(el);
+   var im=new Image();im.src=el.getAttribute('data-src');
+   im.onload=function(){el.classList.remove('loading');el.insertBefore(im,el.firstChild)};
+   im.onerror=function(){el.classList.remove('loading')};}})},{rootMargin:'80px'});
+ g.querySelectorAll('.ph').forEach(function(el){io.observe(el)});
+}
+var LB=[],lbi=0;
+function galList(){return admGal().map(function(f){return f.indexOf('data:')===0?f:IMG+f;});}
+function openLB(i){LB=galList();lbi=((i%LB.length)+LB.length)%LB.length;lbShow();}
+function lbShow(){if(!LB.length)return;var im=document.getElementById('lbimg');im.src=LB[lbi];im.alt='Photo '+(lbi+1)+' of '+LB.length;document.getElementById('lbcnt').textContent=(lbi+1)+' / '+LB.length;document.getElementById('lb').classList.add('open');document.body.style.overflow='hidden';}
+function lbGo(d){if(!LB.length)return;lbi=((lbi+d)%LB.length+LB.length)%LB.length;lbShow();}
+var _lbx=null;
+document.getElementById('lb').addEventListener('touchstart',function(e){if(e.touches.length===1)_lbx=e.touches[0].clientX;},{passive:true});
+document.getElementById('lb').addEventListener('touchend',function(e){if(_lbx===null||e.changedTouches.length!==1)return;var dx=e.changedTouches[0].clientX-_lbx;_lbx=null;if(Math.abs(dx)>60)lbGo(dx<0?1:-1);},{passive:true});
+document.addEventListener('keydown',function(e){if(!document.getElementById('lb').classList.contains('open'))return;if(e.key==='Escape')closeLB();else if(e.key==='ArrowRight')lbGo(1);else if(e.key==='ArrowLeft')lbGo(-1);});
+function closeLB(){document.getElementById('lb').classList.remove('open');document.body.style.overflow='';}
+/* motion: reveals, counters, header, totop, img fade */
+var _ro=null;
+function watchReveals(){
+ if(!_ro){_ro=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');_ro.unobserve(e.target)}})},{threshold:0.1});}
+ document.querySelectorAll('.page.on .card,.page.on .whyc,.page.on .panel,.page.on .strip,.page.on .stat,.page.on .ncard,.page.on .dcard,.page.on .citem,.page.on .fcard,.page.on .proof,.page.on h2.sec,.page.on .notice,.page.on .accr span,.page.on .notebox').forEach(function(el){
+  if(el.dataset.w)return;el.dataset.w=1;el.classList.add('rvx');_ro.observe(el);});
+ document.querySelectorAll('.page.on .rvx:not(.in)').forEach(function(el,i){el.style.setProperty('--d',((i%6)*0.07)+'s')});
+}
+function animCount(el){
+ var t=parseInt(el.textContent,10)||0,suf=el.textContent.replace(/[0-9]/g,''),st=null;
+ function fr(ts){if(!st)st=ts;var p=Math.min((ts-st)/1100,1);el.textContent=Math.round(t*(1-Math.pow(1-p,3)))+suf;if(p<1)requestAnimationFrame(fr);}
+ requestAnimationFrame(fr);
+}
+var _co=null;
+function initCounters(){
+ if(_co)return;
+ _co=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){animCount(e.target);_co.unobserve(e.target)}})},{threshold:0.4});
+ document.querySelectorAll('.stat .n').forEach(function(el){_co.observe(el)});
+}
+window.addEventListener('scroll',function(){
+ var hd=document.querySelector('header.top');if(hd)hd.classList.toggle('scrolled',window.scrollY>30);
+ var tt=document.getElementById('toTop');if(tt)tt.classList.toggle('show',window.scrollY>600);
+},{passive:true});
+document.addEventListener('load',function(e){var t=e.target;if(t&&t.tagName==='IMG'){t.classList.add('ld');}},true);
+/* init */
+try{var sl=localStorage.getItem('k_lang');setLang(sl==='ur'?'ur':'en');}catch(e){setLang('en');}
+initCounters();admInit();staffBind();try{if(localStorage.getItem('k_notice')==='1'){var nb=document.getElementById('noticeBar');if(nb)nb.style.display='none'}}catch(e){}route();
+</script>
+</body>
+</html>
